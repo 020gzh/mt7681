@@ -1,0 +1,3357 @@
+Archive member included because of file (symbol)
+
+./libandesap.a(xip_ovly.o)    obj/ap/tcpip/dhcpc.o (overlayunload)
+./libandesap.a(ap.o)          obj/ap/ap_pub.o (iot_ap_startup)
+./libandesap.a(ap_assoc.o)    obj/ap/rtmp_data_pub.o (APPeerDisassocReqAction)
+./libandesap.a(ap_auth.o)     obj/ap/rtmp_data_pub.o (APPeerDeauthReqAction)
+./libandesap.a(mgmt_entrytb.o)
+                              ./libandesap.a(ap_assoc.o) (set_entry_phycfg)
+./libandesap.a(cnm_timer.o)   obj/ap/iot_custom.o (cnmTimerInitTimer)
+./libandesap.a(iot_io_cmd.o)  obj/ap/iot_custom.o (iot_gpio_output)
+./libandesap.a(iot_mgmt_cmd.o)
+                              obj/ap/iot_at_cmd.o (iot_linkdown)
+./libandesap.a(queue.o)       obj/ap/iot_uplink.o (apiQU_Dequeue)
+./libandesap.a(app_nos_main.o)
+                              ./libandesap.a(ap.o) (pAd)
+./libandesap.a(chip_init.o)   ./libandesap.a(ap.o) (Reg_mac_add_init)
+./libandesap.a(cmm_wep.o)     ./libandesap.a(mgmt_entrytb.o) (AsicDelWcidTab)
+./libandesap.a(cmm_wpa.o)     ./libandesap.a(ap.o) (AsicRemovePairwiseKeyEntry)
+./libandesap.a(crypt_aes.o)   ./libandesap.a(cmm_wpa.o) (aes_key_unwrap)
+./libandesap.a(crypt_hmac.o)  ./libandesap.a(cmm_wpa.o) (RT_HMAC_MD5)
+./libandesap.a(rtmp_data.o)   obj/ap/rtmp_data_pub.o (WriteSingleTxResource)
+./libandesap.a(rtmp_general.o)
+                              ./libandesap.a(cmm_wpa.o) (RTMPCompareMemory)
+./libandesap.a(scan.o)        obj/ap/mt7681_ChSw_pub.o (rtmp_mac_set_ctrlch)
+./libandesap.a(wow.o)         ./libandesap.a(chip_init.o) (RTMP_EnableTxRx)
+./libandesap.a(bsp.o)         obj/ap/main_pub.o (bsp_init)
+./libandesap.a(ee_efuse.o)    ./libandesap.a(chip_init.o) (eEp_init)
+./libandesap.a(fce.o)         ./libandesap.a(app_nos_main.o) (drvFCE_RegisterIntHdlr)
+./libandesap.a(pdma.o)        ./libandesap.a(app_nos_main.o) (PdmaVrPortIntHdlr)
+./libandesap.a(spi-flash.o)   obj/ap/spi-flash_pub.o (SPI_REG8)
+./libandesap.a(timer.o)       ./libandesap.a(bsp.o) (drvTMR_Init)
+./libandesap.a(uart.o)        obj/ap/iot_uart_rb.o (UART_PutUARTByte)
+./libandesap.a(uartlite.o)    obj/ap/iot_xmodem.o (UART_PutChar)
+./libandesap.a(main.o)        obj/ap/main_pub.o (iot_sys_init)
+./libandesap.a(xcpt.o)        cust/ctxsw.o (sysXCPT_XcptHdlr)
+./libandesap.a(initial.o)     obj/ap/main_pub.o (sysKernelStart)
+./libandesap.a(mutex.o)       ./libandesap.a(queue.o) (SYSirq_Disable_Interrupts_Save_Flags)
+./libandesap.a(stack.o)       ./libandesap.a(main.o) (sysStack)
+./libandesap.a(task.o)        cust/ctxsw.o (sysTaskingCtl)
+./libandesap.a(list.o)        ./libandesap.a(queue.o) (apiInitListEntry)
+./libandesap.a(random.o)      ./libandesap.a(cmm_wpa.o) (apiRand)
+./libandesap.a(do_printf.o)   obj/ap/printf.o (do_printf)
+./libandesap.a(fputs.o)       obj/ap/printf.o (putchar)
+./libandesap.a(strcmp.o)      obj/ap/iot_at_cmd_utility.o (strcmp)
+./libandesap.a(strcpy.o)      obj/ap/tcpip/cloudclient.o (strncpy)
+./libandesap.a(strlen.o)      obj/ap/ap_pub.o (strlen)
+./libandesap.a(vsprintf.o)    obj/ap/tcpip/cloudclient.o (simple_strtoul)
+./libandesap.a(mcuctl.o)      ./libandesap.a(uart.o) (drvMCUCTL_RegisterIntHdlr)
+./libandesap.a(mt7681_ChSw.o)
+                              ./libandesap.a(chip_init.o) (RF_WRITE8)
+./libandesap.a(wifi_ps.o)     ./libandesap.a(main.o) (drvPBF_IntHdler)
+./libandesap.a(wifi_task.o)   obj/ap/wifi_task_pub.o (iot_get_queue_info)
+./libandesap.a(ate.o)         ./libandesap.a(chip_init.o) (set_ate_efuse_read)
+./libandesap.a(led.o)         ./libandesap.a(main.o) (drvGPIO_IntHdler)
+./libandesap.a(syscall.o)     ./libandesap.a(task.o) (sysCALL)
+./libandesap.a(ctype.o)       ./libandesap.a(vsprintf.o) (_ctype)
+
+Allocating common symbols
+Common symbol       size              file
+
+udp_app_state       0x10              obj/ap/tcpip/iot_udp_app.o
+arp_timer           0x8               obj/ap/tcpip/tcpip_main.o
+System_Timer_Pool   0x14              ./libandesap.a(timer.o)
+CIPTER              0x100             obj/ap/iot_aes_pub.o
+IoTCustOp           0x20              obj/ap/iot_custom.o
+MT7681_FOTAInfo     0x65              obj/ap/tcpip/cloudclient.o
+uip_acc32           0x4               obj/ap/tcpip/uip.o
+IoTCustTimer        0x1c              obj/ap/iot_custom.o
+sysTaskingCtl       0x34              ./libandesap.a(task.o)
+uart_rb_info        0xc               obj/ap/iot_uart_rb.o
+periodic_timer      0x8               obj/ap/tcpip/tcpip_main.o
+Free_Timer_List     0x10              ./libandesap.a(timer.o)
+mt76xx_Connection   0x1a              obj/ap/tcpip/cloudclient.o
+IoTpAd              0x18c             obj/ap/iot_custom.o
+FOTA_DigestMessage  0x10              obj/ap/tcpip/cloudclient.o
+AdvPSMode           0x14              ./libandesap.a(wifi_ps.o)
+uip_dhpcd_conns     0xa0              obj/ap/tcpip/dhcpd.o
+eepcfg              0x41              ./libandesap.a(chip_init.o)
+PLAIN2              0x100             obj/ap/iot_aes_pub.o
+uip_conns           0xf18             obj/ap/tcpip/uip.o
+gFreeQueue1         0x10              ./libandesap.a(queue.o)
+rRootTimer          0x14              ./libandesap.a(cnm_timer.o)
+UARTPort            0x118             obj/ap/iot_uart_rb.o
+UARTTxBuf           0x40              obj/ap/iot_uart_rb.o
+pAd                 0xc8c             ./libandesap.a(app_nos_main.o)
+MACEntry            0x138             ./libandesap.a(ap_auth.o)
+uip_listenports     0xc               obj/ap/tcpip/uip.o
+uip_draddr          0x4               obj/ap/tcpip/uip.o
+uart_rb_addr        0xe4              obj/ap/iot_uart_rb.o
+gFreeQueue2         0x10              ./libandesap.a(queue.o)
+FOTA_md5_ctx        0x60              obj/ap/tcpip/cloudclient.o
+mt76xx_Activation   0x88              obj/ap/tcpip/iot_tcp_app.o
+cli_timer           0x8               obj/ap/tcpip/tcpip_main.o
+uip_buf             0x25a             obj/ap/tcpip/uip.o
+uip_sourceAddr      0x6               obj/ap/tcpip/uip_arp.o
+UARTRxBuf           0x200             obj/ap/iot_uart_rb.o
+uip_udp_conns       0xa8              obj/ap/tcpip/uip.o
+mt7681_PWMInfo      0x5a              ./libandesap.a(iot_io_cmd.o)
+
+Discarded input sections
+
+ .text          0x00000000        0x0 obj/ap/ap_pub.o
+ .data          0x00000000        0x0 obj/ap/ap_pub.o
+ .bss           0x00000000        0x0 obj/ap/ap_pub.o
+ .text          0x00000000        0x0 obj/ap/crypt_crc.o
+ .data          0x00000000        0x0 obj/ap/crypt_crc.o
+ .bss           0x00000000        0x0 obj/ap/crypt_crc.o
+ .text.crc_cal_by_bit
+                0x00000000        0x0 obj/ap/crypt_crc.o
+ .text.crc_cal_by_byte
+                0x00000000        0x0 obj/ap/crypt_crc.o
+ .text.crc_cal_by_halfbyte
+                0x00000000        0x0 obj/ap/crypt_crc.o
+ .data.crc_ta_8
+                0x00000000        0x0 obj/ap/crypt_crc.o
+ .data.crc_ta_4
+                0x00000000        0x0 obj/ap/crypt_crc.o
+ .text          0x00000000        0x0 obj/ap/iot_aes_pub.o
+ .data          0x00000000        0x0 obj/ap/iot_aes_pub.o
+ .bss           0x00000000        0x0 obj/ap/iot_aes_pub.o
+ .text.aes_cbc_complete_decrypt
+                0x00000000        0x0 obj/ap/iot_aes_pub.o
+ .text.aes_ecb_decry_test
+                0x00000000        0x0 obj/ap/iot_aes_pub.o
+ .text.aes_ecb_encry_test
+                0x00000000        0x0 obj/ap/iot_aes_pub.o
+ .rodata.cst4   0x00000000        0x0 obj/ap/iot_aes_pub.o
+ .text.aes_sample
+                0x00000000        0x0 obj/ap/iot_aes_pub.o
+ .xipsec0       0x00000000        0x0 obj/ap/iot_aes_pub.o
+ .rodata.C.8.2918
+                0x00000000        0x0 obj/ap/iot_aes_pub.o
+ .rodata.C.7.2889
+                0x00000000        0x0 obj/ap/iot_aes_pub.o
+ .rodata.C.4.2870
+                0x00000000        0x0 obj/ap/iot_aes_pub.o
+ .rodata.C.3.2869
+                0x00000000        0x0 obj/ap/iot_aes_pub.o
+ .rodata.C.2.2868
+                0x00000000        0x0 obj/ap/iot_aes_pub.o
+ COMMON         0x00000000        0x0 obj/ap/iot_aes_pub.o
+ .text          0x00000000        0x0 obj/ap/iot_at_cmd.o
+ .data          0x00000000        0x0 obj/ap/iot_at_cmd.o
+ .bss           0x00000000        0x0 obj/ap/iot_at_cmd.o
+ .bss.state     0x00000000        0x0 obj/ap/iot_at_cmd.o
+ .text          0x00000000        0x0 obj/ap/iot_at_cmd_tcpip.o
+ .data          0x00000000        0x0 obj/ap/iot_at_cmd_tcpip.o
+ .bss           0x00000000        0x0 obj/ap/iot_at_cmd_tcpip.o
+ .text          0x00000000        0x0 obj/ap/iot_at_cmd_utility.o
+ .data          0x00000000        0x0 obj/ap/iot_at_cmd_utility.o
+ .bss           0x00000000        0x0 obj/ap/iot_at_cmd_utility.o
+ .text          0x00000000        0x0 obj/ap/iot_custom.o
+ .data          0x00000000        0x0 obj/ap/iot_custom.o
+ .bss           0x00000000        0x0 obj/ap/iot_custom.o
+ .data.bSpecAP  0x00000000        0x0 obj/ap/iot_custom.o
+ .text          0x00000000        0x0 obj/ap/iot_custom_uart2wifi.o
+ .data          0x00000000        0x0 obj/ap/iot_custom_uart2wifi.o
+ .bss           0x00000000        0x0 obj/ap/iot_custom_uart2wifi.o
+ .text          0x00000000        0x0 obj/ap/iot_parse.o
+ .data          0x00000000        0x0 obj/ap/iot_parse.o
+ .bss           0x00000000        0x0 obj/ap/iot_parse.o
+ .rodata.mt7681_HardwareRresource
+                0x00000000        0x0 obj/ap/iot_parse.o
+ .text          0x00000000        0x0 obj/ap/iot_parse_conn_mgmt.o
+ .data          0x00000000        0x0 obj/ap/iot_parse_conn_mgmt.o
+ .bss           0x00000000        0x0 obj/ap/iot_parse_conn_mgmt.o
+ .text          0x00000000        0x0 obj/ap/iot_uart_rb.o
+ .data          0x00000000        0x0 obj/ap/iot_uart_rb.o
+ .bss           0x00000000        0x0 obj/ap/iot_uart_rb.o
+ .text.iot_atcmd_uart_atcfg
+                0x00000000        0x0 obj/ap/iot_uart_rb.o
+ .rodata.C.24.3299
+                0x00000000        0x0 obj/ap/iot_uart_rb.o
+ .text          0x00000000        0x0 obj/ap/iot_uplink.o
+ .data          0x00000000        0x0 obj/ap/iot_uplink.o
+ .bss           0x00000000        0x0 obj/ap/iot_uplink.o
+ .data.ARP_TYPE
+                0x00000000        0x0 obj/ap/iot_uplink.o
+ .data.IPv6     0x00000000        0x0 obj/ap/iot_uplink.o
+ .text          0x00000000        0x0 obj/ap/iot_xmodem.o
+ .data          0x00000000        0x0 obj/ap/iot_xmodem.o
+ .bss           0x00000000        0x0 obj/ap/iot_xmodem.o
+ .text.port_inbyte
+                0x00000000        0x0 obj/ap/iot_xmodem.o
+ .text.port_outbyte
+                0x00000000        0x0 obj/ap/iot_xmodem.o
+ .text.crc16_ccitt
+                0x00000000        0x0 obj/ap/iot_xmodem.o
+ .text.check    0x00000000        0x0 obj/ap/iot_xmodem.o
+ .rodata.str1.4
+                0x00000000        0x0 obj/ap/iot_xmodem.o
+ .text.iot_xmodem_update_fw
+                0x00000000        0x0 obj/ap/iot_xmodem.o
+ .text.iot_xmodem_receive
+                0x00000000        0x0 obj/ap/iot_xmodem.o
+ .text.iot_xmodem_transmit
+                0x00000000        0x0 obj/ap/iot_xmodem.o
+ .bss.last_error
+                0x00000000        0x0 obj/ap/iot_xmodem.o
+ .rodata.C.24.3126
+                0x00000000        0x0 obj/ap/iot_xmodem.o
+ .text          0x00000000        0x0 obj/ap/main_pub.o
+ .data          0x00000000        0x0 obj/ap/main_pub.o
+ .bss           0x00000000        0x0 obj/ap/main_pub.o
+ .text          0x00000000        0x0 obj/ap/misc_pub.o
+ .data          0x00000000        0x0 obj/ap/misc_pub.o
+ .bss           0x00000000        0x0 obj/ap/misc_pub.o
+ .text          0x00000000        0x0 obj/ap/mt7681_ChSw_pub.o
+ .data          0x00000000        0x0 obj/ap/mt7681_ChSw_pub.o
+ .bss           0x00000000        0x0 obj/ap/mt7681_ChSw_pub.o
+ .text          0x00000000        0x0 obj/ap/printf.o
+ .data          0x00000000        0x0 obj/ap/printf.o
+ .bss           0x00000000        0x0 obj/ap/printf.o
+ .text          0x00000000        0x0 obj/ap/rtmp_data_pub.o
+ .data          0x00000000        0x0 obj/ap/rtmp_data_pub.o
+ .bss           0x00000000        0x0 obj/ap/rtmp_data_pub.o
+ .text.get_cent_ch_by_htinfo
+                0x00000000        0x0 obj/ap/rtmp_data_pub.o
+ .text.get_primary_ch_by_cent_ch
+                0x00000000        0x0 obj/ap/rtmp_data_pub.o
+ .text.PeerBeaconCHInfoParse
+                0x00000000        0x0 obj/ap/rtmp_data_pub.o
+ .text.iot_bcn_timeout_action
+                0x00000000        0x0 obj/ap/rtmp_data_pub.o
+ .text.RestartBCNTimer
+                0x00000000        0x0 obj/ap/rtmp_data_pub.o
+ .text          0x00000000        0x0 obj/ap/spi-flash_pub.o
+ .data          0x00000000        0x0 obj/ap/spi-flash_pub.o
+ .bss           0x00000000        0x0 obj/ap/spi-flash_pub.o
+ .rodata.str1.4
+                0x00000000        0x0 obj/ap/spi-flash_pub.o
+ .text.dump_spi_flash
+                0x00000000        0x0 obj/ap/spi-flash_pub.o
+ .text.dump_spi_flash_fw
+                0x00000000        0x0 obj/ap/spi-flash_pub.o
+ .text.spi_flash_update_fw_done
+                0x00000000        0x0 obj/ap/spi-flash_pub.o
+ .text.spi_flash_read_m2
+                0x00000000        0x0 obj/ap/spi-flash_pub.o
+ .text.spi_flash_erase_block
+                0x00000000        0x0 obj/ap/spi-flash_pub.o
+ .text.spi_flash_erase_CE
+                0x00000000        0x0 obj/ap/spi-flash_pub.o
+ .text          0x00000000        0x0 obj/ap/stdlib.o
+ .data          0x00000000        0x0 obj/ap/stdlib.o
+ .bss           0x00000000        0x0 obj/ap/stdlib.o
+ .text          0x00000000        0x0 obj/ap/tcpip/clock-arch.o
+ .data          0x00000000        0x0 obj/ap/tcpip/clock-arch.o
+ .bss           0x00000000        0x0 obj/ap/tcpip/clock-arch.o
+ .text          0x00000000        0x0 obj/ap/tcpip/cloudclient.o
+ .data          0x00000000        0x0 obj/ap/tcpip/cloudclient.o
+ .bss           0x00000000        0x0 obj/ap/tcpip/cloudclient.o
+ .text          0x00000000        0x0 obj/ap/tcpip/dhcpc.o
+ .data          0x00000000        0x0 obj/ap/tcpip/dhcpc.o
+ .bss           0x00000000        0x0 obj/ap/tcpip/dhcpc.o
+ .text.dhcpc_request
+                0x00000000        0x0 obj/ap/tcpip/dhcpc.o
+ .text.dhcpc_set_state
+                0x00000000        0x0 obj/ap/tcpip/dhcpc.o
+ .text.dhcpc_get_state
+                0x00000000        0x0 obj/ap/tcpip/dhcpc.o
+ .text.dhcpc_appcall
+                0x00000000        0x0 obj/ap/tcpip/dhcpc.o
+ .text          0x00000000        0x0 obj/ap/tcpip/dhcpd.o
+ .data          0x00000000        0x0 obj/ap/tcpip/dhcpd.o
+ .bss           0x00000000        0x0 obj/ap/tcpip/dhcpd.o
+ .text          0x00000000        0x0 obj/ap/tcpip/iot_tcp_app.o
+ .data          0x00000000        0x0 obj/ap/tcpip/iot_tcp_app.o
+ .bss           0x00000000        0x0 obj/ap/tcpip/iot_tcp_app.o
+ .text          0x00000000        0x0 obj/ap/tcpip/iot_tcpip_interface.o
+ .data          0x00000000        0x0 obj/ap/tcpip/iot_tcpip_interface.o
+ .bss           0x00000000        0x0 obj/ap/tcpip/iot_tcpip_interface.o
+ .text          0x00000000        0x0 obj/ap/tcpip/iot_udp_app.o
+ .data          0x00000000        0x0 obj/ap/tcpip/iot_udp_app.o
+ .bss           0x00000000        0x0 obj/ap/tcpip/iot_udp_app.o
+ COMMON         0x00000000        0x0 obj/ap/tcpip/iot_udp_app.o
+ .text          0x00000000        0x0 obj/ap/tcpip/memb.o
+ .data          0x00000000        0x0 obj/ap/tcpip/memb.o
+ .bss           0x00000000        0x0 obj/ap/tcpip/memb.o
+ .text.memb_alloc
+                0x00000000        0x0 obj/ap/tcpip/memb.o
+ .text.memb_free
+                0x00000000        0x0 obj/ap/tcpip/memb.o
+ .text.memb_init
+                0x00000000        0x0 obj/ap/tcpip/memb.o
+ .text          0x00000000        0x0 obj/ap/tcpip/mt76xx_dev.o
+ .data          0x00000000        0x0 obj/ap/tcpip/mt76xx_dev.o
+ .bss           0x00000000        0x0 obj/ap/tcpip/mt76xx_dev.o
+ .text          0x00000000        0x0 obj/ap/tcpip/resolv.o
+ .data          0x00000000        0x0 obj/ap/tcpip/resolv.o
+ .bss           0x00000000        0x0 obj/ap/tcpip/resolv.o
+ .text.parse_name
+                0x00000000        0x0 obj/ap/tcpip/resolv.o
+ .text.resolv_getserver
+                0x00000000        0x0 obj/ap/tcpip/resolv.o
+ .xipsec0       0x00000000        0x0 obj/ap/tcpip/resolv.o
+ .text.resolv_conf
+                0x00000000        0x0 obj/ap/tcpip/resolv.o
+ .text.resolv_newdata
+                0x00000000        0x0 obj/ap/tcpip/resolv.o
+ .text.resolv_check_entries
+                0x00000000        0x0 obj/ap/tcpip/resolv.o
+ .text.handle_resolv
+                0x00000000        0x0 obj/ap/tcpip/resolv.o
+ .bss.i.3094    0x00000000        0x0 obj/ap/tcpip/resolv.o
+ .bss.resolv_conn
+                0x00000000        0x0 obj/ap/tcpip/resolv.o
+ .bss.i.2967    0x00000000        0x0 obj/ap/tcpip/resolv.o
+ .bss.nanswers.2966
+                0x00000000        0x0 obj/ap/tcpip/resolv.o
+ .bss.nquestions.2965
+                0x00000000        0x0 obj/ap/tcpip/resolv.o
+ .data.endquery.2918
+                0x00000000        0x0 obj/ap/tcpip/resolv.o
+ .bss.n.2910    0x00000000        0x0 obj/ap/tcpip/resolv.o
+ .bss.i.2909    0x00000000        0x0 obj/ap/tcpip/resolv.o
+ .text          0x00000000        0x0 obj/ap/tcpip/sample_resolv_usage.o
+ .data          0x00000000        0x0 obj/ap/tcpip/sample_resolv_usage.o
+ .bss           0x00000000        0x0 obj/ap/tcpip/sample_resolv_usage.o
+ .text.resolv_usage_sample
+                0x00000000        0x0 obj/ap/tcpip/sample_resolv_usage.o
+ .text.resolv_usage_init
+                0x00000000        0x0 obj/ap/tcpip/sample_resolv_usage.o
+ .rodata.str1.4
+                0x00000000        0x0 obj/ap/tcpip/sample_resolv_usage.o
+ .text.resolv_found
+                0x00000000        0x0 obj/ap/tcpip/sample_resolv_usage.o
+ .bss.ss        0x00000000        0x0 obj/ap/tcpip/sample_resolv_usage.o
+ .text          0x00000000        0x0 obj/ap/tcpip/sample_udp_client.o
+ .data          0x00000000        0x0 obj/ap/tcpip/sample_udp_client.o
+ .bss           0x00000000        0x0 obj/ap/tcpip/sample_udp_client.o
+ .rodata.str1.4
+                0x00000000        0x0 obj/ap/tcpip/sample_udp_client.o
+ .text.udp_client_sample
+                0x00000000        0x0 obj/ap/tcpip/sample_udp_client.o
+ .text.udp_client_init
+                0x00000000        0x0 obj/ap/tcpip/sample_udp_client.o
+ .bss.udp_client_timer
+                0x00000000        0x0 obj/ap/tcpip/sample_udp_client.o
+ .text          0x00000000        0x0 obj/ap/tcpip/sample_udp_server.o
+ .data          0x00000000        0x0 obj/ap/tcpip/sample_udp_server.o
+ .bss           0x00000000        0x0 obj/ap/tcpip/sample_udp_server.o
+ .text          0x00000000        0x0 obj/ap/tcpip/tcpip_main.o
+ .data          0x00000000        0x0 obj/ap/tcpip/tcpip_main.o
+ .bss           0x00000000        0x0 obj/ap/tcpip/tcpip_main.o
+ .text.uip_log  0x00000000        0x0 obj/ap/tcpip/tcpip_main.o
+ .text          0x00000000        0x0 obj/ap/tcpip/uip-fw.o
+ .data          0x00000000        0x0 obj/ap/tcpip/uip-fw.o
+ .bss           0x00000000        0x0 obj/ap/tcpip/uip-fw.o
+ .text.uip_fw_init
+                0x00000000        0x0 obj/ap/tcpip/uip-fw.o
+ .text.uip_fw_output
+                0x00000000        0x0 obj/ap/tcpip/uip-fw.o
+ .text.uip_fw_register
+                0x00000000        0x0 obj/ap/tcpip/uip-fw.o
+ .text.uip_fw_default
+                0x00000000        0x0 obj/ap/tcpip/uip-fw.o
+ .text.uip_fw_periodic
+                0x00000000        0x0 obj/ap/tcpip/uip-fw.o
+ .text.uip_fw_forward
+                0x00000000        0x0 obj/ap/tcpip/uip-fw.o
+ .bss.defaultnetif
+                0x00000000        0x0 obj/ap/tcpip/uip-fw.o
+ .bss.netifs    0x00000000        0x0 obj/ap/tcpip/uip-fw.o
+ .bss.fwcache   0x00000000        0x0 obj/ap/tcpip/uip-fw.o
+ .text          0x00000000        0x0 obj/ap/tcpip/uip-neighbor.o
+ .data          0x00000000        0x0 obj/ap/tcpip/uip-neighbor.o
+ .bss           0x00000000        0x0 obj/ap/tcpip/uip-neighbor.o
+ .text.uip_neighbor_init
+                0x00000000        0x0 obj/ap/tcpip/uip-neighbor.o
+ .text.uip_neighbor_periodic
+                0x00000000        0x0 obj/ap/tcpip/uip-neighbor.o
+ .text.find_entry
+                0x00000000        0x0 obj/ap/tcpip/uip-neighbor.o
+ .text.uip_neighbor_update
+                0x00000000        0x0 obj/ap/tcpip/uip-neighbor.o
+ .text.uip_neighbor_lookup
+                0x00000000        0x0 obj/ap/tcpip/uip-neighbor.o
+ .text.uip_neighbor_add
+                0x00000000        0x0 obj/ap/tcpip/uip-neighbor.o
+ .bss.entries   0x00000000        0x0 obj/ap/tcpip/uip-neighbor.o
+ .text          0x00000000        0x0 obj/ap/tcpip/uip-split.o
+ .data          0x00000000        0x0 obj/ap/tcpip/uip-split.o
+ .bss           0x00000000        0x0 obj/ap/tcpip/uip-split.o
+ .text.uip_split_output
+                0x00000000        0x0 obj/ap/tcpip/uip-split.o
+ .text          0x00000000        0x0 obj/ap/tcpip/uip.o
+ .data          0x00000000        0x0 obj/ap/tcpip/uip.o
+ .bss           0x00000000        0x0 obj/ap/tcpip/uip.o
+ .text.uip_setipid
+                0x00000000        0x0 obj/ap/tcpip/uip.o
+ .text.uip_chksum
+                0x00000000        0x0 obj/ap/tcpip/uip.o
+ .text          0x00000000        0x0 obj/ap/tcpip/uip_arp.o
+ .data          0x00000000        0x0 obj/ap/tcpip/uip_arp.o
+ .bss           0x00000000        0x0 obj/ap/tcpip/uip_arp.o
+ .text.uip_arp_init
+                0x00000000        0x0 obj/ap/tcpip/uip_arp.o
+ .text          0x00000000        0x0 obj/ap/tcpip/uip_timer.o
+ .data          0x00000000        0x0 obj/ap/tcpip/uip_timer.o
+ .bss           0x00000000        0x0 obj/ap/tcpip/uip_timer.o
+ .text.timer_restart
+                0x00000000        0x0 obj/ap/tcpip/uip_timer.o
+ .text          0x00000000        0x0 obj/ap/tcpip/uiplib.o
+ .data          0x00000000        0x0 obj/ap/tcpip/uiplib.o
+ .bss           0x00000000        0x0 obj/ap/tcpip/uiplib.o
+ .text          0x00000000        0x0 obj/ap/tcpip/webclient-strings.o
+ .data          0x00000000        0x0 obj/ap/tcpip/webclient-strings.o
+ .bss           0x00000000        0x0 obj/ap/tcpip/webclient-strings.o
+ .rodata.http_texthtml
+                0x00000000        0x0 obj/ap/tcpip/webclient-strings.o
+ .rodata.http_index_html
+                0x00000000        0x0 obj/ap/tcpip/webclient-strings.o
+ .rodata.http_404_html
+                0x00000000        0x0 obj/ap/tcpip/webclient-strings.o
+ .rodata.http_content_type_html
+                0x00000000        0x0 obj/ap/tcpip/webclient-strings.o
+ .rodata.http_content_type_css
+                0x00000000        0x0 obj/ap/tcpip/webclient-strings.o
+ .rodata.http_content_type_text
+                0x00000000        0x0 obj/ap/tcpip/webclient-strings.o
+ .rodata.http_content_type_png
+                0x00000000        0x0 obj/ap/tcpip/webclient-strings.o
+ .rodata.http_content_type_gif
+                0x00000000        0x0 obj/ap/tcpip/webclient-strings.o
+ .rodata.http_content_type_jpg
+                0x00000000        0x0 obj/ap/tcpip/webclient-strings.o
+ .rodata.http_content_type_binary
+                0x00000000        0x0 obj/ap/tcpip/webclient-strings.o
+ .rodata.http_html
+                0x00000000        0x0 obj/ap/tcpip/webclient-strings.o
+ .rodata.http_shtml
+                0x00000000        0x0 obj/ap/tcpip/webclient-strings.o
+ .rodata.http_htm
+                0x00000000        0x0 obj/ap/tcpip/webclient-strings.o
+ .rodata.http_css
+                0x00000000        0x0 obj/ap/tcpip/webclient-strings.o
+ .rodata.http_png
+                0x00000000        0x0 obj/ap/tcpip/webclient-strings.o
+ .rodata.http_gif
+                0x00000000        0x0 obj/ap/tcpip/webclient-strings.o
+ .rodata.http_jpg
+                0x00000000        0x0 obj/ap/tcpip/webclient-strings.o
+ .rodata.http_text
+                0x00000000        0x0 obj/ap/tcpip/webclient-strings.o
+ .rodata.http_txt
+                0x00000000        0x0 obj/ap/tcpip/webclient-strings.o
+ .text          0x00000000        0x0 obj/ap/tcpip/webclient.o
+ .data          0x00000000        0x0 obj/ap/tcpip/webclient.o
+ .bss           0x00000000        0x0 obj/ap/tcpip/webclient.o
+ .text.webclient_mimetype
+                0x00000000        0x0 obj/ap/tcpip/webclient.o
+ .text.webclient_filename
+                0x00000000        0x0 obj/ap/tcpip/webclient.o
+ .text.webclient_hostname
+                0x00000000        0x0 obj/ap/tcpip/webclient.o
+ .text.webclient_port
+                0x00000000        0x0 obj/ap/tcpip/webclient.o
+ .text.webclient_init
+                0x00000000        0x0 obj/ap/tcpip/webclient.o
+ .text.webclient_close
+                0x00000000        0x0 obj/ap/tcpip/webclient.o
+ .bss.updateTotalSize
+                0x00000000        0x0 obj/ap/tcpip/webclient.o
+ .bss.updateCount
+                0x00000000        0x0 obj/ap/tcpip/webclient.o
+ .bss.updateType
+                0x00000000        0x0 obj/ap/tcpip/webclient.o
+ .bss.flash_error_count
+                0x00000000        0x0 obj/ap/tcpip/webclient.o
+ .bss.webData_number
+                0x00000000        0x0 obj/ap/tcpip/webclient.o
+ .text          0x00000000        0x0 obj/ap/wifi_task_pub.o
+ .data          0x00000000        0x0 obj/ap/wifi_task_pub.o
+ .bss           0x00000000        0x0 obj/ap/wifi_task_pub.o
+ .bss.gSmnted   0x00000000        0x0 obj/ap/wifi_task_pub.o
+ .bss.Vmac      0x00000000        0x0 obj/ap/wifi_task_pub.o
+ .bss.Vcount    0x00000000        0x0 obj/ap/wifi_task_pub.o
+ .text          0x00000000        0x0 cust/vectors.o
+ .data          0x00000000        0x0 cust/vectors.o
+ .bss           0x00000000        0x0 cust/vectors.o
+ .text          0x00000000        0x0 cust/startup.o
+ .data          0x00000000        0x0 cust/startup.o
+ .bss           0x00000000        0x0 cust/startup.o
+ .text          0x00000000        0x0 cust/ctxsw.o
+ .data          0x00000000        0x0 cust/ctxsw.o
+ .bss           0x00000000        0x0 cust/ctxsw.o
+ .excepsysc     0x00000000        0x0 cust/ctxsw.o
+ .text          0x00000000        0x0 ./libandesap.a(xip_ovly.o)
+ .data          0x00000000        0x0 ./libandesap.a(xip_ovly.o)
+ .bss           0x00000000        0x0 ./libandesap.a(xip_ovly.o)
+ .text          0x00000000        0x0 ./libandesap.a(ap.o)
+ .data          0x00000000        0x0 ./libandesap.a(ap.o)
+ .bss           0x00000000        0x0 ./libandesap.a(ap.o)
+ .text.APShutdown
+                0x00000000        0x0 ./libandesap.a(ap.o)
+ .text.APMakeSoftBssBeacon
+                0x00000000        0x0 ./libandesap.a(ap.o)
+ .bss.g_iBeaconLen
+                0x00000000        0x0 ./libandesap.a(ap.o)
+ .text          0x00000000        0x0 ./libandesap.a(ap_assoc.o)
+ .data          0x00000000        0x0 ./libandesap.a(ap_assoc.o)
+ .bss           0x00000000        0x0 ./libandesap.a(ap_assoc.o)
+ .data.CipherName
+                0x00000000        0x0 ./libandesap.a(ap_assoc.o)
+ .text          0x00000000        0x0 ./libandesap.a(ap_auth.o)
+ .data          0x00000000        0x0 ./libandesap.a(ap_auth.o)
+ .bss           0x00000000        0x0 ./libandesap.a(ap_auth.o)
+ COMMON         0x00000000        0x0 ./libandesap.a(ap_auth.o)
+ .text          0x00000000        0x0 ./libandesap.a(mgmt_entrytb.o)
+ .data          0x00000000        0x0 ./libandesap.a(mgmt_entrytb.o)
+ .bss           0x00000000        0x0 ./libandesap.a(mgmt_entrytb.o)
+ .text.dumpMacTable
+                0x00000000        0x0 ./libandesap.a(mgmt_entrytb.o)
+ .data.RxwiMCSToOfdmRate
+                0x00000000        0x0 ./libandesap.a(mgmt_entrytb.o)
+ .text          0x00000000        0x0 ./libandesap.a(cnm_timer.o)
+ .data          0x00000000        0x0 ./libandesap.a(cnm_timer.o)
+ .bss           0x00000000        0x0 ./libandesap.a(cnm_timer.o)
+ .text.cnmTimerDestroy
+                0x00000000        0x0 ./libandesap.a(cnm_timer.o)
+ .text          0x00000000        0x0 ./libandesap.a(iot_io_cmd.o)
+ .data          0x00000000        0x0 ./libandesap.a(iot_io_cmd.o)
+ .bss           0x00000000        0x0 ./libandesap.a(iot_io_cmd.o)
+ .text.iot_gpios_mode_chg
+                0x00000000        0x0 ./libandesap.a(iot_io_cmd.o)
+ .text.iot_jtag_mode_switch
+                0x00000000        0x0 ./libandesap.a(iot_io_cmd.o)
+ .text.iot_jtag_mode_get
+                0x00000000        0x0 ./libandesap.a(iot_io_cmd.o)
+ .text          0x00000000        0x0 ./libandesap.a(iot_mgmt_cmd.o)
+ .data          0x00000000        0x0 ./libandesap.a(iot_mgmt_cmd.o)
+ .bss           0x00000000        0x0 ./libandesap.a(iot_mgmt_cmd.o)
+ .text.IoT_Cmd_Set_DBG_LVL
+                0x00000000        0x0 ./libandesap.a(iot_mgmt_cmd.o)
+ .text          0x00000000        0x0 ./libandesap.a(queue.o)
+ .data          0x00000000        0x0 ./libandesap.a(queue.o)
+ .bss           0x00000000        0x0 ./libandesap.a(queue.o)
+ .text.apiQU_Touch
+                0x00000000        0x0 ./libandesap.a(queue.o)
+ .text          0x00000000        0x0 ./libandesap.a(app_nos_main.o)
+ .data          0x00000000        0x0 ./libandesap.a(app_nos_main.o)
+ .bss           0x00000000        0x0 ./libandesap.a(app_nos_main.o)
+ .text          0x00000000        0x0 ./libandesap.a(chip_init.o)
+ .data          0x00000000        0x0 ./libandesap.a(chip_init.o)
+ .bss           0x00000000        0x0 ./libandesap.a(chip_init.o)
+ .text.iot_get_rxfilter
+                0x00000000        0x0 ./libandesap.a(chip_init.o)
+ .text.iot_set_rxfilter
+                0x00000000        0x0 ./libandesap.a(chip_init.o)
+ .text.dump_ram
+                0x00000000        0x0 ./libandesap.a(chip_init.o)
+ .text.MT7681_eep_cfg
+                0x00000000        0x0 ./libandesap.a(chip_init.o)
+ .bss.ram_id.4969
+                0x00000000        0x0 ./libandesap.a(chip_init.o)
+ .text          0x00000000        0x0 ./libandesap.a(cmm_wep.o)
+ .data          0x00000000        0x0 ./libandesap.a(cmm_wep.o)
+ .bss           0x00000000        0x0 ./libandesap.a(cmm_wep.o)
+ .text.BtoH     0x00000000        0x0 ./libandesap.a(cmm_wep.o)
+ .text.AtoH     0x00000000        0x0 ./libandesap.a(cmm_wep.o)
+ .text.RTMP_CALC_FCS32
+                0x00000000        0x0 ./libandesap.a(cmm_wep.o)
+ .text.RTMPConstructWEPIVHdr
+                0x00000000        0x0 ./libandesap.a(cmm_wep.o)
+ .text.RTMPInitWepEngine
+                0x00000000        0x0 ./libandesap.a(cmm_wep.o)
+ .text.RTMPSoftDecryptWEP
+                0x00000000        0x0 ./libandesap.a(cmm_wep.o)
+ .text.RTMPSoftEncryptWEP
+                0x00000000        0x0 ./libandesap.a(cmm_wep.o)
+ .data.FCSTAB_32
+                0x00000000        0x0 ./libandesap.a(cmm_wep.o)
+ .text          0x00000000        0x0 ./libandesap.a(cmm_wpa.o)
+ .data          0x00000000        0x0 ./libandesap.a(cmm_wpa.o)
+ .bss           0x00000000        0x0 ./libandesap.a(cmm_wpa.o)
+ .text.STAWowPatternCheck
+                0x00000000        0x0 ./libandesap.a(cmm_wpa.o)
+ .text.GenericWowPatternCheck
+                0x00000000        0x0 ./libandesap.a(cmm_wpa.o)
+ .text.RTMPCheckWPAframe
+                0x00000000        0x0 ./libandesap.a(cmm_wpa.o)
+ .data.OUI_WPA  0x00000000        0x0 ./libandesap.a(cmm_wpa.o)
+ .data.OUI_WPA_WEP40
+                0x00000000        0x0 ./libandesap.a(cmm_wpa.o)
+ .data.OUI_WPA_WEP104
+                0x00000000        0x0 ./libandesap.a(cmm_wpa.o)
+ .text          0x00000000        0x0 ./libandesap.a(crypt_aes.o)
+ .data          0x00000000        0x0 ./libandesap.a(crypt_aes.o)
+ .bss           0x00000000        0x0 ./libandesap.a(crypt_aes.o)
+ .text          0x00000000        0x0 ./libandesap.a(crypt_hmac.o)
+ .data          0x00000000        0x0 ./libandesap.a(crypt_hmac.o)
+ .bss           0x00000000        0x0 ./libandesap.a(crypt_hmac.o)
+ .text          0x00000000        0x0 ./libandesap.a(rtmp_data.o)
+ .data          0x00000000        0x0 ./libandesap.a(rtmp_data.o)
+ .bss           0x00000000        0x0 ./libandesap.a(rtmp_data.o)
+ .text.inc_byte_array
+                0x00000000        0x0 ./libandesap.a(rtmp_data.o)
+ .text.RTMPReportMicError
+                0x00000000        0x0 ./libandesap.a(rtmp_data.o)
+ .text.TxPktClassification
+                0x00000000        0x0 ./libandesap.a(rtmp_data.o)
+ .text.sta_legacy_frame_tx2
+                0x00000000        0x0 ./libandesap.a(rtmp_data.o)
+ .text.send_test_data_frame
+                0x00000000        0x0 ./libandesap.a(rtmp_data.o)
+ .text.EnqueuePsPoll
+                0x00000000        0x0 ./libandesap.a(rtmp_data.o)
+ .text          0x00000000        0x0 ./libandesap.a(rtmp_general.o)
+ .data          0x00000000        0x0 ./libandesap.a(rtmp_general.o)
+ .bss           0x00000000        0x0 ./libandesap.a(rtmp_general.o)
+ .text.RTMPZeroMemory
+                0x00000000        0x0 ./libandesap.a(rtmp_general.o)
+ .text.GetTimBit
+                0x00000000        0x0 ./libandesap.a(rtmp_general.o)
+ .text.PeerAddBAReqAction
+                0x00000000        0x0 ./libandesap.a(rtmp_general.o)
+ .text.PeerBeaconAdvPwrSavingSanity
+                0x00000000        0x0 ./libandesap.a(rtmp_general.o)
+ .text.ActHeaderInit
+                0x00000000        0x0 ./libandesap.a(rtmp_general.o)
+ .text.OS_WAIT  0x00000000        0x0 ./libandesap.a(rtmp_general.o)
+ .text          0x00000000        0x0 ./libandesap.a(scan.o)
+ .data          0x00000000        0x0 ./libandesap.a(scan.o)
+ .bss           0x00000000        0x0 ./libandesap.a(scan.o)
+ .text.SetChannelList
+                0x00000000        0x0 ./libandesap.a(scan.o)
+ .ovlysec8      0x00000000        0x0 ./libandesap.a(scan.o)
+ .ovlysec3      0x00000000        0x0 ./libandesap.a(scan.o)
+ .text.ListScan
+                0x00000000        0x0 ./libandesap.a(scan.o)
+ .text.DoScan   0x00000000        0x0 ./libandesap.a(scan.o)
+ .data.Full_ChannelList_Size
+                0x00000000        0x0 ./libandesap.a(scan.o)
+ .data.HtCapIe  0x00000000        0x0 ./libandesap.a(scan.o)
+ .data.WPA_OUI  0x00000000        0x0 ./libandesap.a(scan.o)
+ .data.RSN_OUI  0x00000000        0x0 ./libandesap.a(scan.o)
+ .text          0x00000000        0x0 ./libandesap.a(wow.o)
+ .data          0x00000000        0x0 ./libandesap.a(wow.o)
+ .bss           0x00000000        0x0 ./libandesap.a(wow.o)
+ .text.RTMPArpOffload
+                0x00000000        0x0 ./libandesap.a(wow.o)
+ .text.T.3      0x00000000        0x0 ./libandesap.a(wow.o)
+ .text.RTMP_DisableTxRx
+                0x00000000        0x0 ./libandesap.a(wow.o)
+ .text          0x00000000        0x0 ./libandesap.a(bsp.o)
+ .data          0x00000000        0x0 ./libandesap.a(bsp.o)
+ .bss           0x00000000        0x0 ./libandesap.a(bsp.o)
+ .data.gWifiVerTag_7681
+                0x00000000        0x0 ./libandesap.a(bsp.o)
+ .data.gWifiVerTag_7610
+                0x00000000        0x0 ./libandesap.a(bsp.o)
+ .text          0x00000000        0x0 ./libandesap.a(ee_efuse.o)
+ .data          0x00000000        0x0 ./libandesap.a(ee_efuse.o)
+ .bss           0x00000000        0x0 ./libandesap.a(ee_efuse.o)
+ .text.eEpPhysicalReadRegisters
+                0x00000000        0x0 ./libandesap.a(ee_efuse.o)
+ .text.set_eEpGetFreeBlockCount_Proc
+                0x00000000        0x0 ./libandesap.a(ee_efuse.o)
+ .text.set_eEpdump_Proc
+                0x00000000        0x0 ./libandesap.a(ee_efuse.o)
+ .text          0x00000000        0x0 ./libandesap.a(fce.o)
+ .data          0x00000000        0x0 ./libandesap.a(fce.o)
+ .bss           0x00000000        0x0 ./libandesap.a(fce.o)
+ .text          0x00000000        0x0 ./libandesap.a(pdma.o)
+ .data          0x00000000        0x0 ./libandesap.a(pdma.o)
+ .bss           0x00000000        0x0 ./libandesap.a(pdma.o)
+ .text.TxFsIntHdlr
+                0x00000000        0x0 ./libandesap.a(pdma.o)
+ .text.RxTsIntHdlr
+                0x00000000        0x0 ./libandesap.a(pdma.o)
+ .text.rlk_fce_rxts_hard_xmit
+                0x00000000        0x0 ./libandesap.a(pdma.o)
+ .text          0x00000000        0x0 ./libandesap.a(spi-flash.o)
+ .data          0x00000000        0x0 ./libandesap.a(spi-flash.o)
+ .bss           0x00000000        0x0 ./libandesap.a(spi-flash.o)
+ .text          0x00000000        0x0 ./libandesap.a(timer.o)
+ .data          0x00000000        0x0 ./libandesap.a(timer.o)
+ .bss           0x00000000        0x0 ./libandesap.a(timer.o)
+ .text.kal_delay_time
+                0x00000000        0x0 ./libandesap.a(timer.o)
+ .text.kal_free_timer
+                0x00000000        0x0 ./libandesap.a(timer.o)
+ .text          0x00000000        0x0 ./libandesap.a(uart.o)
+ .data          0x00000000        0x0 ./libandesap.a(uart.o)
+ .bss           0x00000000        0x0 ./libandesap.a(uart.o)
+ .data.UART_CLOCK
+                0x00000000        0x0 ./libandesap.a(uart.o)
+ .text          0x00000000        0x0 ./libandesap.a(uartlite.o)
+ .data          0x00000000        0x0 ./libandesap.a(uartlite.o)
+ .bss           0x00000000        0x0 ./libandesap.a(uartlite.o)
+ .text.UART_PutChar
+                0x00000000        0x0 ./libandesap.a(uartlite.o)
+ .text.UART_GetChar
+                0x00000000        0x0 ./libandesap.a(uartlite.o)
+ .text.UART_KbdHit
+                0x00000000        0x0 ./libandesap.a(uartlite.o)
+ .text.UART_LSROverErr
+                0x00000000        0x0 ./libandesap.a(uartlite.o)
+ .text          0x00000000        0x0 ./libandesap.a(main.o)
+ .data          0x00000000        0x0 ./libandesap.a(main.o)
+ .bss           0x00000000        0x0 ./libandesap.a(main.o)
+ .text          0x00000000        0x0 ./libandesap.a(xcpt.o)
+ .data          0x00000000        0x0 ./libandesap.a(xcpt.o)
+ .bss           0x00000000        0x0 ./libandesap.a(xcpt.o)
+ .text.exception_dump
+                0x00000000        0x0 ./libandesap.a(xcpt.o)
+ .text          0x00000000        0x0 ./libandesap.a(initial.o)
+ .data          0x00000000        0x0 ./libandesap.a(initial.o)
+ .bss           0x00000000        0x0 ./libandesap.a(initial.o)
+ .text          0x00000000        0x0 ./libandesap.a(mutex.o)
+ .data          0x00000000        0x0 ./libandesap.a(mutex.o)
+ .bss           0x00000000        0x0 ./libandesap.a(mutex.o)
+ .text.SYSirq_Enable_Interrupts_Save_Flags
+                0x00000000        0x0 ./libandesap.a(mutex.o)
+ .text          0x00000000        0x0 ./libandesap.a(stack.o)
+ .data          0x00000000        0x0 ./libandesap.a(stack.o)
+ .bss           0x00000000        0x0 ./libandesap.a(stack.o)
+ .text          0x00000000        0x0 ./libandesap.a(task.o)
+ .data          0x00000000        0x0 ./libandesap.a(task.o)
+ .bss           0x00000000        0x0 ./libandesap.a(task.o)
+ .text.sysTASK_ChkSignal
+                0x00000000        0x0 ./libandesap.a(task.o)
+ .text.sysTASK_WaitForSignal
+                0x00000000        0x0 ./libandesap.a(task.o)
+ .text.sysTASK_Dispatch
+                0x00000000        0x0 ./libandesap.a(task.o)
+ .text          0x00000000        0x0 ./libandesap.a(list.o)
+ .data          0x00000000        0x0 ./libandesap.a(list.o)
+ .bss           0x00000000        0x0 ./libandesap.a(list.o)
+ .text.apiListIsEmpty
+                0x00000000        0x0 ./libandesap.a(list.o)
+ .text.apiInsertHeadEntry
+                0x00000000        0x0 ./libandesap.a(list.o)
+ .text.apiRemoveListEntry
+                0x00000000        0x0 ./libandesap.a(list.o)
+ .text.apiRemoveTailEntry
+                0x00000000        0x0 ./libandesap.a(list.o)
+ .text          0x00000000        0x0 ./libandesap.a(random.o)
+ .data          0x00000000        0x0 ./libandesap.a(random.o)
+ .bss           0x00000000        0x0 ./libandesap.a(random.o)
+ .text          0x00000000        0x0 ./libandesap.a(do_printf.o)
+ .data          0x00000000        0x0 ./libandesap.a(do_printf.o)
+ .bss           0x00000000        0x0 ./libandesap.a(do_printf.o)
+ .text          0x00000000        0x0 ./libandesap.a(fputs.o)
+ .data          0x00000000        0x0 ./libandesap.a(fputs.o)
+ .bss           0x00000000        0x0 ./libandesap.a(fputs.o)
+ .text          0x00000000        0x0 ./libandesap.a(strcmp.o)
+ .data          0x00000000        0x0 ./libandesap.a(strcmp.o)
+ .bss           0x00000000        0x0 ./libandesap.a(strcmp.o)
+ .text          0x00000000        0x0 ./libandesap.a(strcpy.o)
+ .data          0x00000000        0x0 ./libandesap.a(strcpy.o)
+ .bss           0x00000000        0x0 ./libandesap.a(strcpy.o)
+ .text.strcpy   0x00000000        0x0 ./libandesap.a(strcpy.o)
+ .text          0x00000000        0x0 ./libandesap.a(strlen.o)
+ .data          0x00000000        0x0 ./libandesap.a(strlen.o)
+ .bss           0x00000000        0x0 ./libandesap.a(strlen.o)
+ .text          0x00000000        0x0 ./libandesap.a(vsprintf.o)
+ .data          0x00000000        0x0 ./libandesap.a(vsprintf.o)
+ .bss           0x00000000        0x0 ./libandesap.a(vsprintf.o)
+ .text          0x00000000        0x0 ./libandesap.a(mcuctl.o)
+ .data          0x00000000        0x0 ./libandesap.a(mcuctl.o)
+ .bss           0x00000000        0x0 ./libandesap.a(mcuctl.o)
+ .text          0x00000000        0x0 ./libandesap.a(mt7681_ChSw.o)
+ .data          0x00000000        0x0 ./libandesap.a(mt7681_ChSw.o)
+ .bss           0x00000000        0x0 ./libandesap.a(mt7681_ChSw.o)
+ .text.sysDelay1u
+                0x00000000        0x0 ./libandesap.a(mt7681_ChSw.o)
+ .text.RF_READ8
+                0x00000000        0x0 ./libandesap.a(mt7681_ChSw.o)
+ .text.do_sqrt_accumulation
+                0x00000000        0x0 ./libandesap.a(mt7681_ChSw.o)
+ .text.DCOCCalibraton
+                0x00000000        0x0 ./libandesap.a(mt7681_ChSw.o)
+ .text.Protection_DPD
+                0x00000000        0x0 ./libandesap.a(mt7681_ChSw.o)
+ .text.DPDCalibration
+                0x00000000        0x0 ./libandesap.a(mt7681_ChSw.o)
+ .text.LCCalibration
+                0x00000000        0x0 ./libandesap.a(mt7681_ChSw.o)
+ .text.write_dc
+                0x00000000        0x0 ./libandesap.a(mt7681_ChSw.o)
+ .text.do_fft_loft_accumulation
+                0x00000000        0x0 ./libandesap.a(mt7681_ChSw.o)
+ .text.LOFTCalibration
+                0x00000000        0x0 ./libandesap.a(mt7681_ChSw.o)
+ .text.do_fft_iq_accumulation
+                0x00000000        0x0 ./libandesap.a(mt7681_ChSw.o)
+ .text.TXIQCalibration
+                0x00000000        0x0 ./libandesap.a(mt7681_ChSw.o)
+ .rodata.cst4   0x00000000        0x0 ./libandesap.a(mt7681_ChSw.o)
+ .text.RXIQCalibration
+                0x00000000        0x0 ./libandesap.a(mt7681_ChSw.o)
+ .bss.SsidIe    0x00000000        0x0 ./libandesap.a(mt7681_ChSw.o)
+ .data.SupRateIe
+                0x00000000        0x0 ./libandesap.a(mt7681_ChSw.o)
+ .data.WME_PARM_ELEM
+                0x00000000        0x0 ./libandesap.a(mt7681_ChSw.o)
+ .data.ExtCapIe
+                0x00000000        0x0 ./libandesap.a(mt7681_ChSw.o)
+ .data.ErpIe    0x00000000        0x0 ./libandesap.a(mt7681_ChSw.o)
+ .data.DsIe     0x00000000        0x0 ./libandesap.a(mt7681_ChSw.o)
+ .data.TimIe    0x00000000        0x0 ./libandesap.a(mt7681_ChSw.o)
+ .data.WpaIe    0x00000000        0x0 ./libandesap.a(mt7681_ChSw.o)
+ .data.IbssIe   0x00000000        0x0 ./libandesap.a(mt7681_ChSw.o)
+ .data.WapiIe   0x00000000        0x0 ./libandesap.a(mt7681_ChSw.o)
+ .rodata.C.179.5897
+                0x00000000        0x0 ./libandesap.a(mt7681_ChSw.o)
+ .rodata.C.169.5815
+                0x00000000        0x0 ./libandesap.a(mt7681_ChSw.o)
+ .bss.loft_iq_vga
+                0x00000000        0x0 ./libandesap.a(mt7681_ChSw.o)
+ .rodata.rf_vga_table
+                0x00000000        0x0 ./libandesap.a(mt7681_ChSw.o)
+ .rodata.C.93.5358
+                0x00000000        0x0 ./libandesap.a(mt7681_ChSw.o)
+ .rodata.C.92.5357
+                0x00000000        0x0 ./libandesap.a(mt7681_ChSw.o)
+ .rodata.C.9.4870
+                0x00000000        0x0 ./libandesap.a(mt7681_ChSw.o)
+ .bss.G_imb     0x00000000        0x0 ./libandesap.a(mt7681_ChSw.o)
+ .bss.Ph_rx     0x00000000        0x0 ./libandesap.a(mt7681_ChSw.o)
+ .bss.gain_error
+                0x00000000        0x0 ./libandesap.a(mt7681_ChSw.o)
+ .bss.phase_error
+                0x00000000        0x0 ./libandesap.a(mt7681_ChSw.o)
+ .bss.dc_result
+                0x00000000        0x0 ./libandesap.a(mt7681_ChSw.o)
+ .text          0x00000000        0x0 ./libandesap.a(wifi_ps.o)
+ .data          0x00000000        0x0 ./libandesap.a(wifi_ps.o)
+ .bss           0x00000000        0x0 ./libandesap.a(wifi_ps.o)
+ .text.wifiPMU_Controller
+                0x00000000        0x0 ./libandesap.a(wifi_ps.o)
+ .text.PMU_Ctrl_Hw
+                0x00000000        0x0 ./libandesap.a(wifi_ps.o)
+ .ovlysec12     0x00000000        0x0 ./libandesap.a(wifi_ps.o)
+ .text.LowPower
+                0x00000000        0x0 ./libandesap.a(wifi_ps.o)
+ .bss.AutoPSMode
+                0x00000000        0x0 ./libandesap.a(wifi_ps.o)
+ COMMON         0x00000000        0x0 ./libandesap.a(wifi_ps.o)
+ .text          0x00000000        0x0 ./libandesap.a(wifi_task.o)
+ .data          0x00000000        0x0 ./libandesap.a(wifi_task.o)
+ .bss           0x00000000        0x0 ./libandesap.a(wifi_task.o)
+ .text.set_bbp_reset
+                0x00000000        0x0 ./libandesap.a(wifi_task.o)
+ .text.handle_FCE_RxTS_interrupt
+                0x00000000        0x0 ./libandesap.a(wifi_task.o)
+ .rodata.str1.4
+                0x00000000        0x0 ./libandesap.a(wifi_task.o)
+ .data.SSID_TMP
+                0x00000000        0x0 ./libandesap.a(wifi_task.o)
+ .data.wep_pwd  0x00000000        0x0 ./libandesap.a(wifi_task.o)
+ .data.RTDebugLevel
+                0x00000000        0x0 ./libandesap.a(wifi_task.o)
+ .text          0x00000000        0x0 ./libandesap.a(ate.o)
+ .data          0x00000000        0x0 ./libandesap.a(ate.o)
+ .bss           0x00000000        0x0 ./libandesap.a(ate.o)
+ .text.ConvertToRssi
+                0x00000000        0x0 ./libandesap.a(ate.o)
+ .text.set_ate_efuse_write
+                0x00000000        0x0 ./libandesap.a(ate.o)
+ .rodata.C.5.4589
+                0x00000000        0x0 ./libandesap.a(ate.o)
+ .rodata.C.4.4588
+                0x00000000        0x0 ./libandesap.a(ate.o)
+ .rodata.C.3.4587
+                0x00000000        0x0 ./libandesap.a(ate.o)
+ .rodata.C.2.4586
+                0x00000000        0x0 ./libandesap.a(ate.o)
+ .text          0x00000000        0x0 ./libandesap.a(led.o)
+ .data          0x00000000        0x0 ./libandesap.a(led.o)
+ .bss           0x00000000        0x0 ./libandesap.a(led.o)
+ .text.led_fast_blinking
+                0x00000000        0x0 ./libandesap.a(led.o)
+ .text.led_set_blinking
+                0x00000000        0x0 ./libandesap.a(led.o)
+ .text.led_blink_2_blink_persec
+                0x00000000        0x0 ./libandesap.a(led.o)
+ .text.led_blink_on500_off100
+                0x00000000        0x0 ./libandesap.a(led.o)
+ .text.led_on5s_off3s_timeout
+                0x00000000        0x0 ./libandesap.a(led.o)
+ .bss.LedTimer  0x00000000        0x0 ./libandesap.a(led.o)
+ .text          0x00000000        0x0 ./libandesap.a(syscall.o)
+ .data          0x00000000        0x0 ./libandesap.a(syscall.o)
+ .bss           0x00000000        0x0 ./libandesap.a(syscall.o)
+ .text.sysCALL  0x00000000        0x0 ./libandesap.a(syscall.o)
+ .text.sysCALL_SysCall0
+                0x00000000        0x0 ./libandesap.a(syscall.o)
+ .text.sysCALL_SysCall1
+                0x00000000        0x0 ./libandesap.a(syscall.o)
+ .text.sysCALL_SysCall2
+                0x00000000        0x0 ./libandesap.a(syscall.o)
+ .text.sysCALL_SysCall3
+                0x00000000        0x0 ./libandesap.a(syscall.o)
+ .text.sysCALL_XcptHdlr
+                0x00000000        0x0 ./libandesap.a(syscall.o)
+ .text.sysCALL_SysCall1Hdlr
+                0x00000000        0x0 ./libandesap.a(syscall.o)
+ .text.sysCALL_SysCall0Hdlr
+                0x00000000        0x0 ./libandesap.a(syscall.o)
+ .rodata.sysCallHdlr
+                0x00000000        0x0 ./libandesap.a(syscall.o)
+ .rodata.sysCallVctr
+                0x00000000        0x0 ./libandesap.a(syscall.o)
+ .text          0x00000000        0x0 ./libandesap.a(ctype.o)
+ .data          0x00000000        0x0 ./libandesap.a(ctype.o)
+ .bss           0x00000000        0x0 ./libandesap.a(ctype.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+SRAM             0x00000000         0x00010000         axw
+ROM              0x00102000         0x00002000         axr
+FLASH            0x00500000         0x00100000         axr
+FLASH_XIP_AP     0x00560000         0x0000f000         axr
+FLASH_OVERLAY_AP 0x0056f000         0x0000f000         axr
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+                0x00102d48                ARC4_Compute = 0x102d48
+                0x00103e98                RT_MD5 = 0x103e98
+                0x00102de0                RT_SHA1_Hash = 0x102de0
+                0x0010252c                aes_mul_e = 0x10252c
+                0x001026a4                memmove = 0x1026a4
+                0x00103e54                RT_MD5_Init = 0x103e54
+                0x0010242c                aes_mul_d = 0x10242c
+                0x0010262c                SHA1_K = 0x10262c
+                0x001026f0                memcpy = 0x1026f0
+                0x00103d48                RT_MD5_End = 0x103d48
+                0x0010263c                SHA1_DefaultHashValue = 0x10263c
+                0x00103dc0                RT_MD5_Append = 0x103dc0
+                0x001031bc                RT_SHA1 = 0x1031bc
+                0x001027a0                RT_AES_KeyExpansion = 0x1027a0
+                0x00102000                ROMBA = 0x102000
+                0x00102cf0                ARC4_INIT = 0x102cf0
+                0x00102fd8                RT_SHA1_End = 0x102fd8
+                0x00102000                _SDA_BASE_ = 0x102000
+                0x001026d4                memcmp = 0x1026d4
+                0x0010271c                TKIP_GTK_KEY_WRAP = 0x10271c
+                0x00102708                memset = 0x102708
+                0x0010202c                aes_sbox_enc = 0x10202c
+                0x00102650                MD5_DefaultHashValue = 0x102650
+                0x0010222c                aes_mul_9 = 0x10222c
+                0x00103178                RT_SHA1_Init = 0x103178
+                0x00103ffe                ROMVersion = 0x103ffe
+                0x001028ac                RT_AES_Decrypt = 0x1028ac
+                0x00102000                aes_rcon = 0x102000
+                0x001030e4                RT_SHA1_Append = 0x1030e4
+                0x0010232c                aes_mul_b = 0x10232c
+                0x00102660                strspn = 0x102660
+                0x0010278c                TKIP_GTK_KEY_UNWRAP = 0x10278c
+                0x00102da8                ARC4_Discard_KeyLength = 0x102da8
+                0x001031fc                RT_MD5_Hash = 0x1031fc
+                0x0010212c                aes_sbox_dec = 0x10212c
+                0x00102684                strpbrk = 0x102684
+                0x00102000                ROM_BASEADDR = 0x102000
+                0x00002000                ROM_SIZE = 0x2000
+                0x00102000                PROVIDE (_ROM_BASEADDR, ROM_BASEADDR)
+                0x00002000                PROVIDE (_ROM_SIZE, ROM_SIZE)
+                0x00000000                RAM_BASEADDR = 0x0
+                0x00010000                RAM_SIZE = 0x10000
+                0x00000000                PROVIDE (_RAM_BASEADDR, RAM_BASEADDR)
+                0x00010000                PROVIDE (_RAM_SIZE, RAM_SIZE)
+                0x00008000                HALF_SRAM_SIZE = 0x8000
+                0x00000000                ILMBA = 0x0
+                0x00008000                DLMBA = (0x0 + HALF_SRAM_SIZE)
+                0x00102000                ROMBA = 0x102000
+                0x00500000                FLASHBA = 0x500000
+                0x00000000                PROVIDE (_ILMBA, ILMBA)
+                0x00008000                PROVIDE (_DLMBA, DLMBA)
+                0x0000ff00                STACK_ORIGIN = 0xff00
+                0x00000000                GLOBAL_ORIGIN = ILMBA
+                0x0000ff00                PROVIDE (_STACK_ORIGIN, STACK_ORIGIN)
+                0x00000000                PROVIDE (_GLOBAL_ORIGIN, GLOBAL_ORIGIN)
+                0x00000000                __ilm_start = .
+                0x00000000                VECT_SECT_VMA = RAM_BASEADDR
+
+.VECT           0x00000000       0x40
+ *(.vector)
+ .vector        0x00000000       0x40 cust/vectors.o
+                0x00000000                _xcpt_vctr
+                0x00000040                . = ALIGN (0x10)
+                0x00000040                TEXT_SECT_VMA = .
+
+.TEXT           0x00000040     0x5804
+ *(.Xcpt)
+ .Xcpt          0x00000040        0x8 cust/ctxsw.o
+                0x00000040                sysXcpt
+ *(.ctxsw)
+ .ctxsw         0x00000048       0x5c cust/ctxsw.o
+                0x00000078                sysLoadCtx
+                0x00000048                sysCtxSw
+ *(.startup)
+ .startup       0x000000a4       0x68 cust/startup.o
+                0x000000a4                _startup
+ *(.text)
+ *(.text.*)
+ .text.store_ap_cfg
+                0x0000010c       0xcc obj/ap/ap_pub.o
+                0x0000010c                store_ap_cfg
+ .text.load_ap_cfg
+                0x000001d8       0xcc obj/ap/ap_pub.o
+                0x000001d8                load_ap_cfg
+ .text.reflect  0x000002a4       0x34 obj/ap/crypt_crc.o
+                0x000002a4                reflect
+ .text.crc32    0x000002d8       0x68 obj/ap/crypt_crc.o
+                0x000002d8                crc32
+ .text.aes_cbc_decrypt
+                0x00000340       0xd0 obj/ap/iot_aes_pub.o
+                0x00000340                aes_cbc_decrypt
+ .text.aes_cbc_encrypt
+                0x00000410      0x1f0 obj/ap/iot_aes_pub.o
+                0x00000410                aes_cbc_encrypt
+ .text.strchr   0x00000600       0x20 obj/ap/iot_at_cmd_utility.o
+                0x00000600                strchr
+ .text.split_string_cmd
+                0x00000620       0x5c obj/ap/iot_at_cmd_utility.o
+                0x00000620                split_string_cmd
+ .text.getopt   0x0000067c      0x168 obj/ap/iot_at_cmd_utility.o
+                0x0000067c                getopt
+ .text.iot_cust_subtask1
+                0x000007e4        0x4 obj/ap/iot_custom.o
+                0x000007e4                iot_cust_subtask1
+ .text.iot_cust_hwtimer1_hdlr
+                0x000007e8        0x4 obj/ap/iot_custom.o
+                0x000007e8                iot_cust_hwtimer1_hdlr
+ .text.iot_cust_hwtimer1_tick
+                0x000007ec        0x4 obj/ap/iot_custom.o
+                0x000007ec                iot_cust_hwtimer1_tick
+ .text.iot_cust_gpiint_hdlr
+                0x000007f0       0x9c obj/ap/iot_custom.o
+                0x000007f0                iot_cust_gpiint_hdlr
+ .text.reset_ap_cfg
+                0x0000088c       0x20 obj/ap/iot_custom.o
+                0x0000088c                reset_ap_cfg
+ .text.reset_sta_cfg
+                0x000008ac       0x20 obj/ap/iot_custom.o
+                0x000008ac                reset_sta_cfg
+ .text.pre_init_cfg
+                0x000008cc       0x64 obj/ap/iot_custom.o
+                0x000008cc                pre_init_cfg
+ .text.iot_cust_timer0_timeout_actioin
+                0x00000930       0x24 obj/ap/iot_custom.o
+                0x00000930                iot_cust_timer0_timeout_actioin
+ .text.cust_app_init
+                0x00000954       0x68 obj/ap/iot_custom.o
+                0x00000954                cust_app_init
+ .text.cust_subtask
+                0x000009bc       0x24 obj/ap/iot_custom.o
+                0x000009bc                cust_subtask
+ .text.iot_app_proc_pkt
+                0x000009e0       0xfc obj/ap/iot_parse.o
+                0x000009e0                iot_app_proc_pkt
+ .text.uart_rxbuf_init
+                0x00000adc       0x24 obj/ap/iot_uart_rb.o
+                0x00000adc                uart_rxbuf_init
+ .text.uart_tx_cb
+                0x00000b00        0x4 obj/ap/iot_uart_rb.o
+                0x00000b00                uart_tx_cb
+ .text.uart_rb_init
+                0x00000b04       0x20 obj/ap/iot_uart_rb.o
+                0x00000b04                uart_rb_init
+ .text.uart_rb_pop
+                0x00000b24       0x24 obj/ap/iot_uart_rb.o
+                0x00000b24                uart_rb_pop
+ .text.uart_rb_push
+                0x00000b48       0x24 obj/ap/iot_uart_rb.o
+                0x00000b48                uart_rb_push
+ .text.uart_get_avail
+                0x00000b6c       0x1c obj/ap/iot_uart_rb.o
+                0x00000b6c                uart_get_avail
+ .text.uart_rx_dispatch
+                0x00000b88       0xd8 obj/ap/iot_uart_rb.o
+                0x00000b88                uart_rx_dispatch
+ .text.uart_get_byte
+                0x00000c60       0x3c obj/ap/iot_uart_rb.o
+                0x00000c60                uart_get_byte
+ .text.uart_rx_cb
+                0x00000c9c      0x1cc obj/ap/iot_uart_rb.o
+                0x00000c9c                uart_rx_cb
+ .text.uart_put_bytes
+                0x00000e68      0x100 obj/ap/iot_uart_rb.o
+                0x00000e68                uart_put_bytes
+ .text.iot_uart_output
+                0x00000f68       0x48 obj/ap/iot_uart_rb.o
+                0x00000f68                iot_uart_output
+ .text.iot_cksum
+                0x00000fb0       0x40 obj/ap/iot_uplink.o
+                0x00000fb0                iot_cksum
+ .text.main     0x00000ff0       0x98 obj/ap/main_pub.o
+                0x00000ff0                main
+ .text.DelayTick
+                0x00001088        0xc obj/ap/misc_pub.o
+                0x00001088                DelayTick
+ .text.usecDelay
+                0x00001094       0x4c obj/ap/misc_pub.o
+                0x00001094                usecDelay
+ .text.msecDelay
+                0x000010e0       0x54 obj/ap/misc_pub.o
+                0x000010e0                msecDelay
+ .text.vsprintf_help
+                0x00001134        0xc obj/ap/printf.o
+ .text.vprintf  0x00001140       0x24 obj/ap/printf.o
+                0x00001140                vprintf
+ .text.printf_high
+                0x00001164       0x34 obj/ap/printf.o
+                0x00001164                printf_high
+ .text.vsprintf
+                0x00001198       0x2c obj/ap/printf.o
+                0x00001198                vsprintf
+ .text.sprintf  0x000011c4       0x24 obj/ap/printf.o
+                0x000011c4                sprintf
+ .text.vprintf_help
+                0x000011e8       0x1c obj/ap/printf.o
+ .text.RTMPCheckRxError
+                0x00001204       0x14 obj/ap/rtmp_data_pub.o
+                0x00001204                RTMPCheckRxError
+ .text.WifiRxFsIntFilterOut
+                0x00001218       0x4c obj/ap/rtmp_data_pub.o
+                0x00001218                WifiRxFsIntFilterOut
+ .text.APForwardFindCipherAlgorithm
+                0x00001264       0x7c obj/ap/rtmp_data_pub.o
+                0x00001264                APForwardFindCipherAlgorithm
+ .text.APForwardBuildCommon802_11Header
+                0x000012e0       0xf0 obj/ap/rtmp_data_pub.o
+                0x000012e0                APForwardBuildCommon802_11Header
+ .text.APHandleRxControlFrame
+                0x000013d0       0x44 obj/ap/rtmp_data_pub.o
+                0x000013d0                APHandleRxControlFrame
+ .text.RTMPRawDataSanity
+                0x00001414       0xd8 obj/ap/rtmp_data_pub.o
+                0x00001414                RTMPRawDataSanity
+ .text.APHandleRxMgmtFrame
+                0x000014ec       0xf4 obj/ap/rtmp_data_pub.o
+                0x000014ec                APHandleRxMgmtFrame
+ .text.APHandleRxDataFrame
+                0x000015e0      0x120 obj/ap/rtmp_data_pub.o
+                0x000015e0                APHandleRxDataFrame
+ .text.WifiRxDoneInterruptHandle
+                0x00001700       0xd4 obj/ap/rtmp_data_pub.o
+                0x00001700                WifiRxDoneInterruptHandle
+ .text.spi_flash_page_write
+                0x000017d4       0x88 obj/ap/spi-flash_pub.o
+ .text.spi_flash_write_func
+                0x0000185c       0xf0 obj/ap/spi-flash_pub.o
+                0x0000185c                spi_flash_write_func
+ .text.spi_flash_erase_sector
+                0x0000194c       0x78 obj/ap/spi-flash_pub.o
+                0x0000194c                spi_flash_erase_sector
+ .text.spi_flash_write
+                0x000019c4      0x194 obj/ap/spi-flash_pub.o
+                0x000019c4                spi_flash_write
+ .text.spi_flash_update_fw
+                0x00001b58      0x114 obj/ap/spi-flash_pub.o
+                0x00001b58                spi_flash_update_fw
+ .text.malloc   0x00001c6c       0x14 obj/ap/stdlib.o
+                0x00001c6c                malloc
+ .text.free     0x00001c80       0x14 obj/ap/stdlib.o
+                0x00001c80                free
+ .text.atoi     0x00001c94       0xcc obj/ap/stdlib.o
+                0x00001c94                atoi
+ .text.clock_time
+                0x00001d60       0x24 obj/ap/tcpip/clock-arch.o
+                0x00001d60                clock_time
+ .text.cloud_set_activation_para
+                0x00001d84       0x7c obj/ap/tcpip/cloudclient.o
+                0x00001d84                cloud_set_activation_para
+ .text.cloud_fota_update
+                0x00001e00      0x58c obj/ap/tcpip/cloudclient.o
+                0x00001e00                cloud_fota_update
+ .text.cloud_client_fota_autoupdate
+                0x0000238c      0x120 obj/ap/tcpip/cloudclient.o
+                0x0000238c                cloud_client_fota_autoupdate
+ .text.cloud_http_callback
+                0x000024ac      0x198 obj/ap/tcpip/cloudclient.o
+                0x000024ac                cloud_http_callback
+ .text.add_msg_type
+                0x00002644       0x14 obj/ap/tcpip/dhcpd.o
+ .text.ntohl    0x00002658       0x2c obj/ap/tcpip/dhcpd.o
+                0x00002658                ntohl
+ .text.dhcpd_pickup_opt
+                0x00002684       0xcc obj/ap/tcpip/dhcpd.o
+                0x00002684                dhcpd_pickup_opt
+ .text.handle_tcp_app
+                0x00002750      0x1e4 obj/ap/tcpip/iot_tcp_app.o
+                0x00002750                handle_tcp_app
+ .text.iot_tcp_appcall
+                0x00002934       0xac obj/ap/tcpip/iot_tcp_app.o
+                0x00002934                iot_tcp_appcall
+ .text.iot_udp_appcall
+                0x000029e0       0x60 obj/ap/tcpip/iot_udp_app.o
+                0x000029e0                iot_udp_appcall
+ .text.mt76xx_dev_init
+                0x00002a40        0x4 obj/ap/tcpip/mt76xx_dev.o
+                0x00002a40                mt76xx_dev_init
+ .text.mt76xx_dev_read
+                0x00002a44       0x2c obj/ap/tcpip/mt76xx_dev.o
+                0x00002a44                mt76xx_dev_read
+ .text.mt76xx_dev_send
+                0x00002a70       0x60 obj/ap/tcpip/mt76xx_dev.o
+                0x00002a70                mt76xx_dev_send
+ .text.resolv_lookup
+                0x00002ad0       0x5c obj/ap/tcpip/resolv.o
+                0x00002ad0                resolv_lookup
+ .text.resolv_query
+                0x00002b2c       0x88 obj/ap/tcpip/resolv.o
+                0x00002b2c                resolv_query
+ .text.handle_udp_srv_app1
+                0x00002bb4      0x12c obj/ap/tcpip/sample_udp_server.o
+                0x00002bb4                handle_udp_srv_app1
+ .text.tcpip_periodic_timer
+                0x00002ce0      0x1dc obj/ap/tcpip/tcpip_main.o
+                0x00002ce0                tcpip_periodic_timer
+ .text.netif_rx
+                0x00002ebc       0xb0 obj/ap/tcpip/tcpip_main.o
+                0x00002ebc                netif_rx
+ .text.tcpip_init
+                0x00002f6c       0x44 obj/ap/tcpip/tcpip_main.o
+                0x00002f6c                tcpip_init
+ .text.uip_add32
+                0x00002fb0       0x5c obj/ap/tcpip/uip.o
+                0x00002fb0                uip_add32
+ .text.chksum   0x0000300c       0x40 obj/ap/tcpip/uip.o
+ .text.uip_ipchksum
+                0x0000304c       0x3c obj/ap/tcpip/uip.o
+                0x0000304c                uip_ipchksum
+ .text.upper_layer_chksum
+                0x00003088       0x5c obj/ap/tcpip/uip.o
+ .text.uip_tcpchksum
+                0x000030e4       0x1c obj/ap/tcpip/uip.o
+                0x000030e4                uip_tcpchksum
+ .text.uip_udpchksum
+                0x00003100       0x1c obj/ap/tcpip/uip.o
+                0x00003100                uip_udpchksum
+ .text.uip_add_rcv_nxt
+                0x0000311c       0x4c obj/ap/tcpip/uip.o
+ .text.htons    0x00003168       0x14 obj/ap/tcpip/uip.o
+                0x00003168                htons
+ .text.uip_arp_timer
+                0x0000317c       0x74 obj/ap/tcpip/uip_arp.o
+                0x0000317c                uip_arp_timer
+ .text.timer_reset
+                0x000031f0        0xc obj/ap/tcpip/uip_timer.o
+                0x000031f0                timer_reset
+ .text.timer_expired
+                0x000031fc       0x24 obj/ap/tcpip/uip_timer.o
+                0x000031fc                timer_expired
+ .text.timer_set
+                0x00003220       0x1c obj/ap/tcpip/uip_timer.o
+                0x00003220                timer_set
+ .text.uiplib_ipaddrconv
+                0x0000323c       0x60 obj/ap/tcpip/uiplib.o
+                0x0000323c                uiplib_ipaddrconv
+ .text.copy_string
+                0x0000329c       0x20 obj/ap/tcpip/webclient.o
+ .text.webclient_datahandler
+                0x000032bc       0x28 obj/ap/tcpip/webclient.o
+                0x000032bc                webclient_datahandler
+ .text.T.40     0x000032e4       0x4c obj/ap/tcpip/webclient.o
+ .text.webclient_appcall
+                0x00003330      0x134 obj/ap/tcpip/webclient.o
+                0x00003330                webclient_appcall
+ .text.wifi_state_machine
+                0x00003464       0x30 obj/ap/wifi_task_pub.o
+                0x00003464                wifi_state_machine
+ .text.wifi_rx_proc
+                0x00003494       0x5c obj/ap/wifi_task_pub.o
+                0x00003494                wifi_rx_proc
+ .text.wifiTASK_LowPrioTask
+                0x000034f0       0xb8 obj/ap/wifi_task_pub.o
+                0x000034f0                wifiTASK_LowPrioTask
+ .text.overlayunload
+                0x000035a8       0x7c ./libandesap.a(xip_ovly.o)
+                0x000035a8                overlayunload
+ .text.overlaycopy
+                0x00003624       0x18 ./libandesap.a(xip_ovly.o)
+                0x00003624                overlaycopy
+ .text.overlayload
+                0x0000363c       0xc8 ./libandesap.a(xip_ovly.o)
+                0x0000363c                overlayload
+ .text.iot_ap_mactbl_mgmt
+                0x00003704       0xe0 ./libandesap.a(mgmt_entrytb.o)
+                0x00003704                iot_ap_mactbl_mgmt
+ .text.cnmTimerSetTimer
+                0x000037e4       0x3c ./libandesap.a(cnm_timer.o)
+ .text.cnmTimerDoTimeOutCheck
+                0x00003820       0xf0 ./libandesap.a(cnm_timer.o)
+                0x00003820                cnmTimerDoTimeOutCheck
+ .text.iot_gpio_output
+                0x00003910       0xac ./libandesap.a(iot_io_cmd.o)
+                0x00003910                iot_gpio_output
+ .text.iot_gpio_output_noswap
+                0x000039bc       0x28 ./libandesap.a(iot_io_cmd.o)
+                0x000039bc                iot_gpio_output_noswap
+ .text.iot_gpio_read
+                0x000039e4       0x40 ./libandesap.a(iot_io_cmd.o)
+                0x000039e4                iot_gpio_read
+ .text.iot_gpios_output
+                0x00003a24       0x3c ./libandesap.a(iot_io_cmd.o)
+                0x00003a24                iot_gpios_output
+ .text.iot_gpio_input
+                0x00003a60       0x94 ./libandesap.a(iot_io_cmd.o)
+                0x00003a60                iot_gpio_input
+ .text.iot_sw_pwm_hdlr
+                0x00003af4       0xc8 ./libandesap.a(iot_io_cmd.o)
+                0x00003af4                iot_sw_pwm_hdlr
+ .text.apiQU_Dequeue
+                0x00003bbc       0x44 ./libandesap.a(queue.o)
+                0x00003bbc                apiQU_Dequeue
+ .text.apiQU_Enqueue
+                0x00003c00       0x40 ./libandesap.a(queue.o)
+                0x00003c00                apiQU_Enqueue
+ .text.sysDelay1u
+                0x00003c40       0x10 ./libandesap.a(chip_init.o)
+ .text.dump     0x00003c50       0x6c ./libandesap.a(chip_init.o)
+                0x00003c50                dump
+ .text.MT7681_ReadEEPROM
+                0x00003cbc       0x4c ./libandesap.a(chip_init.o)
+                0x00003cbc                MT7681_ReadEEPROM
+ .text.rtmp_bbp_is_ready
+                0x00003d08       0x58 ./libandesap.a(chip_init.o)
+                0x00003d08                rtmp_bbp_is_ready
+ .text.PRF      0x00003d60       0xb4 ./libandesap.a(cmm_wpa.o)
+                0x00003d60                PRF
+ .text.T.85     0x00003e14       0xe0 ./libandesap.a(cmm_wpa.o)
+ .text.RtmpPasswordHash
+                0x00003ef4       0x54 ./libandesap.a(cmm_wpa.o)
+                0x00003ef4                RtmpPasswordHash
+ .text.RT_AES_Encrypt
+                0x00003f48      0x3dc ./libandesap.a(crypt_aes.o)
+                0x00003f48                RT_AES_Encrypt
+ .text.RTMPCompareMemory
+                0x00004324       0x28 ./libandesap.a(rtmp_general.o)
+                0x00004324                RTMPCompareMemory
+ .text.drvFCE_IntHdlr
+                0x0000434c       0x8c ./libandesap.a(fce.o)
+                0x0000434c                drvFCE_IntHdlr
+ .text.PdmaVrPortIntHdlr
+                0x000043d8       0xf4 ./libandesap.a(pdma.o)
+                0x000043d8                PdmaVrPortIntHdlr
+ .text.PdmaVtPortIntHdlr
+                0x000044cc      0x100 ./libandesap.a(pdma.o)
+                0x000044cc                PdmaVtPortIntHdlr
+ .text.PdmaTxTsHdlr
+                0x000045cc       0x70 ./libandesap.a(pdma.o)
+                0x000045cc                PdmaTxTsHdlr
+ .text.TxTsIntHdlr
+                0x0000463c       0x18 ./libandesap.a(pdma.o)
+                0x0000463c                TxTsIntHdlr
+ .text.PdmaRxFsHdlr
+                0x00004654      0x108 ./libandesap.a(pdma.o)
+                0x00004654                PdmaRxFsHdlr
+ .text.RxFsIntHdlr
+                0x0000475c       0x18 ./libandesap.a(pdma.o)
+                0x0000475c                RxFsIntHdlr
+ .text.SPI_REG8
+                0x00004774       0x10 ./libandesap.a(spi-flash.o)
+                0x00004774                SPI_REG8
+ .text.SPI_READOUT
+                0x00004784        0xc ./libandesap.a(spi-flash.o)
+                0x00004784                SPI_READOUT
+ .text.WAIT_OP_DONE_PUB
+                0x00004790       0x10 ./libandesap.a(spi-flash.o)
+                0x00004790                WAIT_OP_DONE_PUB
+ .text.spi_flash_clk_set
+                0x000047a0       0x34 ./libandesap.a(spi-flash.o)
+                0x000047a0                spi_flash_clk_set
+ .text.spi_flash_read
+                0x000047d4       0x28 ./libandesap.a(spi-flash.o)
+                0x000047d4                spi_flash_read
+ .text.drvTMR_Init
+                0x000047fc       0x14 ./libandesap.a(timer.o)
+                0x000047fc                drvTMR_Init
+ .text.kal_get_systime
+                0x00004810        0xc ./libandesap.a(timer.o)
+                0x00004810                kal_get_systime
+ .text.kal_stop_timer
+                0x0000481c       0x84 ./libandesap.a(timer.o)
+                0x0000481c                kal_stop_timer
+ .text.kal_start_timer
+                0x000048a0      0x104 ./libandesap.a(timer.o)
+                0x000048a0                kal_start_timer
+ .text.SwTimerHandler
+                0x000049a4       0x30 ./libandesap.a(timer.o)
+                0x000049a4                SwTimerHandler
+ .text.hw_timer1_IntHdler
+                0x000049d4       0x3c ./libandesap.a(timer.o)
+                0x000049d4                hw_timer1_IntHdler
+ .text.drvTMR_IntHdler
+                0x00004a10       0x4c ./libandesap.a(timer.o)
+                0x00004a10                drvTMR_IntHdler
+ .text.UART_PutUARTByte
+                0x00004a5c       0x20 ./libandesap.a(uart.o)
+                0x00004a5c                UART_PutUARTByte
+ .text._UART_GetByte
+                0x00004a7c       0x24 ./libandesap.a(uart.o)
+                0x00004a7c                _UART_GetByte
+ .text.UART_RecHandler
+                0x00004aa0       0x38 ./libandesap.a(uart.o)
+                0x00004aa0                UART_RecHandler
+ .text.UART_TrxHandler
+                0x00004ad8       0xbc ./libandesap.a(uart.o)
+                0x00004ad8                UART_TrxHandler
+ .text.UART_LISR
+                0x00004b94       0x48 ./libandesap.a(uart.o)
+                0x00004b94                UART_LISR
+ .text.UART_EnableTX
+                0x00004bdc       0x38 ./libandesap.a(uart.o)
+                0x00004bdc                UART_EnableTX
+ .text.UART_DisableTX
+                0x00004c14       0x3c ./libandesap.a(uart.o)
+                0x00004c14                UART_DisableTX
+ .text.UART_EnableRX
+                0x00004c50       0x38 ./libandesap.a(uart.o)
+                0x00004c50                UART_EnableRX
+ .text.UART_DisableRX
+                0x00004c88       0x3c ./libandesap.a(uart.o)
+                0x00004c88                UART_DisableRX
+ .text.sysXCPT_XcptHdlr
+                0x00004cc4       0x18 ./libandesap.a(xcpt.o)
+                0x00004cc4                sysXCPT_XcptHdlr
+ .text.sysXCPT_ResetXcptHdlr
+                0x00004cdc        0x4 ./libandesap.a(xcpt.o)
+ .text.sysXCPT_TlbFillXcptHdlr
+                0x00004ce0        0x4 ./libandesap.a(xcpt.o)
+ .text.sysXCPT_PteNotPresentXcptHdlr
+                0x00004ce4        0x4 ./libandesap.a(xcpt.o)
+ .text.sysXCPT_TlbMiscXcptHdlr
+                0x00004ce8        0x4 ./libandesap.a(xcpt.o)
+ .text.sysXCPT_TlbVlptMissXcptHdlr
+                0x00004cec        0x4 ./libandesap.a(xcpt.o)
+ .text.sysXCPT_MachineErrXcptHdlr
+                0x00004cf0        0x4 ./libandesap.a(xcpt.o)
+ .text.sysXCPT_DebugRelatedXcptHdlr
+                0x00004cf4        0x4 ./libandesap.a(xcpt.o)
+ .text.sysXCPT_GeneralXcptHdlr
+                0x00004cf8        0x4 ./libandesap.a(xcpt.o)
+ .text.sysXCPT_SysCallXcptHdlr
+                0x00004cfc        0x4 ./libandesap.a(xcpt.o)
+ .text.sysXCPT_Hw0IntrHdlr
+                0x00004d00        0x4 ./libandesap.a(xcpt.o)
+ .text.sysXCPT_Hw1IntrHdlr
+                0x00004d04        0x4 ./libandesap.a(xcpt.o)
+ .text.sysXCPT_Hw2IntrHdlr
+                0x00004d08        0x4 ./libandesap.a(xcpt.o)
+ .text.sysXCPT_Hw3IntrHdlr
+                0x00004d0c        0x4 ./libandesap.a(xcpt.o)
+ .text.sysXCPT_Hw4IntrHdlr
+                0x00004d10        0x4 ./libandesap.a(xcpt.o)
+ .text.sysXCPT_Hw5IntrHdlr
+                0x00004d14        0x4 ./libandesap.a(xcpt.o)
+ .text.sysXCPT_SwIntrHdlr
+                0x00004d18        0x4 ./libandesap.a(xcpt.o)
+ .text.sysKernelStart
+                0x00004d1c       0x18 ./libandesap.a(initial.o)
+                0x00004d1c                sysKernelStart
+ .text.SYSirq_Disable_Interrupts_Save_Flags
+                0x00004d34       0x14 ./libandesap.a(mutex.o)
+                0x00004d34                SYSirq_Disable_Interrupts_Save_Flags
+ .text.SYSirq_Interrupts_Restore_Flags
+                0x00004d48       0x18 ./libandesap.a(mutex.o)
+                0x00004d48                SYSirq_Interrupts_Restore_Flags
+ .text.sysTASK_LowPrioTask
+                0x00004d60       0x3c ./libandesap.a(task.o)
+                0x00004d60                sysTASK_LowPrioTask
+ .text.sysTASK_DeassertSignal
+                0x00004d9c       0x44 ./libandesap.a(task.o)
+                0x00004d9c                sysTASK_DeassertSignal
+ .text.sysTASK_AssertSignal
+                0x00004de0       0x40 ./libandesap.a(task.o)
+                0x00004de0                sysTASK_AssertSignal
+ .text.apiInitListEntry
+                0x00004e20        0x8 ./libandesap.a(list.o)
+                0x00004e20                apiInitListEntry
+ .text.apiInsertListEntry
+                0x00004e28        0xc ./libandesap.a(list.o)
+                0x00004e28                apiInsertListEntry
+ .text.apiInsertTailEntry
+                0x00004e34       0x20 ./libandesap.a(list.o)
+                0x00004e34                apiInsertTailEntry
+ .text.apiRemoveHeadEntry
+                0x00004e54       0x1c ./libandesap.a(list.o)
+                0x00004e54                apiRemoveHeadEntry
+ .text.apiRand  0x00004e70       0x1c ./libandesap.a(random.o)
+                0x00004e70                apiRand
+ .text.do_printf
+                0x00004e8c      0x2e8 ./libandesap.a(do_printf.o)
+                0x00004e8c                do_printf
+ .text.fputc    0x00005174       0x2c ./libandesap.a(fputs.o)
+                0x00005174                fputc
+ .text.putchar  0x000051a0       0x1c ./libandesap.a(fputs.o)
+                0x000051a0                putchar
+ .text.strcmp   0x000051bc       0x20 ./libandesap.a(strcmp.o)
+                0x000051bc                strcmp
+ .text.strncmp  0x000051dc       0x24 ./libandesap.a(strcmp.o)
+                0x000051dc                strncmp
+ .text.strncpy  0x00005200       0x1c ./libandesap.a(strcpy.o)
+                0x00005200                strncpy
+ .text.strlen   0x0000521c       0x10 ./libandesap.a(strlen.o)
+                0x0000521c                strlen
+ .text.__toupper
+                0x0000522c       0x1c ./libandesap.a(vsprintf.o)
+ .text.simple_strtoul
+                0x00005248       0xe4 ./libandesap.a(vsprintf.o)
+                0x00005248                simple_strtoul
+ .text.simple_strtol
+                0x0000532c       0x2c ./libandesap.a(vsprintf.o)
+                0x0000532c                simple_strtol
+ .text.drvMCUCTL_IntrHdlr
+                0x00005358       0xc4 ./libandesap.a(mcuctl.o)
+                0x00005358                drvMCUCTL_IntrHdlr
+ .text.sysDelayxu
+                0x0000541c       0x18 ./libandesap.a(mt7681_ChSw.o)
+ .text.RF_READ  0x00005434       0xb8 ./libandesap.a(mt7681_ChSw.o)
+                0x00005434                RF_READ
+ .text.RF_WRITE
+                0x000054ec       0x84 ./libandesap.a(mt7681_ChSw.o)
+                0x000054ec                RF_WRITE
+ .text.RF_WRITE8
+                0x00005570       0x20 ./libandesap.a(mt7681_ChSw.o)
+                0x00005570                RF_WRITE8
+ .text.BBP_READ
+                0x00005590       0x78 ./libandesap.a(mt7681_ChSw.o)
+                0x00005590                BBP_READ
+ .text.BBP_WRITE
+                0x00005608       0x54 ./libandesap.a(mt7681_ChSw.o)
+                0x00005608                BBP_WRITE
+ .text.cali_period_exec
+                0x0000565c       0x40 ./libandesap.a(mt7681_ChSw.o)
+                0x0000565c                cali_period_exec
+ .text.T.216    0x0000569c       0x58 ./libandesap.a(mt7681_ChSw.o)
+ .text.drvPBF_IntHdler
+                0x000056f4       0x18 ./libandesap.a(wifi_ps.o)
+                0x000056f4                drvPBF_IntHdler
+ .text.iot_get_queue_info
+                0x0000570c        0xc ./libandesap.a(wifi_task.o)
+                0x0000570c                iot_get_queue_info
+ .text.iot_get_fceint_state
+                0x00005718        0xc ./libandesap.a(wifi_task.o)
+                0x00005718                iot_get_fceint_state
+ .text.iot_get_ms_time
+                0x00005724        0xc ./libandesap.a(wifi_task.o)
+                0x00005724                iot_get_ms_time
+ .text.store_phymode
+                0x00005730        0xc ./libandesap.a(wifi_task.o)
+                0x00005730                store_phymode
+ .text.handle_fce_int
+                0x0000573c       0x64 ./libandesap.a(wifi_task.o)
+                0x0000573c                handle_fce_int
+ .text.drvGPIO_IntHdler
+                0x000057a0       0x5c ./libandesap.a(led.o)
+                0x000057a0                drvGPIO_IntHdler
+ .text.T.6      0x000057fc       0x48 ./libandesap.a(led.o)
+                0x00005850                . = ALIGN (0x10)
+                0x00005850                STACK_SECT_VMA = .
+
+.STACK          0x00005850      0xa00
+                0x00005850                PROVIDE (_STACK_START, .)
+ *(.stack)
+ .stack         0x00005850      0xa00 ./libandesap.a(stack.o)
+                0x00005850                sysStack
+                0x00006250                PROVIDE (_STACK_END, .)
+                0x00006250                . = ALIGN (0x10)
+                0x00006250                DATA_SECT_VMA = .
+
+.DATA           0x00006250     0x1398
+ *(.rodata)
+ .rodata        0x00006250        0x8 obj/ap/tcpip/dhcpd.o
+ .rodata        0x00006258       0x10 obj/ap/tcpip/iot_tcp_app.o
+ *(.rodata.*)
+ .rodata.str1.4
+                0x00006268       0x4a obj/ap/ap_pub.o
+                                 0x4c (size before relaxing)
+ *fill*         0x000062b2        0x2 00000000
+ .rodata.str1.4
+                0x000062b4      0x2dc obj/ap/iot_aes_pub.o
+ .rodata.str1.4
+                0x00006590      0x117 obj/ap/iot_at_cmd.o
+                                0x11c (size before relaxing)
+ *fill*         0x000066a7        0x1 00000000
+ .rodata.str1.4
+                0x000066a8        0x7 obj/ap/iot_at_cmd_utility.o
+                                  0x8 (size before relaxing)
+ *fill*         0x000066af        0x1 00000000
+ .rodata.str1.4
+                0x000066b0       0x95 obj/ap/iot_custom.o
+                                 0x98 (size before relaxing)
+ *fill*         0x00006745        0x3 00000000
+ .rodata.str1.4
+                0x00006748       0x23 obj/ap/iot_uart_rb.o
+                                 0x24 (size before relaxing)
+ *fill*         0x0000676b        0x1 00000000
+ .rodata.cst4   0x0000676c        0x4 obj/ap/iot_uart_rb.o
+ .rodata.__FUNCTION__.2970
+                0x00006770       0x10 obj/ap/iot_uart_rb.o
+ .rodata.str1.4
+                0x00006780        0xf obj/ap/iot_uplink.o
+                                 0x10 (size before relaxing)
+ *fill*         0x0000678f        0x1 00000000
+ .rodata.__FUNCTION__.3294
+                0x00006790       0x18 obj/ap/iot_uplink.o
+ .rodata.str1.4
+                0x000067a8       0x8b obj/ap/rtmp_data_pub.o
+                                 0x8c (size before relaxing)
+ *fill*         0x00006833        0x1 00000000
+ .rodata.__FUNCTION__.3381
+                0x00006834       0x14 obj/ap/rtmp_data_pub.o
+ .rodata.str1.4
+                0x00006848       0xc3 obj/ap/tcpip/cloudclient.o
+                                 0xc4 (size before relaxing)
+ *fill*         0x0000690b        0x1 00000000
+ .rodata.cst4   0x0000690c        0x4 obj/ap/tcpip/cloudclient.o
+ .rodata.str1.4
+                0x00006910       0x14 obj/ap/tcpip/dhcpc.o
+ .rodata.xid    0x00006924        0x4 obj/ap/tcpip/dhcpc.o
+ .rodata.magic_cookie
+                0x00006928        0x4 obj/ap/tcpip/dhcpc.o
+ .rodata.str1.4
+                0x0000692c       0x75 obj/ap/tcpip/dhcpd.o
+                                 0x78 (size before relaxing)
+ *fill*         0x000069a1        0x3 00000000
+ .rodata.str1.4
+                0x000069a4       0x5c obj/ap/tcpip/iot_tcp_app.o
+                                 0x68 (size before relaxing)
+ .rodata.str1.4
+                0x00006a00       0x16 obj/ap/tcpip/sample_udp_server.o
+                                 0x24 (size before relaxing)
+ *fill*         0x00006a16        0x2 00000000
+ .rodata.str1.4
+                0x00006a18       0x30 obj/ap/tcpip/tcpip_main.o
+ .rodata.uip_hostaddr
+                0x00006a48        0x4 obj/ap/tcpip/uip.o
+                0x00006a48                uip_hostaddr
+ .rodata.uip_netmask
+                0x00006a4c        0x4 obj/ap/tcpip/uip.o
+                0x00006a4c                uip_netmask
+ .rodata.broadcast_ethaddr
+                0x00006a50        0x8 obj/ap/tcpip/uip_arp.o
+ .rodata.http_http
+                0x00006a58        0x8 obj/ap/tcpip/webclient-strings.o
+                0x00006a58                http_http
+ .rodata.http_200
+                0x00006a60        0x8 obj/ap/tcpip/webclient-strings.o
+                0x00006a60                http_200
+ .rodata.http_301
+                0x00006a68        0x8 obj/ap/tcpip/webclient-strings.o
+                0x00006a68                http_301
+ .rodata.http_302
+                0x00006a70        0x8 obj/ap/tcpip/webclient-strings.o
+                0x00006a70                http_302
+ .rodata.http_get
+                0x00006a78        0x8 obj/ap/tcpip/webclient-strings.o
+                0x00006a78                http_get
+ .rodata.http_10
+                0x00006a80        0xc obj/ap/tcpip/webclient-strings.o
+                0x00006a80                http_10
+ .rodata.http_11
+                0x00006a8c        0xc obj/ap/tcpip/webclient-strings.o
+                0x00006a8c                http_11
+ .rodata.http_content_type
+                0x00006a98       0x10 obj/ap/tcpip/webclient-strings.o
+                0x00006a98                http_content_type
+ .rodata.http_location
+                0x00006aa8        0xc obj/ap/tcpip/webclient-strings.o
+                0x00006aa8                http_location
+ .rodata.http_host
+                0x00006ab4        0x8 obj/ap/tcpip/webclient-strings.o
+                0x00006ab4                http_host
+ .rodata.http_crnl
+                0x00006abc        0x4 obj/ap/tcpip/webclient-strings.o
+                0x00006abc                http_crnl
+ .rodata.http_user_agent_fields
+                0x00006ac0       0x50 obj/ap/tcpip/webclient-strings.o
+                0x00006ac0                http_user_agent_fields
+ .rodata.str1.4
+                0x00006b10       0x1a obj/ap/tcpip/webclient.o
+                                 0x1c (size before relaxing)
+ *fill*         0x00006b2a        0x2 00000000
+ .rodata.str1.4
+                0x00006b2c        0xc obj/ap/wifi_task_pub.o
+ .rodata.str1.4
+                0x00006b38       0x2b ./libandesap.a(xip_ovly.o)
+                                 0x2c (size before relaxing)
+ *fill*         0x00006b63        0x1 00000000
+ .rodata.str1.4
+                0x00006b64       0x84 ./libandesap.a(ap.o)
+ .rodata.str1.4
+                0x00006be8       0x69 ./libandesap.a(ap_assoc.o)
+                                 0x6c (size before relaxing)
+ *fill*         0x00006c51        0x3 00000000
+ .rodata.__FUNCTION__.4848
+                0x00006c54       0x18 ./libandesap.a(ap_assoc.o)
+ .rodata.__FUNCTION__.4727
+                0x00006c6c       0x18 ./libandesap.a(ap_assoc.o)
+ .rodata.C.13.4665
+                0x00006c84        0x8 ./libandesap.a(ap_assoc.o)
+ .rodata.C.11.4624
+                0x00006c8c        0x4 ./libandesap.a(ap_assoc.o)
+ .rodata.C.10.4623
+                0x00006c90        0x4 ./libandesap.a(ap_assoc.o)
+ .rodata.str1.4
+                0x00000000       0x28 ./libandesap.a(ap_auth.o)
+ .rodata.__FUNCTION__.4409
+                0x00006c94       0x18 ./libandesap.a(ap_auth.o)
+ .rodata.__FUNCTION__.4346
+                0x00006cac       0x14 ./libandesap.a(ap_auth.o)
+ .rodata.str1.4
+                0x00006cc0       0x48 ./libandesap.a(mgmt_entrytb.o)
+ .rodata.__FUNCTION__.4493
+                0x00006d08       0x10 ./libandesap.a(mgmt_entrytb.o)
+ .rodata.__FUNCTION__.4387
+                0x00006d18       0x14 ./libandesap.a(mgmt_entrytb.o)
+ .rodata.__FUNCTION__.4355
+                0x00006d2c       0x14 ./libandesap.a(mgmt_entrytb.o)
+ .rodata.__FUNCTION__.4316
+                0x00006d40       0x10 ./libandesap.a(mgmt_entrytb.o)
+ .rodata.C.2.5992
+                0x00006d50       0x10 ./libandesap.a(app_nos_main.o)
+ .rodata.str1.4
+                0x00006d60       0x57 ./libandesap.a(chip_init.o)
+                                 0x5c (size before relaxing)
+ *fill*         0x00006db7        0x1 00000000
+ .rodata.str1.4
+                0x00006db8      0x252 ./libandesap.a(cmm_wpa.o)
+                                0x264 (size before relaxing)
+ *fill*         0x0000700a        0x2 00000000
+ .rodata.cst4   0x0000700c        0x8 ./libandesap.a(cmm_wpa.o)
+ .rodata.__FUNCTION__.5101
+                0x00007014       0x14 ./libandesap.a(cmm_wpa.o)
+ .rodata.__FUNCTION__.5066
+                0x00007028       0x14 ./libandesap.a(cmm_wpa.o)
+ .rodata.__FUNCTION__.4982
+                0x0000703c       0x14 ./libandesap.a(cmm_wpa.o)
+ .rodata.__FUNCTION__.4827
+                0x00007050       0x10 ./libandesap.a(cmm_wpa.o)
+ .rodata.C.22.4807
+                0x00007060        0xc ./libandesap.a(cmm_wpa.o)
+ .rodata.C.21.4749
+                0x0000706c       0x18 ./libandesap.a(cmm_wpa.o)
+ .rodata.cst4   0x00007084        0x4 ./libandesap.a(crypt_aes.o)
+                                  0x8 (size before relaxing)
+ .rodata.aes_mul_2
+                0x00007088      0x100 ./libandesap.a(crypt_aes.o)
+ .rodata.aes_mul_3
+                0x00007188      0x100 ./libandesap.a(crypt_aes.o)
+ .rodata.str1.4
+                0x00007288        0x5 ./libandesap.a(bsp.o)
+                                  0x8 (size before relaxing)
+ *fill*         0x0000728d        0x3 00000000
+ .rodata.str1.4
+                0x00007290       0x38 ./libandesap.a(ee_efuse.o)
+ .rodata.MT7681_Frequency_Plan
+                0x000072c8       0x48 ./libandesap.a(mt7681_ChSw.o)
+                0x00007310                . = ALIGN (0x10)
+ *(.data)
+ *(.data.*)
+ .data.optind   0x00007310        0x2 obj/ap/iot_at_cmd_utility.o
+                0x00007310                optind
+ .data.opterr   0x00007312        0x1 obj/ap/iot_at_cmd_utility.o
+                0x00007312                opterr
+ .data.PRINT_FLAG
+                0x00007313        0x1 obj/ap/iot_custom.o
+                0x00007313                PRINT_FLAG
+ .data.Com_Cfg  0x00007314       0x2c obj/ap/iot_custom.o
+                0x00007314                Com_Cfg
+ .data.Usr_Cfg  0x00007340       0x60 obj/ap/iot_custom.o
+                0x00007340                Usr_Cfg
+ .data.IoT_CmdPWD_Recv
+                0x000073a0        0x4 obj/ap/iot_parse.o
+                0x000073a0                IoT_CmdPWD_Recv
+ .data.ATCmdPrefixAT
+                0x000073a4        0x4 obj/ap/iot_uart_rb.o
+                0x000073a4                ATCmdPrefixAT
+ .data.ATCmdPrefixIW
+                0x000073a8        0xc obj/ap/iot_uart_rb.o
+                0x000073a8                ATCmdPrefixIW
+ .data.SNAP_802_1H
+                0x000073b4        0x8 obj/ap/iot_uplink.o
+                0x000073b4                SNAP_802_1H
+ .data.SNAP_BRIDGE_TUNNEL
+                0x000073bc        0x8 obj/ap/iot_uplink.o
+                0x000073bc                SNAP_BRIDGE_TUNNEL
+ .data.EAPOL    0x000073c4        0x4 obj/ap/iot_uplink.o
+                0x000073c4                EAPOL
+ .data.IPv4     0x000073c8        0x4 obj/ap/iot_uplink.o
+                0x000073c8                IPv4
+ .data.HWID     0x000073cc       0x10 obj/ap/tcpip/cloudclient.o
+                0x000073cc                HWID
+ .data.AES_CBC_IV
+                0x000073dc       0x10 obj/ap/tcpip/cloudclient.o
+                0x000073dc                AES_CBC_IV
+ .data.keepAlivePeriod
+                0x000073ec        0x2 obj/ap/tcpip/cloudclient.o
+                0x000073ec                keepAlivePeriod
+ .data.gpioUpdatePeriod
+                0x000073ee        0x2 obj/ap/tcpip/cloudclient.o
+                0x000073ee                gpioUpdatePeriod
+ .data.gpioUpdateTimeCnt
+                0x000073f0        0x2 obj/ap/tcpip/cloudclient.o
+                0x000073f0                gpioUpdateTimeCnt
+ *fill*         0x000073f2        0x2 00000000
+ .data.FOTA_updateOk
+                0x000073f4        0x4 obj/ap/tcpip/cloudclient.o
+                0x000073f4                FOTA_updateOk
+ .data.hostname
+                0x000073f8        0x8 obj/ap/tcpip/dhcpc.o
+ .data.uip_softap_ipaddr
+                0x00007400        0x4 obj/ap/tcpip/dhcpd.o
+ .data.uip_softap_netmask
+                0x00007404        0x4 obj/ap/tcpip/dhcpd.o
+ .data.cli_fd   0x00007408        0x4 obj/ap/tcpip/tcpip_main.o
+                0x00007408                cli_fd
+ .data.clk      0x0000740c        0x4 obj/ap/tcpip/tcpip_main.o
+ .data.uip_ethaddr
+                0x00007410        0x8 obj/ap/tcpip/uip.o
+                0x00007410                uip_ethaddr
+ .data.gCurrentAddress
+                0x00007418        0x8 obj/ap/wifi_task_pub.o
+                0x00007418                gCurrentAddress
+ .data.BCAST_ADDR
+                0x00007420        0x8 obj/ap/wifi_task_pub.o
+                0x00007420                BCAST_ADDR
+ .data.NUM_BIT8
+                0x00007428        0x8 ./libandesap.a(ap.o)
+                0x00007428                NUM_BIT8
+ .data.OfdmRateToRxwiMCS
+                0x00007430        0xc ./libandesap.a(mgmt_entrytb.o)
+                0x00007430                OfdmRateToRxwiMCS
+ .data.OUI_WPA_NONE_AKM
+                0x0000743c        0x4 ./libandesap.a(cmm_wpa.o)
+                0x0000743c                OUI_WPA_NONE_AKM
+ .data.OUI_WPA_VERSION
+                0x00007440        0x4 ./libandesap.a(cmm_wpa.o)
+                0x00007440                OUI_WPA_VERSION
+ .data.OUI_WPA_TKIP
+                0x00007444        0x4 ./libandesap.a(cmm_wpa.o)
+                0x00007444                OUI_WPA_TKIP
+ .data.OUI_WPA_CCMP
+                0x00007448        0x4 ./libandesap.a(cmm_wpa.o)
+                0x00007448                OUI_WPA_CCMP
+ .data.OUI_WPA_8021X_AKM
+                0x0000744c        0x4 ./libandesap.a(cmm_wpa.o)
+                0x0000744c                OUI_WPA_8021X_AKM
+ .data.OUI_WPA_PSK_AKM
+                0x00007450        0x4 ./libandesap.a(cmm_wpa.o)
+                0x00007450                OUI_WPA_PSK_AKM
+ .data.OUI_WPA2
+                0x00007454        0x4 ./libandesap.a(cmm_wpa.o)
+                0x00007454                OUI_WPA2
+ .data.OUI_WPA2_TKIP
+                0x00007458        0x4 ./libandesap.a(cmm_wpa.o)
+                0x00007458                OUI_WPA2_TKIP
+ .data.OUI_WPA2_CCMP
+                0x0000745c        0x4 ./libandesap.a(cmm_wpa.o)
+                0x0000745c                OUI_WPA2_CCMP
+ .data.OUI_WPA2_8021X_AKM
+                0x00007460        0x4 ./libandesap.a(cmm_wpa.o)
+                0x00007460                OUI_WPA2_8021X_AKM
+ .data.OUI_WPA2_PSK_AKM
+                0x00007464        0x4 ./libandesap.a(cmm_wpa.o)
+                0x00007464                OUI_WPA2_PSK_AKM
+ .data.Default_IV
+                0x00007468        0x8 ./libandesap.a(crypt_aes.o)
+ .data.g_tx_pkt_id
+                0x00007470        0x1 ./libandesap.a(rtmp_data.o)
+                0x00007470                g_tx_pkt_id
+ *fill*         0x00007471        0x3 00000000
+ .data.Full_ChannelList
+                0x00007474       0x28 ./libandesap.a(scan.o)
+                0x00007474                Full_ChannelList
+ .data.WPS_OUI  0x0000749c        0x4 ./libandesap.a(scan.o)
+                0x0000749c                WPS_OUI
+ .data.sysXcptVctr
+                0x000074a0       0x40 ./libandesap.a(xcpt.o)
+ .data.Random   0x000074e0        0x4 ./libandesap.a(random.o)
+ .data.ExtRateIe
+                0x000074e4        0x1 ./libandesap.a(mt7681_ChSw.o)
+                0x000074e4                ExtRateIe
+ .data.Wpa2Ie   0x000074e5        0x1 ./libandesap.a(mt7681_ChSw.o)
+                0x000074e5                Wpa2Ie
+ *fill*         0x000074e6        0x2 00000000
+ .data._ctype   0x000074e8      0x100 ./libandesap.a(ctype.o)
+                0x000074e8                _ctype
+                0x000075e8                . = ALIGN (0x4)
+
+FW_VERSION_TAG  0x000075e8        0xc
+ *(FW_VERSION_TAG)
+ FW_VERSION_TAG
+                0x000075e8        0xc ./libandesap.a(bsp.o)
+                0x000075e8                gVersionTag
+                0x000075f4                __tag_end = .
+
+.ovlysec0       0x000075f4      0xf80 load address 0x0056f000
+ .ovlysec0      0x000075f4      0xf80 obj/ap/tcpip/uip.o
+                0x000075f4                _uip_process
+                0x0056f000                PROVIDE (__load_start_ovlysec0, LOADADDR (.ovlysec0))
+                0x0056ff80                PROVIDE (__load_stop_ovlysec0, (LOADADDR (.ovlysec0) + SIZEOF (.ovlysec0)))
+
+.ovlysec1       0x000075f4        0x0 load address 0x0056ff80
+                0x0056ff80                PROVIDE (__load_start_ovlysec1, LOADADDR (.ovlysec1))
+                0x0056ff80                PROVIDE (__load_stop_ovlysec1, (LOADADDR (.ovlysec1) + SIZEOF (.ovlysec1)))
+
+.ovlysec2       0x000075f4      0x81c load address 0x0056ff80
+ .ovlysec2      0x000075f4      0x81c ./libandesap.a(chip_init.o)
+                0x000075f4                MACRegTable
+                0x00007d5c                MT7681_RF_VGA_RegTb
+                0x00007724                MT7681_MACRegTable
+                0x00007ca8                MT7681_RF_Channel_RegTb
+                0x00007c24                MT7681_RF_Central_RegTb
+                0x00007774                MT7681_BBP_InitRegTb
+                0x00007754                BBPRegTable
+                0x0056ff80                PROVIDE (__load_start_ovlysec2, LOADADDR (.ovlysec2))
+                0x0057079c                PROVIDE (__load_stop_ovlysec2, (LOADADDR (.ovlysec2) + SIZEOF (.ovlysec2)))
+
+.ovlysec3       0x000075f4        0x0 load address 0x0057079c
+                0x0057079c                PROVIDE (__load_start_ovlysec3, LOADADDR (.ovlysec3))
+                0x0057079c                PROVIDE (__load_stop_ovlysec3, (LOADADDR (.ovlysec3) + SIZEOF (.ovlysec3)))
+
+.ovlysec4       0x000075f4        0x0 load address 0x0057079c
+                0x0057079c                PROVIDE (__load_start_ovlysec4, LOADADDR (.ovlysec4))
+                0x0057079c                PROVIDE (__load_stop_ovlysec4, (LOADADDR (.ovlysec4) + SIZEOF (.ovlysec4)))
+
+.ovlysec5       0x000075f4        0x0 load address 0x0057079c
+                0x0057079c                PROVIDE (__load_start_ovlysec5, LOADADDR (.ovlysec5))
+                0x0057079c                PROVIDE (__load_stop_ovlysec5, (LOADADDR (.ovlysec5) + SIZEOF (.ovlysec5)))
+
+.ovlysec6       0x000075f4        0x0 load address 0x0057079c
+                0x0057079c                PROVIDE (__load_start_ovlysec6, LOADADDR (.ovlysec6))
+                0x0057079c                PROVIDE (__load_stop_ovlysec6, (LOADADDR (.ovlysec6) + SIZEOF (.ovlysec6)))
+
+.ovlysec7       0x000075f4      0xd5c load address 0x0057079c
+ .ovlysec7      0x000075f4      0xd5c ./libandesap.a(cmm_wpa.o)
+                0x00007618                _CalculateMIC
+                0x000079c8                _ConstructEapolMsg
+                0x00008038                _PeerPairMsg4Action
+                0x000076ec                _WpaDeriveGTK
+                0x00007bf8                _WpaDerivePTK
+                0x00007d88                _PeerWpaMessageSanity
+                0x000080ec                _PeerPairMsg2Action
+                0x000075f4                _RTMPParseEapolKeyData
+                0x000077d8                _ConstructEapolKeyData
+                0x0057079c                PROVIDE (__load_start_ovlysec7, LOADADDR (.ovlysec7))
+                0x005714f8                PROVIDE (__load_stop_ovlysec7, (LOADADDR (.ovlysec7) + SIZEOF (.ovlysec7)))
+
+.ovlysec8       0x00008574        0x0 load address 0x005714f8
+                0x005714f8                PROVIDE (__load_start_ovlysec8, LOADADDR (.ovlysec8))
+                0x005714f8                PROVIDE (__load_stop_ovlysec8, (LOADADDR (.ovlysec8) + SIZEOF (.ovlysec8)))
+
+.ovlysec9       0x00008574       0xb4 load address 0x005714f8
+ .ovlysec9      0x00008574       0xb4 obj/ap/tcpip/tcpip_main.o
+                0x00008574                _tcpip_init
+                0x005714f8                PROVIDE (__load_start_ovlysec9, LOADADDR (.ovlysec9))
+                0x005715ac                PROVIDE (__load_stop_ovlysec9, (LOADADDR (.ovlysec9) + SIZEOF (.ovlysec9)))
+
+.ovlysec10      0x00008574      0x1fc load address 0x005715ac
+ .ovlysec10     0x00008574      0x1fc obj/ap/tcpip/dhcpc.o
+                0x00008574                _handle_dhcp
+                0x005715ac                PROVIDE (__load_start_ovlysec10, LOADADDR (.ovlysec10))
+                0x005717a8                PROVIDE (__load_stop_ovlysec10, (LOADADDR (.ovlysec10) + SIZEOF (.ovlysec10)))
+
+.ovlysec11      0x00008574      0x19c load address 0x005717a8
+ .ovlysec11     0x00008574      0x19c ./libandesap.a(chip_init.o)
+                0x000085e4                wait_bbp_rf_wakeup
+                0x00008620                NICInitMT7681BbpRegisters
+                0x00008684                NICInitMT7681RFRegisters
+                0x00008574                NICInitMT7681MacRegisters
+                0x005717a8                PROVIDE (__load_start_ovlysec11, LOADADDR (.ovlysec11))
+                0x00571944                PROVIDE (__load_stop_ovlysec11, (LOADADDR (.ovlysec11) + SIZEOF (.ovlysec11)))
+                0x00008770                . = ALIGN (0x4)
+
+.nds32.ovly.tbl
+                0x00008770       0xe4
+                0x00008770                _ovly_table = .
+                0x00008770        0x4 LONG 0x75f4 ABSOLUTE (ADDR (.ovlysec0))
+                0x00008774        0x4 LONG 0xf80 SIZEOF (.ovlysec0)
+                0x00008778        0x4 LONG 0x56f000 ABSOLUTE (LOADADDR (.ovlysec0))
+                0x0000877c        0x4 LONG 0x0
+                0x00008780        0x4 LONG 0x75f4 ABSOLUTE (ADDR (.ovlysec1))
+                0x00008784        0x4 LONG 0x0 SIZEOF (.ovlysec1)
+                0x00008788        0x4 LONG 0x56ff80 ABSOLUTE (LOADADDR (.ovlysec1))
+                0x0000878c        0x4 LONG 0x0
+                0x00008790        0x4 LONG 0x75f4 ABSOLUTE (ADDR (.ovlysec2))
+                0x00008794        0x4 LONG 0x81c SIZEOF (.ovlysec2)
+                0x00008798        0x4 LONG 0x56ff80 ABSOLUTE (LOADADDR (.ovlysec2))
+                0x0000879c        0x4 LONG 0x0
+                0x000087a0        0x4 LONG 0x75f4 ABSOLUTE (ADDR (.ovlysec3))
+                0x000087a4        0x4 LONG 0x0 SIZEOF (.ovlysec3)
+                0x000087a8        0x4 LONG 0x57079c ABSOLUTE (LOADADDR (.ovlysec3))
+                0x000087ac        0x4 LONG 0x0
+                0x000087b0        0x4 LONG 0x75f4 ABSOLUTE (ADDR (.ovlysec4))
+                0x000087b4        0x4 LONG 0x0 SIZEOF (.ovlysec4)
+                0x000087b8        0x4 LONG 0x57079c ABSOLUTE (LOADADDR (.ovlysec4))
+                0x000087bc        0x4 LONG 0x0
+                0x000087c0        0x4 LONG 0x75f4 ABSOLUTE (ADDR (.ovlysec5))
+                0x000087c4        0x4 LONG 0x0 SIZEOF (.ovlysec5)
+                0x000087c8        0x4 LONG 0x57079c ABSOLUTE (LOADADDR (.ovlysec5))
+                0x000087cc        0x4 LONG 0x0
+                0x000087d0        0x4 LONG 0x75f4 ABSOLUTE (ADDR (.ovlysec6))
+                0x000087d4        0x4 LONG 0x0 SIZEOF (.ovlysec6)
+                0x000087d8        0x4 LONG 0x57079c ABSOLUTE (LOADADDR (.ovlysec6))
+                0x000087dc        0x4 LONG 0x0
+                0x000087e0        0x4 LONG 0x75f4 ABSOLUTE (ADDR (.ovlysec7))
+                0x000087e4        0x4 LONG 0xd5c SIZEOF (.ovlysec7)
+                0x000087e8        0x4 LONG 0x57079c ABSOLUTE (LOADADDR (.ovlysec7))
+                0x000087ec        0x4 LONG 0x0
+                0x000087f0        0x4 LONG 0x8574 ABSOLUTE (ADDR (.ovlysec8))
+                0x000087f4        0x4 LONG 0x0 SIZEOF (.ovlysec8)
+                0x000087f8        0x4 LONG 0x5714f8 ABSOLUTE (LOADADDR (.ovlysec8))
+                0x000087fc        0x4 LONG 0x1
+                0x00008800        0x4 LONG 0x8574 ABSOLUTE (ADDR (.ovlysec9))
+                0x00008804        0x4 LONG 0xb4 SIZEOF (.ovlysec9)
+                0x00008808        0x4 LONG 0x5714f8 ABSOLUTE (LOADADDR (.ovlysec9))
+                0x0000880c        0x4 LONG 0x1
+                0x00008810        0x4 LONG 0x8574 ABSOLUTE (ADDR (.ovlysec10))
+                0x00008814        0x4 LONG 0x1fc SIZEOF (.ovlysec10)
+                0x00008818        0x4 LONG 0x5715ac ABSOLUTE (LOADADDR (.ovlysec10))
+                0x0000881c        0x4 LONG 0x1
+                0x00008820        0x4 LONG 0x8574 ABSOLUTE (ADDR (.ovlysec11))
+                0x00008824        0x4 LONG 0x19c SIZEOF (.ovlysec11)
+                0x00008828        0x4 LONG 0x5717a8 ABSOLUTE (LOADADDR (.ovlysec11))
+                0x0000882c        0x4 LONG 0x1
+                0x00008830                _novlys = .
+                0x00008830        0x4 LONG 0xc ((_novlys - _ovly_table) / 0x10)
+                0x00008838                . = ALIGN (0x8)
+ *fill*         0x00008834        0x4 00
+                0x00008838                _ovly_ram_table = .
+                0x00008838        0x4 LONG 0x0
+                0x0000883c        0x4 LONG 0xffffffff
+                0x00008840        0x4 LONG 0x0
+                0x00008844        0x4 LONG 0x1
+                0x00008848        0x4 LONG 0xffffffff
+                0x0000884c        0x4 LONG 0x0
+                0x00008850                _novlyr = .
+                0x00008850        0x4 LONG 0x2 ((_novlyr - _ovly_ram_table) / 0xc)
+                0x00008860                . = ALIGN (0x10)
+                0x00008860                BSS_SECT_VMA = .
+
+.BSS            0x00008860     0x4f18
+                0x00008860                PROVIDE (_BSS_START, .)
+ *(.sbss)
+ *(.sbss.*)
+ *(.scommon)
+ *(.scommon.*)
+ *(.sbss_w)
+ .sbss_w        0x00008860        0x4 obj/ap/main_pub.o
+                0x00008860                __OS_Heap_Start
+ .sbss_w        0x00008864       0x14 obj/ap/tcpip/uip.o
+                0x00008874                uip_sappdata
+                0x00008864                uip_udp_conn
+                0x00008868                uip_appdata
+                0x00008870                uip_conn
+                0x0000886c                uip_urgdata
+ .sbss_w        0x00008878        0x8 obj/ap/wifi_task_pub.o
+                0x00008878                pIoTMlme
+                0x0000887c                pIoTApCfg
+ *(.sbss_w.*)
+ *(.sbss_h)
+ .sbss_h        0x00008880        0xa obj/ap/tcpip/uip.o
+                0x00008880                uip_len
+                0x00008888                ipid
+                0x00008884                uip_surglen
+                0x00008882                uip_urglen
+                0x00008886                uip_slen
+ .sbss_h        0x0000888a        0x4 obj/ap/tcpip/webclient.o
+                0x0000888c                http_cloudClientPort
+                0x0000888a                http_clientPort
+ *(.sbss_h.*)
+ *(.sbss_b)
+ .sbss_b        0x0000888e        0x1 obj/ap/tcpip/uip.o
+                0x0000888e                uip_flags
+ *(.sbss_b.*)
+                0x00008890                . = ALIGN (0x10)
+ *fill*         0x0000888f        0x1 00000000
+ *(.bss)
+ *(.bss.*)
+ .bss.optarg    0x00008890        0x4 obj/ap/iot_at_cmd_utility.o
+                0x00008890                optarg
+ .bss.pIndexPosition.1152
+                0x00008894        0x4 obj/ap/iot_at_cmd_utility.o
+ .bss.UART_TX_POLL_ENABLE
+                0x00008898        0x1 obj/ap/iot_custom.o
+                0x00008898                UART_TX_POLL_ENABLE
+ .bss.gCaliFrEfuse
+                0x00008899        0x1 obj/ap/iot_custom.o
+                0x00008899                gCaliFrEfuse
+ .bss.preSeq    0x0000889a        0x2 obj/ap/iot_parse.o
+                0x0000889a                preSeq
+ .bss.appLen    0x0000889c        0x2 obj/ap/iot_parse.o
+                0x0000889c                appLen
+ *fill*         0x0000889e        0x2 00000000
+ .bss.mt7681_HardwareStatus
+                0x000088a0        0x8 obj/ap/iot_parse.o
+                0x000088a0                mt7681_HardwareStatus
+ .bss.IWMatchNum.3072
+                0x000088a8        0x1 obj/ap/iot_uart_rb.o
+ .bss.ATMatchNum.3071
+                0x000088a9        0x1 obj/ap/iot_uart_rb.o
+ *fill*         0x000088aa        0x2 00000000
+ .bss.gCPULowClok
+                0x000088ac        0x4 obj/ap/misc_pub.o
+                0x000088ac                gCPULowClok
+ .bss.productID
+                0x000088b0       0x10 obj/ap/tcpip/cloudclient.o
+                0x000088b0                productID
+ .bss.productKey
+                0x000088c0       0x10 obj/ap/tcpip/cloudclient.o
+                0x000088c0                productKey
+ .bss.FOTA_AES_CBC_IV
+                0x000088d0       0x10 obj/ap/tcpip/cloudclient.o
+                0x000088d0                FOTA_AES_CBC_IV
+ .bss.mt76xx_cloudClientState
+                0x000088e0        0x2 obj/ap/tcpip/cloudclient.o
+                0x000088e0                mt76xx_cloudClientState
+ .bss.TCP_cloudClientPort
+                0x000088e2        0x2 obj/ap/tcpip/cloudclient.o
+                0x000088e2                TCP_cloudClientPort
+ .bss.keepAliveTimeCnt
+                0x000088e4        0x2 obj/ap/tcpip/cloudclient.o
+                0x000088e4                keepAliveTimeCnt
+ .bss.keepAliveResTimeOut
+                0x000088e6        0x2 obj/ap/tcpip/cloudclient.o
+                0x000088e6                keepAliveResTimeOut
+ .bss.keepAliveRepeatCnt
+                0x000088e8        0x2 obj/ap/tcpip/cloudclient.o
+                0x000088e8                keepAliveRepeatCnt
+ .bss.TcpConnectTimeCnt
+                0x000088ea        0x2 obj/ap/tcpip/cloudclient.o
+                0x000088ea                TcpConnectTimeCnt
+ .bss.FOTAUpdateTimeCnt
+                0x000088ec        0x2 obj/ap/tcpip/cloudclient.o
+                0x000088ec                FOTAUpdateTimeCnt
+ *fill*         0x000088ee        0x2 00000000
+ .bss.encryptBuf
+                0x000088f0       0x80 obj/ap/tcpip/cloudclient.o
+                0x000088f0                encryptBuf
+ .bss.addr.3310
+                0x00008970        0x4 obj/ap/tcpip/cloudclient.o
+ .bss.lease_time_flag
+                0x00008974        0x4 obj/ap/tcpip/dhcpc.o
+ .bss.s         0x00008978       0x3c obj/ap/tcpip/dhcpc.o
+ .bss.i.3059    0x000089b4        0x1 obj/ap/tcpip/resolv.o
+ .bss.lseqi.3030
+                0x000089b5        0x1 obj/ap/tcpip/resolv.o
+ .bss.lseq.3029
+                0x000089b6        0x1 obj/ap/tcpip/resolv.o
+ .bss.i.3028    0x000089b7        0x1 obj/ap/tcpip/resolv.o
+ .bss.names     0x000089b8       0x2c obj/ap/tcpip/resolv.o
+ .bss.seqno     0x000089e4        0x1 obj/ap/tcpip/resolv.o
+ *fill*         0x000089e5        0x3 00000000
+ .bss.iss       0x000089e8        0x4 obj/ap/tcpip/uip.o
+ .bss.lastport  0x000089ec        0x2 obj/ap/tcpip/uip.o
+ .bss.c         0x000089ee        0x1 obj/ap/tcpip/uip.o
+ .bss.opt       0x000089ef        0x1 obj/ap/tcpip/uip.o
+ .bss.tmp16     0x000089f0        0x2 obj/ap/tcpip/uip.o
+ *fill*         0x000089f2        0x2 00000000
+ .bss.arp_table
+                0x000089f4       0x60 obj/ap/tcpip/uip_arp.o
+ .bss.ipaddr    0x00008a54        0x4 obj/ap/tcpip/uip_arp.o
+ .bss.i         0x00008a58        0x1 obj/ap/tcpip/uip_arp.o
+ .bss.c         0x00008a59        0x1 obj/ap/tcpip/uip_arp.o
+ .bss.arptime   0x00008a5a        0x1 obj/ap/tcpip/uip_arp.o
+ .bss.tmpage    0x00008a5b        0x1 obj/ap/tcpip/uip_arp.o
+ .bss.i.3135    0x00008a5c        0x1 obj/ap/tcpip/webclient.o
+ .bss.c.3115    0x00008a5d        0x1 obj/ap/tcpip/webclient.o
+ *fill*         0x00008a5e        0x2 00000000
+ .bss.addr.2992
+                0x00008a60        0x4 obj/ap/tcpip/webclient.o
+ .bss.s         0x00008a64      0x1bc obj/ap/tcpip/webclient.o
+ .bss.PreTime.3181
+                0x00008c20        0x4 obj/ap/wifi_task_pub.o
+ .bss.cnt.4435  0x00008c24        0x4 ./libandesap.a(mgmt_entrytb.o)
+ .bss.PreTime.4434
+                0x00008c28        0x4 ./libandesap.a(mgmt_entrytb.o)
+ .bss.BufMem1   0x00008c2c     0x18d8 ./libandesap.a(queue.o)
+ .bss.BufMem2   0x0000a504      0x848 ./libandesap.a(queue.o)
+ .bss.BufDesc1  0x0000ad4c       0x90 ./libandesap.a(queue.o)
+ .bss.BufDesc2  0x0000addc       0x30 ./libandesap.a(queue.o)
+ .bss.gSequence
+                0x0000ae0c        0x2 ./libandesap.a(rtmp_data.o)
+                0x0000ae0c                gSequence
+ .bss.MgtFrameSeq
+                0x0000ae0e        0x1 ./libandesap.a(rtmp_general.o)
+                0x0000ae0e                MgtFrameSeq
+ *fill*         0x0000ae0f        0x1 00000000
+ .bss.FceIntHdlr
+                0x0000ae10       0x80 ./libandesap.a(fce.o)
+ .bss.jiffies   0x0000ae90        0x4 ./libandesap.a(timer.o)
+                0x0000ae90                jiffies
+ .bss.Timers_List
+                0x0000ae94        0x4 ./libandesap.a(timer.o)
+                0x0000ae94                Timers_List
+ .bss.Timer_Start
+                0x0000ae98        0x4 ./libandesap.a(timer.o)
+                0x0000ae98                Timer_Start
+ .bss.last_start_time
+                0x0000ae9c        0x4 ./libandesap.a(timer.o)
+                0x0000ae9c                last_start_time
+ .bss.McuCtlIntHdlr
+                0x0000aea0       0x80 ./libandesap.a(mcuctl.o)
+ .bss.PreTime.6120
+                0x0000af20        0x4 ./libandesap.a(mt7681_ChSw.o)
+ .bss.PreBW.5986
+                0x0000af24        0x1 ./libandesap.a(mt7681_ChSw.o)
+ .bss.RF_ABB_R6_R7_IN_BW20
+                0x0000af25        0x1 ./libandesap.a(mt7681_ChSw.o)
+ .bss.RF_ABB_R58_R59_IN_BW20
+                0x0000af26        0x1 ./libandesap.a(mt7681_ChSw.o)
+ .bss.RF_ABB_R6_R7_IN_BW40
+                0x0000af27        0x1 ./libandesap.a(mt7681_ChSw.o)
+ .bss.RF_ABB_R58_R59_IN_BW40
+                0x0000af28        0x1 ./libandesap.a(mt7681_ChSw.o)
+ *fill*         0x0000af29        0x3 00000000
+ .bss.PARAM_Info
+                0x0000af2c        0x4 ./libandesap.a(mt7681_ChSw.o)
+ .bss.TxPWR     0x0000af30        0x4 ./libandesap.a(mt7681_ChSw.o)
+ .bss.LNAGain   0x0000af34        0x4 ./libandesap.a(mt7681_ChSw.o)
+ .bss.wakeup_from_grant
+                0x0000af38        0x1 ./libandesap.a(wifi_ps.o)
+                0x0000af38                wakeup_from_grant
+ .bss.gPmuINT   0x0000af39        0x1 ./libandesap.a(wifi_ps.o)
+                0x0000af39                gPmuINT
+ .bss.gPmuAbort
+                0x0000af3a        0x1 ./libandesap.a(wifi_ps.o)
+                0x0000af3a                gPmuAbort
+ *(COMMON)
+ *fill*         0x0000af3b        0x1 00000000
+ COMMON         0x0000af3c      0x1c8 obj/ap/iot_custom.o
+                0x0000af3c                IoTCustOp
+                0x0000af5c                IoTCustTimer
+                0x0000af78                IoTpAd
+ COMMON         0x0000b104      0x448 obj/ap/iot_uart_rb.o
+                0x0000b104                uart_rb_info
+                0x0000b110                UARTPort
+                0x0000b228                UARTTxBuf
+                0x0000b268                uart_rb_addr
+                0x0000b34c                UARTRxBuf
+ *fill*         0x0000b54c        0x4 00000000
+ COMMON         0x0000b550       0xf8 obj/ap/tcpip/cloudclient.o
+                0x0000b550                MT7681_FOTAInfo
+                0x0000b5b8                mt76xx_Connection
+                0x0000b5d4                FOTA_DigestMessage
+                0x0000b5e8                FOTA_md5_ctx
+ COMMON         0x0000b648       0xa0 obj/ap/tcpip/dhcpd.o
+                0x0000b648                uip_dhpcd_conns
+ COMMON         0x0000b6e8       0x88 obj/ap/tcpip/iot_tcp_app.o
+                0x0000b6e8                mt76xx_Activation
+ COMMON         0x0000b770       0x18 obj/ap/tcpip/tcpip_main.o
+                0x0000b770                arp_timer
+                0x0000b778                periodic_timer
+                0x0000b780                cli_timer
+ COMMON         0x0000b788     0x1230 obj/ap/tcpip/uip.o
+                0x0000b788                uip_acc32
+                0x0000b78c                uip_conns
+                0x0000c6a4                uip_listenports
+                0x0000c6b0                uip_draddr
+                0x0000c6b4                uip_buf
+                0x0000c910                uip_udp_conns
+ COMMON         0x0000c9b8        0x6 obj/ap/tcpip/uip_arp.o
+                0x0000c9b8                uip_sourceAddr
+ *fill*         0x0000c9be        0x2 00000000
+ COMMON         0x0000c9c0       0x14 ./libandesap.a(cnm_timer.o)
+                0x0000c9c0                rRootTimer
+ COMMON         0x0000c9d4       0x5a ./libandesap.a(iot_io_cmd.o)
+                0x0000c9d4                mt7681_PWMInfo
+ *fill*         0x0000ca2e        0x2 00000000
+ COMMON         0x0000ca30       0x20 ./libandesap.a(queue.o)
+                0x0000ca30                gFreeQueue1
+                0x0000ca40                gFreeQueue2
+ COMMON         0x0000ca50      0xc8c ./libandesap.a(app_nos_main.o)
+                0x0000ca50                pAd
+ COMMON         0x0000d6dc       0x41 ./libandesap.a(chip_init.o)
+                0x0000d6dc                eepcfg
+ *fill*         0x0000d71d        0x3 00000000
+ COMMON         0x0000d720       0x24 ./libandesap.a(timer.o)
+                0x0000d720                System_Timer_Pool
+                0x0000d734                Free_Timer_List
+ COMMON         0x0000d744       0x34 ./libandesap.a(task.o)
+                0x0000d744                sysTaskingCtl
+                0x0000d778                . = ALIGN (0x4)
+                0x0000d778                PROVIDE (_BSS_END, .)
+                0x0000d778                __ilm_end = .
+                0x0000d780                . = ALIGN (0x20)
+                0x0000d780                _end = .
+                0x0000d780                PROVIDE (_MEMORY_TOP, .)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x00000000      0x915
+ *(.comment)
+ .comment       0x00000000       0x19 obj/ap/ap_pub.o
+ .comment       0x00000019       0x19 obj/ap/crypt_crc.o
+ .comment       0x00000032       0x19 obj/ap/iot_aes_pub.o
+ .comment       0x0000004b       0x19 obj/ap/iot_at_cmd.o
+ .comment       0x00000064       0x19 obj/ap/iot_at_cmd_tcpip.o
+ .comment       0x0000007d       0x19 obj/ap/iot_at_cmd_utility.o
+ .comment       0x00000096       0x19 obj/ap/iot_custom.o
+ .comment       0x000000af       0x19 obj/ap/iot_custom_uart2wifi.o
+ .comment       0x000000c8       0x19 obj/ap/iot_parse.o
+ .comment       0x000000e1       0x19 obj/ap/iot_parse_conn_mgmt.o
+ .comment       0x000000fa       0x19 obj/ap/iot_uart_rb.o
+ .comment       0x00000113       0x19 obj/ap/iot_uplink.o
+ .comment       0x0000012c       0x19 obj/ap/iot_xmodem.o
+ .comment       0x00000145       0x19 obj/ap/main_pub.o
+ .comment       0x0000015e       0x19 obj/ap/misc_pub.o
+ .comment       0x00000177       0x19 obj/ap/mt7681_ChSw_pub.o
+ .comment       0x00000190       0x19 obj/ap/printf.o
+ .comment       0x000001a9       0x19 obj/ap/rtmp_data_pub.o
+ .comment       0x000001c2       0x19 obj/ap/spi-flash_pub.o
+ .comment       0x000001db       0x19 obj/ap/stdlib.o
+ .comment       0x000001f4       0x19 obj/ap/tcpip/clock-arch.o
+ .comment       0x0000020d       0x19 obj/ap/tcpip/cloudclient.o
+ .comment       0x00000226       0x19 obj/ap/tcpip/dhcpc.o
+ .comment       0x0000023f       0x19 obj/ap/tcpip/dhcpd.o
+ .comment       0x00000258       0x19 obj/ap/tcpip/iot_tcp_app.o
+ .comment       0x00000271       0x19 obj/ap/tcpip/iot_tcpip_interface.o
+ .comment       0x0000028a       0x19 obj/ap/tcpip/iot_udp_app.o
+ .comment       0x000002a3       0x19 obj/ap/tcpip/memb.o
+ .comment       0x000002bc       0x19 obj/ap/tcpip/mt76xx_dev.o
+ .comment       0x000002d5       0x19 obj/ap/tcpip/resolv.o
+ .comment       0x000002ee       0x19 obj/ap/tcpip/sample_resolv_usage.o
+ .comment       0x00000307       0x19 obj/ap/tcpip/sample_udp_client.o
+ .comment       0x00000320       0x19 obj/ap/tcpip/sample_udp_server.o
+ .comment       0x00000339       0x19 obj/ap/tcpip/tcpip_main.o
+ .comment       0x00000352       0x19 obj/ap/tcpip/uip-fw.o
+ .comment       0x0000036b       0x19 obj/ap/tcpip/uip-neighbor.o
+ .comment       0x00000384       0x19 obj/ap/tcpip/uip-split.o
+ .comment       0x0000039d       0x19 obj/ap/tcpip/uip.o
+ .comment       0x000003b6       0x19 obj/ap/tcpip/uip_arp.o
+ .comment       0x000003cf       0x19 obj/ap/tcpip/uip_timer.o
+ .comment       0x000003e8       0x19 obj/ap/tcpip/uiplib.o
+ .comment       0x00000401       0x19 obj/ap/tcpip/webclient-strings.o
+ .comment       0x0000041a       0x19 obj/ap/tcpip/webclient.o
+ .comment       0x00000433       0x19 obj/ap/wifi_task_pub.o
+ .comment       0x0000044c       0x19 ./libandesap.a(xip_ovly.o)
+ .comment       0x00000465       0x19 ./libandesap.a(ap.o)
+ .comment       0x0000047e       0x19 ./libandesap.a(ap_assoc.o)
+ .comment       0x00000497       0x19 ./libandesap.a(ap_auth.o)
+ .comment       0x000004b0       0x19 ./libandesap.a(mgmt_entrytb.o)
+ .comment       0x000004c9       0x19 ./libandesap.a(cnm_timer.o)
+ .comment       0x000004e2       0x19 ./libandesap.a(iot_io_cmd.o)
+ .comment       0x000004fb       0x19 ./libandesap.a(iot_mgmt_cmd.o)
+ .comment       0x00000514       0x19 ./libandesap.a(queue.o)
+ .comment       0x0000052d       0x19 ./libandesap.a(app_nos_main.o)
+ .comment       0x00000546       0x19 ./libandesap.a(chip_init.o)
+ .comment       0x0000055f       0x19 ./libandesap.a(cmm_wep.o)
+ .comment       0x00000578       0x19 ./libandesap.a(cmm_wpa.o)
+ .comment       0x00000591       0x19 ./libandesap.a(crypt_aes.o)
+ .comment       0x000005aa       0x19 ./libandesap.a(crypt_hmac.o)
+ .comment       0x000005c3       0x19 ./libandesap.a(rtmp_data.o)
+ .comment       0x000005dc       0x19 ./libandesap.a(rtmp_general.o)
+ .comment       0x000005f5       0x19 ./libandesap.a(scan.o)
+ .comment       0x0000060e       0x19 ./libandesap.a(wow.o)
+ .comment       0x00000627       0x19 ./libandesap.a(bsp.o)
+ .comment       0x00000640       0x19 ./libandesap.a(ee_efuse.o)
+ .comment       0x00000659       0x19 ./libandesap.a(fce.o)
+ .comment       0x00000672       0x19 ./libandesap.a(pdma.o)
+ .comment       0x0000068b       0x19 ./libandesap.a(spi-flash.o)
+ .comment       0x000006a4       0x19 ./libandesap.a(timer.o)
+ .comment       0x000006bd       0x19 ./libandesap.a(uart.o)
+ .comment       0x000006d6       0x19 ./libandesap.a(uartlite.o)
+ .comment       0x000006ef       0x19 ./libandesap.a(main.o)
+ .comment       0x00000708       0x19 ./libandesap.a(xcpt.o)
+ .comment       0x00000721       0x19 ./libandesap.a(initial.o)
+ .comment       0x0000073a       0x19 ./libandesap.a(mutex.o)
+ .comment       0x00000753       0x19 ./libandesap.a(stack.o)
+ .comment       0x0000076c       0x19 ./libandesap.a(task.o)
+ .comment       0x00000785       0x19 ./libandesap.a(list.o)
+ .comment       0x0000079e       0x19 ./libandesap.a(random.o)
+ .comment       0x000007b7       0x19 ./libandesap.a(do_printf.o)
+ .comment       0x000007d0       0x19 ./libandesap.a(fputs.o)
+ .comment       0x000007e9       0x19 ./libandesap.a(strcmp.o)
+ .comment       0x00000802       0x19 ./libandesap.a(strcpy.o)
+ .comment       0x0000081b       0x19 ./libandesap.a(strlen.o)
+ .comment       0x00000834       0x19 ./libandesap.a(vsprintf.o)
+ .comment       0x0000084d       0x19 ./libandesap.a(mcuctl.o)
+ .comment       0x00000866       0x19 ./libandesap.a(mt7681_ChSw.o)
+ .comment       0x0000087f       0x19 ./libandesap.a(wifi_ps.o)
+ .comment       0x00000898       0x19 ./libandesap.a(wifi_task.o)
+ .comment       0x000008b1       0x19 ./libandesap.a(ate.o)
+ .comment       0x000008ca       0x19 ./libandesap.a(led.o)
+ .comment       0x000008e3       0x19 ./libandesap.a(syscall.o)
+ .comment       0x000008fc       0x19 ./libandesap.a(ctype.o)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges
+ *(.debug_aranges)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info
+ *(.debug_info .gnu.linkonce.wi.*)
+
+.debug_abbrev
+ *(.debug_abbrev)
+
+.debug_line
+ *(.debug_line)
+
+.debug_frame
+ *(.debug_frame)
+
+.debug_str
+ *(.debug_str)
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.preboot)
+ *(.boot)
+
+.xipsec0        0x00560000     0x9f78
+ .xipsec0       0x00560000      0x43c obj/ap/ap_pub.o
+                0x005600f8                iot_apcfg_preinit
+                0x00560260                iot_ap_pmk_set
+                0x00560348                iot_ap_init
+                0x00560000                iot_apcfg_update
+ .xipsec0       0x0056043c      0x604 obj/ap/iot_at_cmd.o
+                0x00560564                iot_atcmd_exec_reboot
+                0x005604b8                iot_atcmd_exec_ver
+                0x00560440                iot_atcmd_resp_header
+                0x0056057c                iot_exec_atcmd_conf_softap
+                0x00560964                iot_atcmd_parser
+                0x00560790                iot_atcmd_exec_flash
+                0x0056043c                iot_iwcmd_parser
+ .xipsec0       0x00560a40      0x58c obj/ap/iot_custom.o
+                0x00560a44                iot_cust_preinit
+                0x00560a78                default_boot_cfg
+                0x00560ca4                reset_usr_cfg
+                0x00560dfc                load_com_cfg
+                0x00560a48                iot_cust_init
+                0x00560a74                iot_gpio_defval
+                0x00560a4c                iot_cust_ops
+                0x00560d80                load_usr_cfg
+                0x00560a8c                default_uart_cfg
+                0x00560abc                default_ip_cfg
+                0x00560b68                reset_com_cfg
+                0x00560d5c                reset_cfg
+                0x00560a40                iot_cust_scan_done
+                0x00560ab4                iot_cust_pwm_def_resolution
+ .xipsec0       0x00560fcc      0x58c obj/ap/iot_parse.o
+                0x00560fcc                iot_app_proc_mgmt_pkt
+                0x00561154                iot_app_proc_func_pkt
+ .xipsec0       0x00561558       0x88 obj/ap/iot_uart_rb.o
+                0x005615a4                uart_cfg_fr_flash
+                0x00561558                iot_uart_init
+ .xipsec0       0x005615e0      0x70c obj/ap/iot_uplink.o
+                0x005615e0                iot_udp_cksum
+                0x005616d8                iot_udp_pkt_send_direct
+                0x00561a48                iot_udp_pkt_send
+                0x0056163c                IoT_build_app_response_header
+ .xipsec0       0x00561cec       0x60 obj/ap/mt7681_ChSw_pub.o
+                0x00561d34                iot_atcmd_set_channel
+                0x00561cec                asic_set_channel
+ .xipsec0       0x00561d4c      0x518 obj/ap/rtmp_data_pub.o
+                0x00561e14                RTMPWriteTxWI_Data
+                0x005620c8                sta_legacy_frame_tx
+                0x00562178                AP_Legacy_Frame_Forward_Tx
+                0x00562038                STAFindCipherAlgorithm
+                0x00561d4c                RTMPWriteTxWI_Mgmt
+                0x00561ecc                STABuildCommon802_11Header
+                0x00561f9c                MiniportMMRequest
+ .xipsec0       0x00562264      0x74c obj/ap/tcpip/dhcpd.o
+                0x00562264                dhcpd_init
+                0x00562300                clear_dhcpd_conns
+                0x0056299c                dhcpd_appcall
+                0x00562904                handle_dhcpd
+ .xipsec0       0x005629b0       0x88 obj/ap/tcpip/iot_tcp_app.o
+                0x005629b0                iot_tcp_app_init
+ .xipsec0       0x00562a38       0x24 obj/ap/tcpip/iot_udp_app.o
+                0x00562a38                iot_udp_app_init
+ .xipsec0       0x00562a5c       0x24 obj/ap/tcpip/sample_udp_server.o
+                0x00562a5c                udp_srv_app1_init
+ .xipsec0       0x00562a80       0x5c obj/ap/tcpip/uip.o
+                0x00562a80                uip_send
+ .xipsec0       0x00562adc      0x3b0 obj/ap/tcpip/webclient.o
+                0x00562bbc                newdata
+                0x00562adc                senddata
+ .xipsec0       0x00562e8c       0x44 obj/ap/wifi_task_pub.o
+                0x00562e8c                check_data_valid
+ .xipsec0       0x00562ed0      0xa80 ./libandesap.a(ap.o)
+                0x00562f54                RTMPWriteTxWI
+                0x00562eec                AsicEnableBssSync
+                0x00562ed0                AsicDisableSync
+                0x00562f2c                AsicSetPreTbttInt
+                0x0056366c                iot_ap_startup
+                0x00563308                APMakeBssBeacon
+                0x0056307c                APUpdateBeaconFrame
+ .xipsec0       0x00563950      0xc2c ./libandesap.a(ap_assoc.o)
+                0x00563a2c                PeerDisassocDeauthReqSanity
+                0x005640c0                RTMPCheckMcast
+                0x00563dd8                RTMPCheckAUTH
+                0x00563d5c                RTMPCheckAKM
+                0x00564170                APValidateRSNIE
+                0x00563ed4                RTMPCheckUcast
+                0x00563afc                PeerAssocReqSanity
+                0x005639e0                RTMPUpdateLegacyTxSetting
+                0x00563a78                APPeerDisassocReqAction
+                0x005641c4                APAssocReqActionAndSend
+                0x00563950                dot11_2_ra_rate
+ .xipsec0       0x0056457c      0x54c ./libandesap.a(ap_auth.o)
+                0x00564608                APPeerAuthSimpleRspGenAndSend
+                0x0056457c                APPeerDeauthReqAction
+                0x005647f4                APSendProbeAction
+                0x00564a44                ApSendDeauthAction
+                0x005646a8                APPeerAuthReqAction
+ .xipsec0       0x00564ac8      0x4fc ./libandesap.a(mgmt_entrytb.o)
+                0x00564e90                MacTableLookup
+                0x00564ac8                set_entry_phycfg
+                0x00564e10                MacTableReset
+                0x00564ba8                MacTableInsertEntry
+                0x00564d4c                MacTableDeleteEntry
+                0x00564ee8                APSendNullFrame
+ .xipsec0       0x00564fc4      0x168 ./libandesap.a(cnm_timer.o)
+                0x00564fc4                cnmTimerInitTimer
+                0x0056503c                cnmTimerStartTimer
+                0x00564ff4                cnmTimerStopTimer
+                0x005650f4                cnmTimerInitialize
+ .xipsec0       0x0056512c      0x26c ./libandesap.a(iot_io_cmd.o)
+                0x0056512c                iot_sw_pwm_add
+                0x00565268                iot_cust_set_gpiint_mode
+                0x00565370                iot_sw_pwm_init
+                0x005652b0                iot_cust_get_gpiint_mode
+                0x005652f8                iot_sw_pwm_del
+                0x005652e4                mt7681_int_set
+                0x005652d8                mt7681_int_state
+ .xipsec0       0x00565398        0x4 ./libandesap.a(iot_mgmt_cmd.o)
+                0x00565398                iot_linkdown
+ .xipsec0       0x0056539c       0xa0 ./libandesap.a(queue.o)
+                0x0056539c                apiQU_Initialize
+ .xipsec0       0x0056543c      0x150 ./libandesap.a(app_nos_main.o)
+                0x0056543c                aes_key_init
+                0x005654a4                APP_Init
+ .xipsec0       0x0056558c      0x6d4 ./libandesap.a(chip_init.o)
+                0x005659f0                MT7681_INIT_CAL
+                0x00565730                MT7681_AsicExtraPowerOverMAC
+                0x005655d4                Reg_bssid_init
+                0x00565a54                MT7681_eep_cfg2
+                0x00565b5c                chip_reg_init
+                0x00565910                MT7681_RXDC_CAL
+                0x0056558c                Reg_mac_add_init
+                0x0056560c                clean_key_tb
+                0x0056576c                MT7681_ReadTxPwrPerRate
+                0x00565678                iot_sys_reboot
+ .xipsec0       0x00565c60       0x54 ./libandesap.a(cmm_wep.o)
+                0x00565c7c                AsicUpdateRxWCIDTable
+                0x00565c64                AsicDelWcidTab
+                0x00565c60                Set_Wep_Key_Proc
+ .xipsec0       0x00565cb4     0x13a4 ./libandesap.a(cmm_wpa.o)
+                0x005666f4                WPAStart4WayHS
+                0x00566914                WpaDerivePTK
+                0x00566f10                RTMPMakeRSNIE
+                0x005668e0                EnqueueStartForPSKExec
+                0x00566504                WPAStart2WayGroupHS
+                0x005662c4                RTMPParseEapolKeyData
+                0x00566288                CalculateMIC
+                0x00566a64                PeerPairMsg2Action
+                0x00565e8c                AsicRemovePairwiseKeyEntry
+                0x00565f34                RTMPGetTxTscFromAsic
+                0x00566868                WpaEAPOLStartAction
+                0x00566a28                PeerPairMsg4Action
+                0x005669b0                PeerGroupMsg2Action
+                0x00566440                ConstructEapolKeyData
+                0x00566aa0                WpaEAPOLKeyAction
+                0x005660e0                WPAInstallPairwiseKey
+                0x00565ea8                RTMPSetWcidSecurityInfo
+                0x00566680                GenRandom
+                0x00566358                RTMPInsertRSNIE
+                0x00566004                WPAInstallSharedKey
+                0x00565cc8                AsicAddPairwiseKeyEntry
+                0x00566180                WPA_ConstructKdeHdr
+                0x00565d20                AsicAddSharedKeyEntry
+                0x00565e24                AsicUpdateWCIDIVEIV
+                0x00566314                WpaDeriveGTK
+                0x00566964                PeerWpaMessageSanity
+                0x005664a0                ConstructEapolMsg
+                0x00565e38                AsicUpdateWcidAttributeEntry
+ .xipsec0       0x00567058      0x2d8 ./libandesap.a(crypt_aes.o)
+                0x005671cc                aes_key_wrap
+                0x00567058                aes_key_unwrap
+ .xipsec0       0x00567330      0x268 ./libandesap.a(crypt_hmac.o)
+                0x00567330                RT_HMAC_MD5
+                0x00567464                RT_HMAC_SHA1
+ .xipsec0       0x00567598       0x48 ./libandesap.a(rtmp_data.o)
+                0x00567598                WriteSingleTxResource
+ .xipsec0       0x005675e0       0xfc ./libandesap.a(rtmp_general.o)
+                0x005675e0                MgtMacHeaderInit
+                0x00567690                MakeOutgoingFrame
+ .xipsec0       0x005676dc      0x49c ./libandesap.a(scan.o)
+                0x00567708                ScanNextChannel
+                0x005679dc                ParsingProbeRspBeacon
+                0x0056785c                RTMPCheckHt
+                0x00567aa8                ListScan_Init
+                0x00567a54                rtmp_bbp_set_ctrlch
+                0x00567858                CfgSupportExtRate
+                0x005676dc                FirstChannel
+                0x005676e8                NextChannel
+                0x00567b1c                StartScan
+                0x00567ad4                ContScanTimeoutAction
+                0x00567738                WPA_ExtractSuiteFromRSNIE
+                0x005679b4                PeerBeaconAtScanAction
+                0x00567824                SCAN_Initialization
+                0x00567854                SetScanParam
+                0x0056770c                ScanTimeoutAction
+                0x00567a10                ScanProcessMgmt
+                0x005677f8                rtmp_mac_set_ctrlch
+                0x00567958                NLO_Initialization
+ .xipsec0       0x00567b78       0x10 ./libandesap.a(wow.o)
+                0x00567b78                RTMP_EnableTxRx
+ .xipsec0       0x00567b88       0xfc ./libandesap.a(bsp.o)
+                0x00567b88                bsp_init
+ .xipsec0       0x00567c84      0x7e4 ./libandesap.a(ee_efuse.o)
+                0x00568440                rtmp_eep_write16
+                0x005680ac                eEpWrite
+                0x00567fe0                eEp_init
+                0x00568020                rtmp_eep_read16
+                0x00567f1c                eEpGetFreeBlockCount
+                0x00568074                eEpRead
+                0x00567e28                eEpReadRegisters
+ .xipsec0       0x00568468       0xf4 ./libandesap.a(fce.o)
+                0x00568468                drvFCE_RegisterIntHdlr
+                0x0056849c                drvFCE_Initialize
+ .xipsec0       0x0056855c      0x224 ./libandesap.a(pdma.o)
+                0x005686e0                drvPDMA_RxInitialize
+                0x0056855c                rlk_fce_txts_hard_xmit
+                0x00568694                drvPDMA_TxInitialize
+ .xipsec0       0x00568780       0xd0 ./libandesap.a(timer.o)
+                0x00568810                drvTMR_Tick_Init
+                0x00568780                sys_init_timer
+                0x005687b8                kal_create_timer
+ .xipsec0       0x00568850      0x1e0 ./libandesap.a(uart.o)
+                0x00568878                UART_Close
+                0x00568850                UART_SetBaudRate
+                0x00568884                UART_Register_TX_cb
+                0x0056899c                UART_Open
+                0x005688b8                UART_SetDCBConfig
+                0x00568890                UART_Register_RX_cb
+                0x0056889c                mt7681_uart_pin_set
+                0x005689d4                UART_HWInit
+ .xipsec0       0x00568a30       0x94 ./libandesap.a(uartlite.o)
+                0x00568a30                UART_Init
+ .xipsec0       0x00568ac4       0xfc ./libandesap.a(main.o)
+                0x00568ac4                iot_sys_init
+                0x00568b70                sysTASK_RegTask
+ .xipsec0       0x00568bc0       0x10 ./libandesap.a(xcpt.o)
+                0x00568bc0                sysXCPT_RegisterHdlr
+ .xipsec0       0x00568bd0       0x8c ./libandesap.a(task.o)
+                0x00568c0c                sysTASK_CreateTask
+                0x00568bd0                sysTASK_RegisterLowPrioTask
+ .xipsec0       0x00568c5c       0x24 ./libandesap.a(mcuctl.o)
+                0x00568c5c                drvMCUCTL_RegisterIntHdlr
+ .xipsec0       0x00568c80     0x1240 ./libandesap.a(mt7681_ChSw.o)
+                0x00568c80                TXDCOCCalibration
+                0x00568e7c                RCalibration
+                0x00568dbc                rtmp_bbp_set_bw
+                0x00568d70                VCO_Calibration
+                0x00568d1c                Config_ChannelInfo
+                0x005690dc                BWCalibration
+                0x00569b8c                AsicSwitchChannel
+ .xipsec0       0x00569ec0       0x14 ./libandesap.a(wifi_task.o)
+                0x00569ed0                wifi_state_chg
+                0x00569ec0                get_clear_frame_flag
+ .xipsec0       0x00569ed4       0x68 ./libandesap.a(ate.o)
+                0x00569ed4                set_ate_efuse_read
+ .xipsec0       0x00569f3c       0x3c ./libandesap.a(led.o)
+                0x00569f3c                iot_gpio_init
+
+.rela.dyn       0x0000d778        0x0 load address 0x00569f78
+ .rela.xipsec0  0x00000000        0x0 obj/ap/ap_pub.o
+ .rela.text.store_ap_cfg
+                0x00000000        0x0 obj/ap/ap_pub.o
+ .rela.text.load_ap_cfg
+                0x00000000        0x0 obj/ap/ap_pub.o
+ .rela.text.aes_cbc_decrypt
+                0x00000000        0x0 obj/ap/ap_pub.o
+ .rela.text.aes_cbc_complete_decrypt
+                0x00000000        0x0 obj/ap/ap_pub.o
+ .rela.text.aes_ecb_decry_test
+                0x00000000        0x0 obj/ap/ap_pub.o
+ .rela.text.aes_cbc_encrypt
+                0x00000000        0x0 obj/ap/ap_pub.o
+ .rela.text.aes_ecb_encry_test
+                0x00000000        0x0 obj/ap/ap_pub.o
+ .rela.text.aes_sample
+                0x00000000        0x0 obj/ap/ap_pub.o
+ .rela.text.getopt
+                0x00000000        0x0 obj/ap/ap_pub.o
+ .rela.text.iot_cust_gpiint_hdlr
+                0x00000000        0x0 obj/ap/ap_pub.o
+ .rela.text.reset_ap_cfg
+                0x00000000        0x0 obj/ap/ap_pub.o
+ .rela.text.reset_sta_cfg
+                0x00000000        0x0 obj/ap/ap_pub.o
+ .rela.text.pre_init_cfg
+                0x00000000        0x0 obj/ap/ap_pub.o
+ .rela.text.iot_cust_timer0_timeout_actioin
+                0x00000000        0x0 obj/ap/ap_pub.o
+ .rela.text.cust_app_init
+                0x00000000        0x0 obj/ap/ap_pub.o
+ .rela.text.cust_subtask
+                0x00000000        0x0 obj/ap/ap_pub.o
+ .rela.text.iot_app_proc_pkt
+                0x00000000        0x0 obj/ap/ap_pub.o
+ .rela.text.uart_rxbuf_init
+                0x00000000        0x0 obj/ap/ap_pub.o
+ .rela.text.uart_rb_init
+                0x00000000        0x0 obj/ap/ap_pub.o
+ .rela.text.uart_rb_pop
+                0x00000000        0x0 obj/ap/ap_pub.o
+ .rela.text.uart_rb_push
+                0x00000000        0x0 obj/ap/ap_pub.o
+ .rela.text.uart_get_avail
+                0x00000000        0x0 obj/ap/ap_pub.o
+ .rela.text.iot_atcmd_uart_atcfg
+                0x00000000        0x0 obj/ap/ap_pub.o
+ .rela.text.uart_rx_dispatch
+                0x00000000        0x0 obj/ap/ap_pub.o
+ .rela.text.uart_get_byte
+                0x00000000        0x0 obj/ap/ap_pub.o
+ .rela.text.uart_rx_cb
+                0x00000000        0x0 obj/ap/ap_pub.o
+ .rela.text.uart_put_bytes
+                0x00000000        0x0 obj/ap/ap_pub.o
+ .rela.text.iot_uart_output
+                0x00000000        0x0 obj/ap/ap_pub.o
+ .rela.text.port_inbyte
+                0x00000000        0x0 obj/ap/ap_pub.o
+ .rela.text.port_outbyte
+                0x00000000        0x0 obj/ap/ap_pub.o
+ .rela.text.iot_xmodem_update_fw
+                0x00000000        0x0 obj/ap/ap_pub.o
+ .rela.text.iot_xmodem_receive
+                0x00000000        0x0 obj/ap/ap_pub.o
+ .rela.text.iot_xmodem_transmit
+                0x00000000        0x0 obj/ap/ap_pub.o
+ .rela.text.main
+                0x00000000        0x0 obj/ap/ap_pub.o
+ .rela.text.vprintf
+                0x00000000        0x0 obj/ap/ap_pub.o
+ .rela.text.vsprintf
+                0x00000000        0x0 obj/ap/ap_pub.o
+ .rela.text.vprintf_help
+                0x00000000        0x0 obj/ap/ap_pub.o
+ .rela.text.APForwardFindCipherAlgorithm
+                0x00000000        0x0 obj/ap/ap_pub.o
+ .rela.text.APForwardBuildCommon802_11Header
+                0x00000000        0x0 obj/ap/ap_pub.o
+ .rela.text.APHandleRxControlFrame
+                0x00000000        0x0 obj/ap/ap_pub.o
+ .rela.text.RTMPRawDataSanity
+                0x00000000        0x0 obj/ap/ap_pub.o
+ .rela.text.APHandleRxMgmtFrame
+                0x00000000        0x0 obj/ap/ap_pub.o
+ .rela.text.APHandleRxDataFrame
+                0x00000000        0x0 obj/ap/ap_pub.o
+ .rela.text.WifiRxDoneInterruptHandle
+                0x00000000        0x0 obj/ap/ap_pub.o
+ .rela.text.iot_bcn_timeout_action
+                0x00000000        0x0 obj/ap/ap_pub.o
+ .rela.text.RestartBCNTimer
+                0x00000000        0x0 obj/ap/ap_pub.o
+ .rela.text.dump_spi_flash
+                0x00000000        0x0 obj/ap/ap_pub.o
+ .rela.text.dump_spi_flash_fw
+                0x00000000        0x0 obj/ap/ap_pub.o
+ .rela.text.spi_flash_page_write
+                0x00000000        0x0 obj/ap/ap_pub.o
+ .rela.text.spi_flash_write_func
+                0x00000000        0x0 obj/ap/ap_pub.o
+ .rela.text.spi_flash_read_m2
+                0x00000000        0x0 obj/ap/ap_pub.o
+ .rela.text.spi_flash_erase_block
+                0x00000000        0x0 obj/ap/ap_pub.o
+ .rela.text.spi_flash_erase_sector
+                0x00000000        0x0 obj/ap/ap_pub.o
+ .rela.text.spi_flash_write
+                0x00000000        0x0 obj/ap/ap_pub.o
+ .rela.text.spi_flash_update_fw
+                0x00000000        0x0 obj/ap/ap_pub.o
+ .rela.text.spi_flash_erase_CE
+                0x00000000        0x0 obj/ap/ap_pub.o
+ .rela.text.free
+                0x00000000        0x0 obj/ap/ap_pub.o
+ .rela.text.clock_time
+                0x00000000        0x0 obj/ap/ap_pub.o
+ .rela.xipsec1  0x00000000        0x0 obj/ap/ap_pub.o
+ .rela.text.cloud_set_activation_para
+                0x00000000        0x0 obj/ap/ap_pub.o
+ .rela.text.cloud_fota_update
+                0x00000000        0x0 obj/ap/ap_pub.o
+ .rela.text.cloud_client_fota_autoupdate
+                0x00000000        0x0 obj/ap/ap_pub.o
+ .rela.text.cloud_http_callback
+                0x00000000        0x0 obj/ap/ap_pub.o
+ .rela.text.dhcpc_request
+                0x00000000        0x0 obj/ap/ap_pub.o
+ .rela.ovlysec10
+                0x00000000        0x0 obj/ap/ap_pub.o
+ .rela.text.dhcpd_pickup_opt
+                0x00000000        0x0 obj/ap/ap_pub.o
+ .rela.text.handle_tcp_app
+                0x00000000        0x0 obj/ap/ap_pub.o
+ .rela.text.iot_tcp_appcall
+                0x00000000        0x0 obj/ap/ap_pub.o
+ .rela.text.iot_udp_appcall
+                0x00000000        0x0 obj/ap/ap_pub.o
+ .rela.text.memb_init
+                0x00000000        0x0 obj/ap/ap_pub.o
+ .rela.text.mt76xx_dev_read
+                0x00000000        0x0 obj/ap/ap_pub.o
+ .rela.text.mt76xx_dev_send
+                0x00000000        0x0 obj/ap/ap_pub.o
+ .rela.text.resolv_conf
+                0x00000000        0x0 obj/ap/ap_pub.o
+ .rela.text.resolv_lookup
+                0x00000000        0x0 obj/ap/ap_pub.o
+ .rela.text.resolv_query
+                0x00000000        0x0 obj/ap/ap_pub.o
+ .rela.text.resolv_newdata
+                0x00000000        0x0 obj/ap/ap_pub.o
+ .rela.text.resolv_check_entries
+                0x00000000        0x0 obj/ap/ap_pub.o
+ .rela.text.handle_resolv
+                0x00000000        0x0 obj/ap/ap_pub.o
+ .rela.text.resolv_usage_init
+                0x00000000        0x0 obj/ap/ap_pub.o
+ .rela.text.resolv_found
+                0x00000000        0x0 obj/ap/ap_pub.o
+ .rela.text.udp_client_sample
+                0x00000000        0x0 obj/ap/ap_pub.o
+ .rela.text.udp_client_init
+                0x00000000        0x0 obj/ap/ap_pub.o
+ .rela.text.handle_udp_srv_app1
+                0x00000000        0x0 obj/ap/ap_pub.o
+ .rela.text.tcpip_periodic_timer
+                0x00000000        0x0 obj/ap/ap_pub.o
+ .rela.text.netif_rx
+                0x00000000        0x0 obj/ap/ap_pub.o
+ .rela.ovlysec9
+                0x00000000        0x0 obj/ap/ap_pub.o
+ .rela.text.tcpip_init
+                0x00000000        0x0 obj/ap/ap_pub.o
+ .rela.text.uip_fw_output
+                0x00000000        0x0 obj/ap/ap_pub.o
+ .rela.text.uip_fw_forward
+                0x00000000        0x0 obj/ap/ap_pub.o
+ .rela.text.uip_neighbor_add
+                0x00000000        0x0 obj/ap/ap_pub.o
+ .rela.text.uip_split_output
+                0x00000000        0x0 obj/ap/ap_pub.o
+ .rela.text.uip_add32
+                0x00000000        0x0 obj/ap/ap_pub.o
+ .rela.text.uip_ipchksum
+                0x00000000        0x0 obj/ap/ap_pub.o
+ .rela.text.upper_layer_chksum
+                0x00000000        0x0 obj/ap/ap_pub.o
+ .rela.text.uip_add_rcv_nxt
+                0x00000000        0x0 obj/ap/ap_pub.o
+ .rela.ovlysec0
+                0x00000000        0x0 obj/ap/ap_pub.o
+ .rela.text.uip_arp_timer
+                0x00000000        0x0 obj/ap/ap_pub.o
+ .rela.text.uip_arp_init
+                0x00000000        0x0 obj/ap/ap_pub.o
+ .rela.text.copy_string
+                0x00000000        0x0 obj/ap/ap_pub.o
+ .rela.text.wifi_rx_proc
+                0x00000000        0x0 obj/ap/ap_pub.o
+ .rela.text.wifiTASK_LowPrioTask
+                0x00000000        0x0 obj/ap/ap_pub.o
+ .rela.vector   0x00000000        0x0 obj/ap/ap_pub.o
+ .rela.startup  0x00000000        0x0 obj/ap/ap_pub.o
+ .rela.excepsysc
+                0x00000000        0x0 obj/ap/ap_pub.o
+ .rela.ctxsw    0x00000000        0x0 obj/ap/ap_pub.o
+ .rela.text.overlayunload
+                0x00000000        0x0 obj/ap/ap_pub.o
+ .rela.text.overlaycopy
+                0x00000000        0x0 obj/ap/ap_pub.o
+ .rela.text.overlayload
+                0x00000000        0x0 obj/ap/ap_pub.o
+ .rela.text.APMakeSoftBssBeacon
+                0x00000000        0x0 obj/ap/ap_pub.o
+ .rela.text.dumpMacTable
+                0x00000000        0x0 obj/ap/ap_pub.o
+ .rela.text.iot_ap_mactbl_mgmt
+                0x00000000        0x0 obj/ap/ap_pub.o
+ .rela.text.cnmTimerSetTimer
+                0x00000000        0x0 obj/ap/ap_pub.o
+ .rela.text.cnmTimerDoTimeOutCheck
+                0x00000000        0x0 obj/ap/ap_pub.o
+ .rela.text.cnmTimerDestroy
+                0x00000000        0x0 obj/ap/ap_pub.o
+ .rela.text.iot_sw_pwm_hdlr
+                0x00000000        0x0 obj/ap/ap_pub.o
+ .rela.text.IoT_Cmd_Set_DBG_LVL
+                0x00000000        0x0 obj/ap/ap_pub.o
+ .rela.text.apiQU_Dequeue
+                0x00000000        0x0 obj/ap/ap_pub.o
+ .rela.text.apiQU_Enqueue
+                0x00000000        0x0 obj/ap/ap_pub.o
+ .rela.ovlysec11
+                0x00000000        0x0 obj/ap/ap_pub.o
+ .rela.text.MT7681_ReadEEPROM
+                0x00000000        0x0 obj/ap/ap_pub.o
+ .rela.text.rtmp_bbp_is_ready
+                0x00000000        0x0 obj/ap/ap_pub.o
+ .rela.text.MT7681_eep_cfg
+                0x00000000        0x0 obj/ap/ap_pub.o
+ .rela.text.RTMPConstructWEPIVHdr
+                0x00000000        0x0 obj/ap/ap_pub.o
+ .rela.text.RTMPInitWepEngine
+                0x00000000        0x0 obj/ap/ap_pub.o
+ .rela.text.RTMPSoftDecryptWEP
+                0x00000000        0x0 obj/ap/ap_pub.o
+ .rela.text.RTMPSoftEncryptWEP
+                0x00000000        0x0 obj/ap/ap_pub.o
+ .rela.ovlysec7
+                0x00000000        0x0 obj/ap/ap_pub.o
+ .rela.text.PRF
+                0x00000000        0x0 obj/ap/ap_pub.o
+ .rela.text.RTMPCheckWPAframe
+                0x00000000        0x0 obj/ap/ap_pub.o
+ .rela.rodata.cst4
+                0x00000000        0x0 obj/ap/ap_pub.o
+ .rela.text.T.85
+                0x00000000        0x0 obj/ap/ap_pub.o
+ .rela.text.RtmpPasswordHash
+                0x00000000        0x0 obj/ap/ap_pub.o
+ .rela.text.RT_AES_Encrypt
+                0x00000000        0x0 obj/ap/ap_pub.o
+ .rela.text.EnqueuePsPoll
+                0x00000000        0x0 obj/ap/ap_pub.o
+ .rela.text.PeerBeaconAdvPwrSavingSanity
+                0x00000000        0x0 obj/ap/ap_pub.o
+ .rela.text.ActHeaderInit
+                0x00000000        0x0 obj/ap/ap_pub.o
+ .rela.text.OS_WAIT
+                0x00000000        0x0 obj/ap/ap_pub.o
+ .rela.ovlysec3
+                0x00000000        0x0 obj/ap/ap_pub.o
+ .rela.text.DoScan
+                0x00000000        0x0 obj/ap/ap_pub.o
+ .rela.text.eEpPhysicalReadRegisters
+                0x00000000        0x0 obj/ap/ap_pub.o
+ .rela.text.set_eEpGetFreeBlockCount_Proc
+                0x00000000        0x0 obj/ap/ap_pub.o
+ .rela.text.set_eEpdump_Proc
+                0x00000000        0x0 obj/ap/ap_pub.o
+ .rela.text.drvFCE_IntHdlr
+                0x00000000        0x0 obj/ap/ap_pub.o
+ .rela.text.PdmaTxTsHdlr
+                0x00000000        0x0 obj/ap/ap_pub.o
+ .rela.text.PdmaRxFsHdlr
+                0x00000000        0x0 obj/ap/ap_pub.o
+ .rela.text.spi_flash_read
+                0x00000000        0x0 obj/ap/ap_pub.o
+ .rela.text.kal_free_timer
+                0x00000000        0x0 obj/ap/ap_pub.o
+ .rela.text.kal_stop_timer
+                0x00000000        0x0 obj/ap/ap_pub.o
+ .rela.text.kal_start_timer
+                0x00000000        0x0 obj/ap/ap_pub.o
+ .rela.text.SwTimerHandler
+                0x00000000        0x0 obj/ap/ap_pub.o
+ .rela.text.UART_RecHandler
+                0x00000000        0x0 obj/ap/ap_pub.o
+ .rela.text.UART_TrxHandler
+                0x00000000        0x0 obj/ap/ap_pub.o
+ .rela.text.UART_LISR
+                0x00000000        0x0 obj/ap/ap_pub.o
+ .rela.text.UART_EnableTX
+                0x00000000        0x0 obj/ap/ap_pub.o
+ .rela.text.UART_DisableTX
+                0x00000000        0x0 obj/ap/ap_pub.o
+ .rela.text.UART_EnableRX
+                0x00000000        0x0 obj/ap/ap_pub.o
+ .rela.text.UART_DisableRX
+                0x00000000        0x0 obj/ap/ap_pub.o
+ .rela.text.sysKernelStart
+                0x00000000        0x0 obj/ap/ap_pub.o
+ .rela.text.sysTASK_ChkSignal
+                0x00000000        0x0 obj/ap/ap_pub.o
+ .rela.text.sysTASK_LowPrioTask
+                0x00000000        0x0 obj/ap/ap_pub.o
+ .rela.text.sysTASK_DeassertSignal
+                0x00000000        0x0 obj/ap/ap_pub.o
+ .rela.text.sysTASK_AssertSignal
+                0x00000000        0x0 obj/ap/ap_pub.o
+ .rela.text.sysTASK_WaitForSignal
+                0x00000000        0x0 obj/ap/ap_pub.o
+ .rela.text.sysTASK_Dispatch
+                0x00000000        0x0 obj/ap/ap_pub.o
+ .rela.text.do_printf
+                0x00000000        0x0 obj/ap/ap_pub.o
+ .rela.text.__toupper
+                0x00000000        0x0 obj/ap/ap_pub.o
+ .rela.text.simple_strtoul
+                0x00000000        0x0 obj/ap/ap_pub.o
+ .rela.text.drvMCUCTL_IntrHdlr
+                0x00000000        0x0 obj/ap/ap_pub.o
+ .rela.text.cali_period_exec
+                0x00000000        0x0 obj/ap/ap_pub.o
+ .rela.text.LowPower
+                0x00000000        0x0 obj/ap/ap_pub.o
+ .rela.text.iot_get_queue_info
+                0x00000000        0x0 obj/ap/ap_pub.o
+ .rela.text.iot_get_fceint_state
+                0x00000000        0x0 obj/ap/ap_pub.o
+ .rela.text.store_phymode
+                0x00000000        0x0 obj/ap/ap_pub.o
+ .rela.text.handle_FCE_RxTS_interrupt
+                0x00000000        0x0 obj/ap/ap_pub.o
+ .rela.text.handle_fce_int
+                0x00000000        0x0 obj/ap/ap_pub.o
+ .rela.text.ConvertToRssi
+                0x00000000        0x0 obj/ap/ap_pub.o
+ .rela.text.sysCALL_XcptHdlr
+                0x00000000        0x0 obj/ap/ap_pub.o
+ .rela.text.sysCALL_SysCall0Hdlr
+                0x00000000        0x0 obj/ap/ap_pub.o
+
+.xipsec1        0x00569f78     0x2168
+ .xipsec1       0x00569f78     0x1488 obj/ap/tcpip/cloudclient.o
+                0x0056b1b0                cloud_client_resp_apk
+                0x0056b0cc                cloud_tcp_conn_check
+                0x0056aeac                cloud_http_get
+                0x0056a3f0                cloud_client_server_decrypt
+                0x00569ff4                cloud_client_ctr_header
+                0x0056a540                cloud_client_manage_packet
+                0x0056a0c0                cloud_tcp_connect
+                0x0056b2b8                cloud_activation_process
+                0x0056a15c                cloud_command_parse
+                0x00569f78                cloud_client_ctr_body
+                0x0056afc0                cloud_para_check_connect
+                0x0056ad1c                cloud_client_send_keepalive
+                0x0056b17c                cloud_client_apk_encrypt
+                0x0056a458                cloud_client_server_encrypt
+                0x0056af70                cloud_connect_process
+                0x0056a350                string_to_hex
+                0x0056adf4                cloudClient_tcpAppcall
+                0x0056a3bc                cloud_fota_decrypt
+                0x0056ac88                cloud_client_gpio_autoupdate
+                0x0056a5d8                cloud_client_function_packet
+                0x0056a424                cloud_client_apk_decrypt
+                0x0056ab90                cloud_client_uart_autoupdate
+                0x0056a07c                hex_to_string
+                0x0056a48c                cloud_client_resp_state
+                0x0056aa8c                cloud_client_data_handler
+ .xipsec1       0x0056b400      0x3b8 obj/ap/tcpip/dhcpc.o
+                0x0056b418                ws_got_ip_fail
+                0x0056b414                ws_got_ip
+                0x0056b41c                dhcpc_init
+                0x0056b784                handle_dhcp
+ .xipsec1       0x0056b7b8       0x4c obj/ap/tcpip/tcpip_main.o
+                0x0056b7b8                dhcpc_configured
+ .xipsec1       0x0056b804      0x374 obj/ap/tcpip/uip.o
+                0x0056b944                uip_unlisten
+                0x0056ba58                uip_process
+                0x0056ba8c                uip_udp_new
+                0x0056b980                uip_listen
+                0x0056b804                uip_connect
+                0x0056b9b0                uip_init
+ .xipsec1       0x0056bb78      0x424 obj/ap/tcpip/uip_arp.o
+                0x0056bda8                uip_arp_out
+                0x0056bca4                uip_arp_arpin
+ .xipsec1       0x0056bf9c      0x144 obj/ap/tcpip/webclient.o
+                0x0056bf9c                webclient_get
+
+.xipsec2
+START GROUP
+LOAD obj/ap/ap_pub.o
+LOAD obj/ap/crypt_crc.o
+LOAD obj/ap/iot_aes_pub.o
+LOAD obj/ap/iot_at_cmd.o
+LOAD obj/ap/iot_at_cmd_tcpip.o
+LOAD obj/ap/iot_at_cmd_utility.o
+LOAD obj/ap/iot_custom.o
+LOAD obj/ap/iot_custom_uart2wifi.o
+LOAD obj/ap/iot_parse.o
+LOAD obj/ap/iot_parse_conn_mgmt.o
+LOAD obj/ap/iot_uart_rb.o
+LOAD obj/ap/iot_uplink.o
+LOAD obj/ap/iot_xmodem.o
+LOAD obj/ap/main_pub.o
+LOAD obj/ap/misc_pub.o
+LOAD obj/ap/mt7681_ChSw_pub.o
+LOAD obj/ap/printf.o
+LOAD obj/ap/rtmp_data_pub.o
+LOAD obj/ap/spi-flash_pub.o
+LOAD obj/ap/stdlib.o
+LOAD obj/ap/tcpip/clock-arch.o
+LOAD obj/ap/tcpip/cloudclient.o
+LOAD obj/ap/tcpip/dhcpc.o
+LOAD obj/ap/tcpip/dhcpd.o
+LOAD obj/ap/tcpip/iot_tcp_app.o
+LOAD obj/ap/tcpip/iot_tcpip_interface.o
+LOAD obj/ap/tcpip/iot_udp_app.o
+LOAD obj/ap/tcpip/memb.o
+LOAD obj/ap/tcpip/mt76xx_dev.o
+LOAD obj/ap/tcpip/resolv.o
+LOAD obj/ap/tcpip/sample_resolv_usage.o
+LOAD obj/ap/tcpip/sample_udp_client.o
+LOAD obj/ap/tcpip/sample_udp_server.o
+LOAD obj/ap/tcpip/tcpip_main.o
+LOAD obj/ap/tcpip/uip-fw.o
+LOAD obj/ap/tcpip/uip-neighbor.o
+LOAD obj/ap/tcpip/uip-split.o
+LOAD obj/ap/tcpip/uip.o
+LOAD obj/ap/tcpip/uip_arp.o
+LOAD obj/ap/tcpip/uip_timer.o
+LOAD obj/ap/tcpip/uiplib.o
+LOAD obj/ap/tcpip/webclient-strings.o
+LOAD obj/ap/tcpip/webclient.o
+LOAD obj/ap/wifi_task_pub.o
+LOAD cust/vectors.o
+LOAD cust/startup.o
+LOAD cust/ctxsw.o
+LOAD ./libandesap.a
+END GROUP
+OUTPUT(out/ap/MT7681_ap.elf elf32-nds32)
+
+.mdebug.abi_nds32
+                0x00000000        0x0
+ .mdebug.abi_nds32
+                0x00000000        0x0 obj/ap/ap_pub.o
+ .mdebug.abi_nds32
+                0x00000000        0x0 obj/ap/crypt_crc.o
+ .mdebug.abi_nds32
+                0x00000000        0x0 obj/ap/iot_aes_pub.o
+ .mdebug.abi_nds32
+                0x00000000        0x0 obj/ap/iot_at_cmd.o
+ .mdebug.abi_nds32
+                0x00000000        0x0 obj/ap/iot_at_cmd_tcpip.o
+ .mdebug.abi_nds32
+                0x00000000        0x0 obj/ap/iot_at_cmd_utility.o
+ .mdebug.abi_nds32
+                0x00000000        0x0 obj/ap/iot_custom.o
+ .mdebug.abi_nds32
+                0x00000000        0x0 obj/ap/iot_custom_uart2wifi.o
+ .mdebug.abi_nds32
+                0x00000000        0x0 obj/ap/iot_parse.o
+ .mdebug.abi_nds32
+                0x00000000        0x0 obj/ap/iot_parse_conn_mgmt.o
+ .mdebug.abi_nds32
+                0x00000000        0x0 obj/ap/iot_uart_rb.o
+ .mdebug.abi_nds32
+                0x00000000        0x0 obj/ap/iot_uplink.o
+ .mdebug.abi_nds32
+                0x00000000        0x0 obj/ap/iot_xmodem.o
+ .mdebug.abi_nds32
+                0x00000000        0x0 obj/ap/main_pub.o
+ .mdebug.abi_nds32
+                0x00000000        0x0 obj/ap/misc_pub.o
+ .mdebug.abi_nds32
+                0x00000000        0x0 obj/ap/mt7681_ChSw_pub.o
+ .mdebug.abi_nds32
+                0x00000000        0x0 obj/ap/printf.o
+ .mdebug.abi_nds32
+                0x00000000        0x0 obj/ap/rtmp_data_pub.o
+ .mdebug.abi_nds32
+                0x00000000        0x0 obj/ap/spi-flash_pub.o
+ .mdebug.abi_nds32
+                0x00000000        0x0 obj/ap/stdlib.o
+ .mdebug.abi_nds32
+                0x00000000        0x0 obj/ap/tcpip/clock-arch.o
+ .mdebug.abi_nds32
+                0x00000000        0x0 obj/ap/tcpip/cloudclient.o
+ .mdebug.abi_nds32
+                0x00000000        0x0 obj/ap/tcpip/dhcpc.o
+ .mdebug.abi_nds32
+                0x00000000        0x0 obj/ap/tcpip/dhcpd.o
+ .mdebug.abi_nds32
+                0x00000000        0x0 obj/ap/tcpip/iot_tcp_app.o
+ .mdebug.abi_nds32
+                0x00000000        0x0 obj/ap/tcpip/iot_tcpip_interface.o
+ .mdebug.abi_nds32
+                0x00000000        0x0 obj/ap/tcpip/iot_udp_app.o
+ .mdebug.abi_nds32
+                0x00000000        0x0 obj/ap/tcpip/memb.o
+ .mdebug.abi_nds32
+                0x00000000        0x0 obj/ap/tcpip/mt76xx_dev.o
+ .mdebug.abi_nds32
+                0x00000000        0x0 obj/ap/tcpip/resolv.o
+ .mdebug.abi_nds32
+                0x00000000        0x0 obj/ap/tcpip/sample_resolv_usage.o
+ .mdebug.abi_nds32
+                0x00000000        0x0 obj/ap/tcpip/sample_udp_client.o
+ .mdebug.abi_nds32
+                0x00000000        0x0 obj/ap/tcpip/sample_udp_server.o
+ .mdebug.abi_nds32
+                0x00000000        0x0 obj/ap/tcpip/tcpip_main.o
+ .mdebug.abi_nds32
+                0x00000000        0x0 obj/ap/tcpip/uip-fw.o
+ .mdebug.abi_nds32
+                0x00000000        0x0 obj/ap/tcpip/uip-neighbor.o
+ .mdebug.abi_nds32
+                0x00000000        0x0 obj/ap/tcpip/uip-split.o
+ .mdebug.abi_nds32
+                0x00000000        0x0 obj/ap/tcpip/uip.o
+ .mdebug.abi_nds32
+                0x00000000        0x0 obj/ap/tcpip/uip_arp.o
+ .mdebug.abi_nds32
+                0x00000000        0x0 obj/ap/tcpip/uip_timer.o
+ .mdebug.abi_nds32
+                0x00000000        0x0 obj/ap/tcpip/uiplib.o
+ .mdebug.abi_nds32
+                0x00000000        0x0 obj/ap/tcpip/webclient-strings.o
+ .mdebug.abi_nds32
+                0x00000000        0x0 obj/ap/tcpip/webclient.o
+ .mdebug.abi_nds32
+                0x00000000        0x0 obj/ap/wifi_task_pub.o
+ .mdebug.abi_nds32
+                0x00000000        0x0 ./libandesap.a(xip_ovly.o)
+ .mdebug.abi_nds32
+                0x00000000        0x0 ./libandesap.a(ap.o)
+ .mdebug.abi_nds32
+                0x00000000        0x0 ./libandesap.a(ap_assoc.o)
+ .mdebug.abi_nds32
+                0x00000000        0x0 ./libandesap.a(ap_auth.o)
+ .mdebug.abi_nds32
+                0x00000000        0x0 ./libandesap.a(mgmt_entrytb.o)
+ .mdebug.abi_nds32
+                0x00000000        0x0 ./libandesap.a(cnm_timer.o)
+ .mdebug.abi_nds32
+                0x00000000        0x0 ./libandesap.a(iot_io_cmd.o)
+ .mdebug.abi_nds32
+                0x00000000        0x0 ./libandesap.a(iot_mgmt_cmd.o)
+ .mdebug.abi_nds32
+                0x00000000        0x0 ./libandesap.a(queue.o)
+ .mdebug.abi_nds32
+                0x00000000        0x0 ./libandesap.a(app_nos_main.o)
+ .mdebug.abi_nds32
+                0x00000000        0x0 ./libandesap.a(chip_init.o)
+ .mdebug.abi_nds32
+                0x00000000        0x0 ./libandesap.a(cmm_wep.o)
+ .mdebug.abi_nds32
+                0x00000000        0x0 ./libandesap.a(cmm_wpa.o)
+ .mdebug.abi_nds32
+                0x00000000        0x0 ./libandesap.a(crypt_aes.o)
+ .mdebug.abi_nds32
+                0x00000000        0x0 ./libandesap.a(crypt_hmac.o)
+ .mdebug.abi_nds32
+                0x00000000        0x0 ./libandesap.a(rtmp_data.o)
+ .mdebug.abi_nds32
+                0x00000000        0x0 ./libandesap.a(rtmp_general.o)
+ .mdebug.abi_nds32
+                0x00000000        0x0 ./libandesap.a(scan.o)
+ .mdebug.abi_nds32
+                0x00000000        0x0 ./libandesap.a(wow.o)
+ .mdebug.abi_nds32
+                0x00000000        0x0 ./libandesap.a(bsp.o)
+ .mdebug.abi_nds32
+                0x00000000        0x0 ./libandesap.a(ee_efuse.o)
+ .mdebug.abi_nds32
+                0x00000000        0x0 ./libandesap.a(fce.o)
+ .mdebug.abi_nds32
+                0x00000000        0x0 ./libandesap.a(pdma.o)
+ .mdebug.abi_nds32
+                0x00000000        0x0 ./libandesap.a(spi-flash.o)
+ .mdebug.abi_nds32
+                0x00000000        0x0 ./libandesap.a(timer.o)
+ .mdebug.abi_nds32
+                0x00000000        0x0 ./libandesap.a(uart.o)
+ .mdebug.abi_nds32
+                0x00000000        0x0 ./libandesap.a(uartlite.o)
+ .mdebug.abi_nds32
+                0x00000000        0x0 ./libandesap.a(main.o)
+ .mdebug.abi_nds32
+                0x00000000        0x0 ./libandesap.a(xcpt.o)
+ .mdebug.abi_nds32
+                0x00000000        0x0 ./libandesap.a(initial.o)
+ .mdebug.abi_nds32
+                0x00000000        0x0 ./libandesap.a(mutex.o)
+ .mdebug.abi_nds32
+                0x00000000        0x0 ./libandesap.a(stack.o)
+ .mdebug.abi_nds32
+                0x00000000        0x0 ./libandesap.a(task.o)
+ .mdebug.abi_nds32
+                0x00000000        0x0 ./libandesap.a(list.o)
+ .mdebug.abi_nds32
+                0x00000000        0x0 ./libandesap.a(random.o)
+ .mdebug.abi_nds32
+                0x00000000        0x0 ./libandesap.a(do_printf.o)
+ .mdebug.abi_nds32
+                0x00000000        0x0 ./libandesap.a(fputs.o)
+ .mdebug.abi_nds32
+                0x00000000        0x0 ./libandesap.a(strcmp.o)
+ .mdebug.abi_nds32
+                0x00000000        0x0 ./libandesap.a(strcpy.o)
+ .mdebug.abi_nds32
+                0x00000000        0x0 ./libandesap.a(strlen.o)
+ .mdebug.abi_nds32
+                0x00000000        0x0 ./libandesap.a(vsprintf.o)
+ .mdebug.abi_nds32
+                0x00000000        0x0 ./libandesap.a(mcuctl.o)
+ .mdebug.abi_nds32
+                0x00000000        0x0 ./libandesap.a(mt7681_ChSw.o)
+ .mdebug.abi_nds32
+                0x00000000        0x0 ./libandesap.a(wifi_ps.o)
+ .mdebug.abi_nds32
+                0x00000000        0x0 ./libandesap.a(wifi_task.o)
+ .mdebug.abi_nds32
+                0x00000000        0x0 ./libandesap.a(ate.o)
+ .mdebug.abi_nds32
+                0x00000000        0x0 ./libandesap.a(led.o)
+ .mdebug.abi_nds32
+                0x00000000        0x0 ./libandesap.a(syscall.o)
+ .mdebug.abi_nds32
+                0x00000000        0x0 ./libandesap.a(ctype.o)

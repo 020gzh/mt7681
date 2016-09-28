@@ -1,0 +1,3594 @@
+Archive member included because of file (symbol)
+
+.\libandesrecovery.a(xip_ovly.o)
+                              obj/recovery/rtmp_data_pub.o (overlayload)
+.\libandesrecovery.a(cnm_timer.o)
+                              obj/recovery/iot_custom.o (cnmTimerInitTimer)
+.\libandesrecovery.a(iot_io_cmd.o)
+                              obj/recovery/iot_parse.o (iot_gpio_output)
+.\libandesrecovery.a(iot_mgmt_cmd.o)
+                              obj/recovery/iot_at_cmd.o (iot_linkdown)
+.\libandesrecovery.a(iot_priv.o)
+                              obj/recovery/iot_at_cmd.o (iot_xmodem_update_fw_stop)
+.\libandesrecovery.a(queue.o)
+                              obj/recovery/iot_uplink.o (apiQU_Dequeue)
+.\libandesrecovery.a(app_nos_main.o)
+                              .\libandesrecovery.a(iot_mgmt_cmd.o) (pAd)
+.\libandesrecovery.a(ate.o)   obj/recovery/iot_at_cmd.o (Set_ATE_TX_Cnt_Per_Speed)
+.\libandesrecovery.a(auth.o)  .\libandesrecovery.a(iot_mgmt_cmd.o) (MlmeDeauthReqAction)
+.\libandesrecovery.a(chip_init.o)
+                              .\libandesrecovery.a(ate.o) (Reg_mac_add_init)
+.\libandesrecovery.a(crypt_aes.o)
+                              obj/recovery/iot_aes_pub.o (RT_AES_Encrypt)
+.\libandesrecovery.a(rtmp_data.o)
+                              obj/recovery/rtmp_data_pub.o (WriteSingleTxResource)
+.\libandesrecovery.a(rtmp_general.o)
+                              obj/recovery/rtmp_data_pub.o (RTMPZeroMemory)
+.\libandesrecovery.a(scan.o)  obj/recovery/mt7681_ChSw_pub.o (rtmp_mac_set_ctrlch)
+.\libandesrecovery.a(smtcn.o)
+                              obj/recovery/iot_custom.o (SMTCN_state_chg_init)
+.\libandesrecovery.a(wow.o)   .\libandesrecovery.a(chip_init.o) (RTMP_EnableTxRx)
+.\libandesrecovery.a(bsp.o)   obj/recovery/main_pub.o (bsp_init)
+.\libandesrecovery.a(ee_efuse.o)
+                              .\libandesrecovery.a(chip_init.o) (eEp_init)
+.\libandesrecovery.a(fce.o)   .\libandesrecovery.a(app_nos_main.o) (drvFCE_RegisterIntHdlr)
+.\libandesrecovery.a(pdma.o)  .\libandesrecovery.a(app_nos_main.o) (PdmaVrPortIntHdlr)
+.\libandesrecovery.a(spi-flash.o)
+                              obj/recovery/spi-flash_pub.o (SPI_REG8)
+.\libandesrecovery.a(timer.o)
+                              .\libandesrecovery.a(bsp.o) (drvTMR_Init)
+.\libandesrecovery.a(uart.o)  obj/recovery/iot_uart_rb.o (UART_PutUARTByte)
+.\libandesrecovery.a(uartlite.o)
+                              obj/recovery/iot_xmodem.o (UART_PutChar)
+.\libandesrecovery.a(main.o)  obj/recovery/main_pub.o (iot_sys_init)
+.\libandesrecovery.a(xcpt.o)  cust/ctxsw.o (sysXCPT_XcptHdlr)
+.\libandesrecovery.a(initial.o)
+                              obj/recovery/main_pub.o (sysKernelStart)
+.\libandesrecovery.a(mutex.o)
+                              .\libandesrecovery.a(iot_priv.o) (SYSirq_Disable_Interrupts_Save_Flags)
+.\libandesrecovery.a(stack.o)
+                              .\libandesrecovery.a(main.o) (sysStack)
+.\libandesrecovery.a(task.o)  cust/ctxsw.o (sysTaskingCtl)
+.\libandesrecovery.a(list.o)  .\libandesrecovery.a(queue.o) (apiInitListEntry)
+.\libandesrecovery.a(do_printf.o)
+                              obj/recovery/printf.o (do_printf)
+.\libandesrecovery.a(fputs.o)
+                              obj/recovery/printf.o (putchar)
+.\libandesrecovery.a(strcmp.o)
+                              obj/recovery/iot_at_cmd_utility.o (strcmp)
+.\libandesrecovery.a(strcpy.o)
+                              obj/recovery/tcpip/resolv.o (strncpy)
+.\libandesrecovery.a(strlen.o)
+                              obj/recovery/iot_at_cmd.o (strlen)
+.\libandesrecovery.a(vsprintf.o)
+                              obj/recovery/iot_at_cmd.o (simple_strtol)
+.\libandesrecovery.a(mcuctl.o)
+                              .\libandesrecovery.a(uart.o) (drvMCUCTL_RegisterIntHdlr)
+.\libandesrecovery.a(mt7681_ChSw.o)
+                              .\libandesrecovery.a(ate.o) (RF_WRITE8)
+.\libandesrecovery.a(wifi_ps.o)
+                              .\libandesrecovery.a(main.o) (drvPBF_IntHdler)
+.\libandesrecovery.a(wifi_task.o)
+                              obj/recovery/wifi_task_pub.o (iot_set_rec2loader_flag)
+.\libandesrecovery.a(assoc.o)
+                              .\libandesrecovery.a(wifi_task.o) (MlmeAssocReqAction)
+.\libandesrecovery.a(crypt_hmac.o)
+                              .\libandesrecovery.a(rtmp_data.o) (RT_HMAC_MD5)
+.\libandesrecovery.a(led.o)   .\libandesrecovery.a(main.o) (drvGPIO_IntHdler)
+.\libandesrecovery.a(syscall.o)
+                              .\libandesrecovery.a(task.o) (sysCALL)
+.\libandesrecovery.a(ctype.o)
+                              .\libandesrecovery.a(vsprintf.o) (_ctype)
+
+Allocating common symbols
+Common symbol       size              file
+
+udp_app_state       0x10              obj/recovery/tcpip/iot_udp_app.o
+arp_timer           0x8               obj/recovery/tcpip/tcpip_main.o
+System_Timer_Pool   0x14              .\libandesrecovery.a(timer.o)
+CIPTER              0x100             obj/recovery/iot_aes_pub.o
+IoTCustOp           0x20              obj/recovery/iot_custom.o
+uip_acc32           0x4               obj/recovery/tcpip/uip.o
+IoTCustTimer        0x1c              obj/recovery/iot_custom.o
+sysTaskingCtl       0x34              .\libandesrecovery.a(task.o)
+gATEInfo            0x24d             .\libandesrecovery.a(ate.o)
+periodic_timer      0x8               obj/recovery/tcpip/tcpip_main.o
+Free_Timer_List     0x10              .\libandesrecovery.a(timer.o)
+IoTpAd              0x18c             obj/recovery/iot_custom.o
+AdvPSMode           0x14              .\libandesrecovery.a(wifi_ps.o)
+eepcfg              0x41              .\libandesrecovery.a(chip_init.o)
+PLAIN2              0x100             obj/recovery/iot_aes_pub.o
+uip_conns           0xf18             obj/recovery/tcpip/uip.o
+gFreeQueue1         0x10              .\libandesrecovery.a(queue.o)
+rRootTimer          0x14              .\libandesrecovery.a(cnm_timer.o)
+UARTPort            0x118             obj/recovery/iot_uart_rb.o
+UARTTxBuf           0x40              obj/recovery/iot_uart_rb.o
+pAd                 0x5c8             .\libandesrecovery.a(app_nos_main.o)
+uip_listenports     0xc               obj/recovery/tcpip/uip.o
+uip_draddr          0x4               obj/recovery/tcpip/uip.o
+gFreeQueue2         0x10              .\libandesrecovery.a(queue.o)
+mt76xx_Activation   0x88              obj/recovery/tcpip/iot_tcp_app.o
+uip_netmask         0x4               obj/recovery/tcpip/uip.o
+uip_hostaddr        0x4               obj/recovery/tcpip/uip.o
+cli_timer           0x8               obj/recovery/tcpip/tcpip_main.o
+uip_buf             0x25a             obj/recovery/tcpip/uip.o
+uip_sourceAddr      0x6               obj/recovery/tcpip/uip_arp.o
+UARTRxBuf           0x200             obj/recovery/iot_uart_rb.o
+uip_udp_conns       0xa8              obj/recovery/tcpip/uip.o
+
+Discarded input sections
+
+ .text          0x00000000        0x0 obj/recovery/ap_pub.o
+ .data          0x00000000        0x0 obj/recovery/ap_pub.o
+ .bss           0x00000000        0x0 obj/recovery/ap_pub.o
+ .text          0x00000000        0x0 obj/recovery/crypt_crc.o
+ .data          0x00000000        0x0 obj/recovery/crypt_crc.o
+ .bss           0x00000000        0x0 obj/recovery/crypt_crc.o
+ .text.crc_cal_by_byte
+                0x00000000        0x0 obj/recovery/crypt_crc.o
+ .text.crc_cal_by_halfbyte
+                0x00000000        0x0 obj/recovery/crypt_crc.o
+ .data.crc_ta_8
+                0x00000000        0x0 obj/recovery/crypt_crc.o
+ .data.crc_ta_4
+                0x00000000        0x0 obj/recovery/crypt_crc.o
+ .text          0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .data          0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .bss           0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .text.aes_cbc_decrypt
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .text.aes_cbc_complete_decrypt
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rodata.str1.4
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .text.aes_ecb_decry_test
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .text.aes_cbc_encrypt
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .text.aes_ecb_encry_test
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rodata.cst4   0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .text.aes_sample
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .data.PLAIN    0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rodata.C.8.2977
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rodata.C.7.2948
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rodata.C.4.2929
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rodata.C.3.2928
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rodata.C.2.2927
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ COMMON         0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .text          0x00000000        0x0 obj/recovery/iot_at_cmd.o
+ .data          0x00000000        0x0 obj/recovery/iot_at_cmd.o
+ .bss           0x00000000        0x0 obj/recovery/iot_at_cmd.o
+ .text.iot_exec_atcmd_netmode
+                0x00000000        0x0 obj/recovery/iot_at_cmd.o
+ .bss.state     0x00000000        0x0 obj/recovery/iot_at_cmd.o
+ .text          0x00000000        0x0 obj/recovery/iot_at_cmd_tcpip.o
+ .data          0x00000000        0x0 obj/recovery/iot_at_cmd_tcpip.o
+ .bss           0x00000000        0x0 obj/recovery/iot_at_cmd_tcpip.o
+ .text          0x00000000        0x0 obj/recovery/iot_at_cmd_utility.o
+ .data          0x00000000        0x0 obj/recovery/iot_at_cmd_utility.o
+ .bss           0x00000000        0x0 obj/recovery/iot_at_cmd_utility.o
+ .text          0x00000000        0x0 obj/recovery/iot_custom.o
+ .data          0x00000000        0x0 obj/recovery/iot_custom.o
+ .bss           0x00000000        0x0 obj/recovery/iot_custom.o
+ .text.iot_gpio_defval
+                0x00000000        0x0 obj/recovery/iot_custom.o
+ .text.default_boot_cfg
+                0x00000000        0x0 obj/recovery/iot_custom.o
+ .text.reset_ap_cfg
+                0x00000000        0x0 obj/recovery/iot_custom.o
+ .data.bSpecAP  0x00000000        0x0 obj/recovery/iot_custom.o
+ .text          0x00000000        0x0 obj/recovery/iot_custom_uart2wifi.o
+ .data          0x00000000        0x0 obj/recovery/iot_custom_uart2wifi.o
+ .bss           0x00000000        0x0 obj/recovery/iot_custom_uart2wifi.o
+ .text          0x00000000        0x0 obj/recovery/iot_parse.o
+ .data          0x00000000        0x0 obj/recovery/iot_parse.o
+ .bss           0x00000000        0x0 obj/recovery/iot_parse.o
+ .text.iot_app_proc_mgmt_pkt
+                0x00000000        0x0 obj/recovery/iot_parse.o
+ .text.iot_app_proc_func_pkt
+                0x00000000        0x0 obj/recovery/iot_parse.o
+ .text.iot_app_proc_pkt
+                0x00000000        0x0 obj/recovery/iot_parse.o
+ .data.src_addr
+                0x00000000        0x0 obj/recovery/iot_parse.o
+ .data.dest_addr
+                0x00000000        0x0 obj/recovery/iot_parse.o
+ .data.IoT_CmdPWD_Recv
+                0x00000000        0x0 obj/recovery/iot_parse.o
+ .bss.preSeq    0x00000000        0x0 obj/recovery/iot_parse.o
+ .bss.appLen    0x00000000        0x0 obj/recovery/iot_parse.o
+ .rodata.mt7681_HardwareRresource
+                0x00000000        0x0 obj/recovery/iot_parse.o
+ .bss.mt7681_HardwareStatus
+                0x00000000        0x0 obj/recovery/iot_parse.o
+ .text          0x00000000        0x0 obj/recovery/iot_parse_conn_mgmt.o
+ .data          0x00000000        0x0 obj/recovery/iot_parse_conn_mgmt.o
+ .bss           0x00000000        0x0 obj/recovery/iot_parse_conn_mgmt.o
+ .text          0x00000000        0x0 obj/recovery/iot_uart_rb.o
+ .data          0x00000000        0x0 obj/recovery/iot_uart_rb.o
+ .bss           0x00000000        0x0 obj/recovery/iot_uart_rb.o
+ .text          0x00000000        0x0 obj/recovery/iot_uplink.o
+ .data          0x00000000        0x0 obj/recovery/iot_uplink.o
+ .bss           0x00000000        0x0 obj/recovery/iot_uplink.o
+ .text.iot_cksum
+                0x00000000        0x0 obj/recovery/iot_uplink.o
+ .text.iot_udp_cksum
+                0x00000000        0x0 obj/recovery/iot_uplink.o
+ .text.IoT_build_app_response_header
+                0x00000000        0x0 obj/recovery/iot_uplink.o
+ .rodata.str1.4
+                0x00000000        0x0 obj/recovery/iot_uplink.o
+ .text.iot_udp_pkt_send_direct
+                0x00000000        0x0 obj/recovery/iot_uplink.o
+ .text.iot_udp_pkt_send
+                0x00000000        0x0 obj/recovery/iot_uplink.o
+ .data.SNAP_BRIDGE_TUNNEL
+                0x00000000        0x0 obj/recovery/iot_uplink.o
+ .data.ARP_TYPE
+                0x00000000        0x0 obj/recovery/iot_uplink.o
+ .data.EAPOL    0x00000000        0x0 obj/recovery/iot_uplink.o
+ .data.IPv4     0x00000000        0x0 obj/recovery/iot_uplink.o
+ .data.IPv6     0x00000000        0x0 obj/recovery/iot_uplink.o
+ .rodata.__FUNCTION__.3090
+                0x00000000        0x0 obj/recovery/iot_uplink.o
+ .text          0x00000000        0x0 obj/recovery/iot_xmodem.o
+ .data          0x00000000        0x0 obj/recovery/iot_xmodem.o
+ .bss           0x00000000        0x0 obj/recovery/iot_xmodem.o
+ .text.iot_xmodem_receive
+                0x00000000        0x0 obj/recovery/iot_xmodem.o
+ .text.iot_xmodem_transmit
+                0x00000000        0x0 obj/recovery/iot_xmodem.o
+ .text          0x00000000        0x0 obj/recovery/main_pub.o
+ .data          0x00000000        0x0 obj/recovery/main_pub.o
+ .bss           0x00000000        0x0 obj/recovery/main_pub.o
+ .text          0x00000000        0x0 obj/recovery/misc_pub.o
+ .data          0x00000000        0x0 obj/recovery/misc_pub.o
+ .bss           0x00000000        0x0 obj/recovery/misc_pub.o
+ .text          0x00000000        0x0 obj/recovery/mt7681_ChSw_pub.o
+ .data          0x00000000        0x0 obj/recovery/mt7681_ChSw_pub.o
+ .bss           0x00000000        0x0 obj/recovery/mt7681_ChSw_pub.o
+ .text          0x00000000        0x0 obj/recovery/printf.o
+ .data          0x00000000        0x0 obj/recovery/printf.o
+ .bss           0x00000000        0x0 obj/recovery/printf.o
+ .text.vsprintf_help
+                0x00000000        0x0 obj/recovery/printf.o
+ .text.vsprintf
+                0x00000000        0x0 obj/recovery/printf.o
+ .text.sprintf  0x00000000        0x0 obj/recovery/printf.o
+ .text          0x00000000        0x0 obj/recovery/rtmp_data_pub.o
+ .data          0x00000000        0x0 obj/recovery/rtmp_data_pub.o
+ .bss           0x00000000        0x0 obj/recovery/rtmp_data_pub.o
+ .text.STAHandleRxDataFrame
+                0x00000000        0x0 obj/recovery/rtmp_data_pub.o
+ .text.STAHandleRxMgmtFrame
+                0x00000000        0x0 obj/recovery/rtmp_data_pub.o
+ .text.STAFindCipherAlgorithm
+                0x00000000        0x0 obj/recovery/rtmp_data_pub.o
+ .text.get_cent_ch_by_htinfo
+                0x00000000        0x0 obj/recovery/rtmp_data_pub.o
+ .text.get_primary_ch_by_cent_ch
+                0x00000000        0x0 obj/recovery/rtmp_data_pub.o
+ .text.PeerBeaconCHInfoParse
+                0x00000000        0x0 obj/recovery/rtmp_data_pub.o
+ .text.RTMPRawDataSanity
+                0x00000000        0x0 obj/recovery/rtmp_data_pub.o
+ .text.RestartBCNTimer
+                0x00000000        0x0 obj/recovery/rtmp_data_pub.o
+ .text          0x00000000        0x0 obj/recovery/spi-flash_pub.o
+ .data          0x00000000        0x0 obj/recovery/spi-flash_pub.o
+ .bss           0x00000000        0x0 obj/recovery/spi-flash_pub.o
+ .text.dump_spi_flash
+                0x00000000        0x0 obj/recovery/spi-flash_pub.o
+ .text.dump_spi_flash_fw
+                0x00000000        0x0 obj/recovery/spi-flash_pub.o
+ .text.spi_flash_read_m2
+                0x00000000        0x0 obj/recovery/spi-flash_pub.o
+ .text.spi_flash_erase_block
+                0x00000000        0x0 obj/recovery/spi-flash_pub.o
+ .text.spi_flash_erase_CE
+                0x00000000        0x0 obj/recovery/spi-flash_pub.o
+ .text          0x00000000        0x0 obj/recovery/stdlib.o
+ .data          0x00000000        0x0 obj/recovery/stdlib.o
+ .bss           0x00000000        0x0 obj/recovery/stdlib.o
+ .text.malloc   0x00000000        0x0 obj/recovery/stdlib.o
+ .text.free     0x00000000        0x0 obj/recovery/stdlib.o
+ .text.atoi     0x00000000        0x0 obj/recovery/stdlib.o
+ .text          0x00000000        0x0 obj/recovery/tcpip/clock-arch.o
+ .data          0x00000000        0x0 obj/recovery/tcpip/clock-arch.o
+ .bss           0x00000000        0x0 obj/recovery/tcpip/clock-arch.o
+ .text.clock_time
+                0x00000000        0x0 obj/recovery/tcpip/clock-arch.o
+ .text          0x00000000        0x0 obj/recovery/tcpip/cloudclient.o
+ .data          0x00000000        0x0 obj/recovery/tcpip/cloudclient.o
+ .bss           0x00000000        0x0 obj/recovery/tcpip/cloudclient.o
+ .text          0x00000000        0x0 obj/recovery/tcpip/dhcpc.o
+ .data          0x00000000        0x0 obj/recovery/tcpip/dhcpc.o
+ .bss           0x00000000        0x0 obj/recovery/tcpip/dhcpc.o
+ .text.add_msg_type
+                0x00000000        0x0 obj/recovery/tcpip/dhcpc.o
+ .text.dhcpc_request
+                0x00000000        0x0 obj/recovery/tcpip/dhcpc.o
+ .text.dhcpc_set_state
+                0x00000000        0x0 obj/recovery/tcpip/dhcpc.o
+ .text.dhcpc_get_state
+                0x00000000        0x0 obj/recovery/tcpip/dhcpc.o
+ .text.ws_got_ip_fail
+                0x00000000        0x0 obj/recovery/tcpip/dhcpc.o
+ .text.ws_got_ip
+                0x00000000        0x0 obj/recovery/tcpip/dhcpc.o
+ .text.dhcpc_init
+                0x00000000        0x0 obj/recovery/tcpip/dhcpc.o
+ .text.create_msg
+                0x00000000        0x0 obj/recovery/tcpip/dhcpc.o
+ .text.parse_msg
+                0x00000000        0x0 obj/recovery/tcpip/dhcpc.o
+ .text.T.27     0x00000000        0x0 obj/recovery/tcpip/dhcpc.o
+ .text.send_request
+                0x00000000        0x0 obj/recovery/tcpip/dhcpc.o
+ .text.send_discover
+                0x00000000        0x0 obj/recovery/tcpip/dhcpc.o
+ .rodata.str1.4
+                0x00000000        0x0 obj/recovery/tcpip/dhcpc.o
+ .text._handle_dhcp
+                0x00000000        0x0 obj/recovery/tcpip/dhcpc.o
+ .text.handle_dhcp
+                0x00000000        0x0 obj/recovery/tcpip/dhcpc.o
+ .text.dhcpc_appcall
+                0x00000000        0x0 obj/recovery/tcpip/dhcpc.o
+ .bss.lease_time_flag
+                0x00000000        0x0 obj/recovery/tcpip/dhcpc.o
+ .data.hostname
+                0x00000000        0x0 obj/recovery/tcpip/dhcpc.o
+ .rodata.xid    0x00000000        0x0 obj/recovery/tcpip/dhcpc.o
+ .rodata.magic_cookie
+                0x00000000        0x0 obj/recovery/tcpip/dhcpc.o
+ .bss.s         0x00000000        0x0 obj/recovery/tcpip/dhcpc.o
+ .text          0x00000000        0x0 obj/recovery/tcpip/dhcpd.o
+ .data          0x00000000        0x0 obj/recovery/tcpip/dhcpd.o
+ .bss           0x00000000        0x0 obj/recovery/tcpip/dhcpd.o
+ .text          0x00000000        0x0 obj/recovery/tcpip/iot_tcp_app.o
+ .data          0x00000000        0x0 obj/recovery/tcpip/iot_tcp_app.o
+ .bss           0x00000000        0x0 obj/recovery/tcpip/iot_tcp_app.o
+ .rodata.str1.4
+                0x00000000        0x0 obj/recovery/tcpip/iot_tcp_app.o
+ .rodata        0x00000000        0x0 obj/recovery/tcpip/iot_tcp_app.o
+ .text.handle_tcp_app
+                0x00000000        0x0 obj/recovery/tcpip/iot_tcp_app.o
+ .text.iot_tcp_appcall
+                0x00000000        0x0 obj/recovery/tcpip/iot_tcp_app.o
+ .text.iot_tcp_app_init
+                0x00000000        0x0 obj/recovery/tcpip/iot_tcp_app.o
+ COMMON         0x00000000        0x0 obj/recovery/tcpip/iot_tcp_app.o
+ .text          0x00000000        0x0 obj/recovery/tcpip/iot_tcpip_interface.o
+ .data          0x00000000        0x0 obj/recovery/tcpip/iot_tcpip_interface.o
+ .bss           0x00000000        0x0 obj/recovery/tcpip/iot_tcpip_interface.o
+ .text          0x00000000        0x0 obj/recovery/tcpip/iot_udp_app.o
+ .data          0x00000000        0x0 obj/recovery/tcpip/iot_udp_app.o
+ .bss           0x00000000        0x0 obj/recovery/tcpip/iot_udp_app.o
+ .text.iot_udp_appcall
+                0x00000000        0x0 obj/recovery/tcpip/iot_udp_app.o
+ .text.iot_udp_app_init
+                0x00000000        0x0 obj/recovery/tcpip/iot_udp_app.o
+ COMMON         0x00000000        0x0 obj/recovery/tcpip/iot_udp_app.o
+ .text          0x00000000        0x0 obj/recovery/tcpip/memb.o
+ .data          0x00000000        0x0 obj/recovery/tcpip/memb.o
+ .bss           0x00000000        0x0 obj/recovery/tcpip/memb.o
+ .text.memb_alloc
+                0x00000000        0x0 obj/recovery/tcpip/memb.o
+ .text.memb_free
+                0x00000000        0x0 obj/recovery/tcpip/memb.o
+ .text.memb_init
+                0x00000000        0x0 obj/recovery/tcpip/memb.o
+ .text          0x00000000        0x0 obj/recovery/tcpip/mt76xx_dev.o
+ .data          0x00000000        0x0 obj/recovery/tcpip/mt76xx_dev.o
+ .bss           0x00000000        0x0 obj/recovery/tcpip/mt76xx_dev.o
+ .text.mt76xx_dev_init
+                0x00000000        0x0 obj/recovery/tcpip/mt76xx_dev.o
+ .text.mt76xx_dev_read
+                0x00000000        0x0 obj/recovery/tcpip/mt76xx_dev.o
+ .text.mt76xx_dev_send
+                0x00000000        0x0 obj/recovery/tcpip/mt76xx_dev.o
+ .text          0x00000000        0x0 obj/recovery/tcpip/resolv.o
+ .data          0x00000000        0x0 obj/recovery/tcpip/resolv.o
+ .bss           0x00000000        0x0 obj/recovery/tcpip/resolv.o
+ .text.parse_name
+                0x00000000        0x0 obj/recovery/tcpip/resolv.o
+ .text.resolv_getserver
+                0x00000000        0x0 obj/recovery/tcpip/resolv.o
+ .text.resolv_init
+                0x00000000        0x0 obj/recovery/tcpip/resolv.o
+ .text.resolv_conf
+                0x00000000        0x0 obj/recovery/tcpip/resolv.o
+ .text.resolv_lookup
+                0x00000000        0x0 obj/recovery/tcpip/resolv.o
+ .text.resolv_query
+                0x00000000        0x0 obj/recovery/tcpip/resolv.o
+ .text.resolv_newdata
+                0x00000000        0x0 obj/recovery/tcpip/resolv.o
+ .text.resolv_check_entries
+                0x00000000        0x0 obj/recovery/tcpip/resolv.o
+ .text.handle_resolv
+                0x00000000        0x0 obj/recovery/tcpip/resolv.o
+ .bss.i.3153    0x00000000        0x0 obj/recovery/tcpip/resolv.o
+ .bss.resolv_conn
+                0x00000000        0x0 obj/recovery/tcpip/resolv.o
+ .bss.i.3118    0x00000000        0x0 obj/recovery/tcpip/resolv.o
+ .bss.lseqi.3089
+                0x00000000        0x0 obj/recovery/tcpip/resolv.o
+ .bss.lseq.3088
+                0x00000000        0x0 obj/recovery/tcpip/resolv.o
+ .bss.i.3087    0x00000000        0x0 obj/recovery/tcpip/resolv.o
+ .bss.i.3026    0x00000000        0x0 obj/recovery/tcpip/resolv.o
+ .bss.nanswers.3025
+                0x00000000        0x0 obj/recovery/tcpip/resolv.o
+ .bss.nquestions.3024
+                0x00000000        0x0 obj/recovery/tcpip/resolv.o
+ .data.endquery.2977
+                0x00000000        0x0 obj/recovery/tcpip/resolv.o
+ .bss.n.2969    0x00000000        0x0 obj/recovery/tcpip/resolv.o
+ .bss.i.2968    0x00000000        0x0 obj/recovery/tcpip/resolv.o
+ .bss.names     0x00000000        0x0 obj/recovery/tcpip/resolv.o
+ .bss.seqno     0x00000000        0x0 obj/recovery/tcpip/resolv.o
+ .text          0x00000000        0x0 obj/recovery/tcpip/sample_resolv_usage.o
+ .data          0x00000000        0x0 obj/recovery/tcpip/sample_resolv_usage.o
+ .bss           0x00000000        0x0 obj/recovery/tcpip/sample_resolv_usage.o
+ .text.resolv_usage_sample
+                0x00000000        0x0 obj/recovery/tcpip/sample_resolv_usage.o
+ .text.resolv_usage_init
+                0x00000000        0x0 obj/recovery/tcpip/sample_resolv_usage.o
+ .rodata.str1.4
+                0x00000000        0x0 obj/recovery/tcpip/sample_resolv_usage.o
+ .text.resolv_found
+                0x00000000        0x0 obj/recovery/tcpip/sample_resolv_usage.o
+ .bss.ss        0x00000000        0x0 obj/recovery/tcpip/sample_resolv_usage.o
+ .text          0x00000000        0x0 obj/recovery/tcpip/sample_udp_client.o
+ .data          0x00000000        0x0 obj/recovery/tcpip/sample_udp_client.o
+ .bss           0x00000000        0x0 obj/recovery/tcpip/sample_udp_client.o
+ .rodata.str1.4
+                0x00000000        0x0 obj/recovery/tcpip/sample_udp_client.o
+ .text.udp_client_sample
+                0x00000000        0x0 obj/recovery/tcpip/sample_udp_client.o
+ .text.udp_client_init
+                0x00000000        0x0 obj/recovery/tcpip/sample_udp_client.o
+ .bss.udp_client_timer
+                0x00000000        0x0 obj/recovery/tcpip/sample_udp_client.o
+ .text          0x00000000        0x0 obj/recovery/tcpip/sample_udp_server.o
+ .data          0x00000000        0x0 obj/recovery/tcpip/sample_udp_server.o
+ .bss           0x00000000        0x0 obj/recovery/tcpip/sample_udp_server.o
+ .rodata.str1.4
+                0x00000000        0x0 obj/recovery/tcpip/sample_udp_server.o
+ .text.handle_udp_srv_app1
+                0x00000000        0x0 obj/recovery/tcpip/sample_udp_server.o
+ .text.udp_srv_app1_init
+                0x00000000        0x0 obj/recovery/tcpip/sample_udp_server.o
+ .text          0x00000000        0x0 obj/recovery/tcpip/tcpip_main.o
+ .data          0x00000000        0x0 obj/recovery/tcpip/tcpip_main.o
+ .bss           0x00000000        0x0 obj/recovery/tcpip/tcpip_main.o
+ .text.dhcpc_configured
+                0x00000000        0x0 obj/recovery/tcpip/tcpip_main.o
+ .rodata.str1.4
+                0x00000000        0x0 obj/recovery/tcpip/tcpip_main.o
+ .text.uip_log  0x00000000        0x0 obj/recovery/tcpip/tcpip_main.o
+ .text.tcpip_periodic_timer
+                0x00000000        0x0 obj/recovery/tcpip/tcpip_main.o
+ .text.netif_rx
+                0x00000000        0x0 obj/recovery/tcpip/tcpip_main.o
+ .text._tcpip_init
+                0x00000000        0x0 obj/recovery/tcpip/tcpip_main.o
+ .text.tcpip_init
+                0x00000000        0x0 obj/recovery/tcpip/tcpip_main.o
+ .data.cli_fd   0x00000000        0x0 obj/recovery/tcpip/tcpip_main.o
+ .data.clk      0x00000000        0x0 obj/recovery/tcpip/tcpip_main.o
+ COMMON         0x00000000        0x0 obj/recovery/tcpip/tcpip_main.o
+ .text          0x00000000        0x0 obj/recovery/tcpip/uip-fw.o
+ .data          0x00000000        0x0 obj/recovery/tcpip/uip-fw.o
+ .bss           0x00000000        0x0 obj/recovery/tcpip/uip-fw.o
+ .text.uip_fw_init
+                0x00000000        0x0 obj/recovery/tcpip/uip-fw.o
+ .text.uip_fw_output
+                0x00000000        0x0 obj/recovery/tcpip/uip-fw.o
+ .text.uip_fw_register
+                0x00000000        0x0 obj/recovery/tcpip/uip-fw.o
+ .text.uip_fw_default
+                0x00000000        0x0 obj/recovery/tcpip/uip-fw.o
+ .text.uip_fw_periodic
+                0x00000000        0x0 obj/recovery/tcpip/uip-fw.o
+ .text.uip_fw_forward
+                0x00000000        0x0 obj/recovery/tcpip/uip-fw.o
+ .bss.defaultnetif
+                0x00000000        0x0 obj/recovery/tcpip/uip-fw.o
+ .bss.netifs    0x00000000        0x0 obj/recovery/tcpip/uip-fw.o
+ .bss.fwcache   0x00000000        0x0 obj/recovery/tcpip/uip-fw.o
+ .text          0x00000000        0x0 obj/recovery/tcpip/uip-neighbor.o
+ .data          0x00000000        0x0 obj/recovery/tcpip/uip-neighbor.o
+ .bss           0x00000000        0x0 obj/recovery/tcpip/uip-neighbor.o
+ .text.uip_neighbor_init
+                0x00000000        0x0 obj/recovery/tcpip/uip-neighbor.o
+ .text.uip_neighbor_periodic
+                0x00000000        0x0 obj/recovery/tcpip/uip-neighbor.o
+ .text.find_entry
+                0x00000000        0x0 obj/recovery/tcpip/uip-neighbor.o
+ .text.uip_neighbor_update
+                0x00000000        0x0 obj/recovery/tcpip/uip-neighbor.o
+ .text.uip_neighbor_lookup
+                0x00000000        0x0 obj/recovery/tcpip/uip-neighbor.o
+ .text.uip_neighbor_add
+                0x00000000        0x0 obj/recovery/tcpip/uip-neighbor.o
+ .bss.entries   0x00000000        0x0 obj/recovery/tcpip/uip-neighbor.o
+ .text          0x00000000        0x0 obj/recovery/tcpip/uip-split.o
+ .data          0x00000000        0x0 obj/recovery/tcpip/uip-split.o
+ .bss           0x00000000        0x0 obj/recovery/tcpip/uip-split.o
+ .text.uip_split_output
+                0x00000000        0x0 obj/recovery/tcpip/uip-split.o
+ .text          0x00000000        0x0 obj/recovery/tcpip/uip.o
+ .data          0x00000000        0x0 obj/recovery/tcpip/uip.o
+ .bss           0x00000000        0x0 obj/recovery/tcpip/uip.o
+ .text.uip_setipid
+                0x00000000        0x0 obj/recovery/tcpip/uip.o
+ .text.uip_add32
+                0x00000000        0x0 obj/recovery/tcpip/uip.o
+ .text.chksum   0x00000000        0x0 obj/recovery/tcpip/uip.o
+ .text.uip_chksum
+                0x00000000        0x0 obj/recovery/tcpip/uip.o
+ .text.uip_ipchksum
+                0x00000000        0x0 obj/recovery/tcpip/uip.o
+ .text.upper_layer_chksum
+                0x00000000        0x0 obj/recovery/tcpip/uip.o
+ .text.uip_tcpchksum
+                0x00000000        0x0 obj/recovery/tcpip/uip.o
+ .text.uip_udpchksum
+                0x00000000        0x0 obj/recovery/tcpip/uip.o
+ .text.uip_connect
+                0x00000000        0x0 obj/recovery/tcpip/uip.o
+ .text.uip_unlisten
+                0x00000000        0x0 obj/recovery/tcpip/uip.o
+ .text.uip_listen
+                0x00000000        0x0 obj/recovery/tcpip/uip.o
+ .text.uip_add_rcv_nxt
+                0x00000000        0x0 obj/recovery/tcpip/uip.o
+ .text.htons    0x00000000        0x0 obj/recovery/tcpip/uip.o
+ .text.uip_send
+                0x00000000        0x0 obj/recovery/tcpip/uip.o
+ .text.uip_init
+                0x00000000        0x0 obj/recovery/tcpip/uip.o
+ .text._uip_process
+                0x00000000        0x0 obj/recovery/tcpip/uip.o
+ .text.uip_process
+                0x00000000        0x0 obj/recovery/tcpip/uip.o
+ .text.uip_udp_new
+                0x00000000        0x0 obj/recovery/tcpip/uip.o
+ .data.uip_ethaddr
+                0x00000000        0x0 obj/recovery/tcpip/uip.o
+ .bss.iss       0x00000000        0x0 obj/recovery/tcpip/uip.o
+ .bss.lastport  0x00000000        0x0 obj/recovery/tcpip/uip.o
+ .bss.c         0x00000000        0x0 obj/recovery/tcpip/uip.o
+ .bss.opt       0x00000000        0x0 obj/recovery/tcpip/uip.o
+ .bss.tmp16     0x00000000        0x0 obj/recovery/tcpip/uip.o
+ .sbss_w        0x00000000        0x0 obj/recovery/tcpip/uip.o
+ .sbss_h        0x00000000        0x0 obj/recovery/tcpip/uip.o
+ .sbss_b        0x00000000        0x0 obj/recovery/tcpip/uip.o
+ COMMON         0x00000000        0x0 obj/recovery/tcpip/uip.o
+ .text          0x00000000        0x0 obj/recovery/tcpip/uip_arp.o
+ .data          0x00000000        0x0 obj/recovery/tcpip/uip_arp.o
+ .bss           0x00000000        0x0 obj/recovery/tcpip/uip_arp.o
+ .text.uip_arp_update
+                0x00000000        0x0 obj/recovery/tcpip/uip_arp.o
+ .text.uip_arp_arpin
+                0x00000000        0x0 obj/recovery/tcpip/uip_arp.o
+ .text.uip_arp_out
+                0x00000000        0x0 obj/recovery/tcpip/uip_arp.o
+ .text.uip_arp_timer
+                0x00000000        0x0 obj/recovery/tcpip/uip_arp.o
+ .text.uip_arp_init
+                0x00000000        0x0 obj/recovery/tcpip/uip_arp.o
+ .rodata.broadcast_ethaddr
+                0x00000000        0x0 obj/recovery/tcpip/uip_arp.o
+ .bss.arp_table
+                0x00000000        0x0 obj/recovery/tcpip/uip_arp.o
+ .bss.ipaddr    0x00000000        0x0 obj/recovery/tcpip/uip_arp.o
+ .bss.i         0x00000000        0x0 obj/recovery/tcpip/uip_arp.o
+ .bss.c         0x00000000        0x0 obj/recovery/tcpip/uip_arp.o
+ .bss.arptime   0x00000000        0x0 obj/recovery/tcpip/uip_arp.o
+ .bss.tmpage    0x00000000        0x0 obj/recovery/tcpip/uip_arp.o
+ .text          0x00000000        0x0 obj/recovery/tcpip/uip_timer.o
+ .data          0x00000000        0x0 obj/recovery/tcpip/uip_timer.o
+ .bss           0x00000000        0x0 obj/recovery/tcpip/uip_timer.o
+ .text.timer_reset
+                0x00000000        0x0 obj/recovery/tcpip/uip_timer.o
+ .text.timer_expired
+                0x00000000        0x0 obj/recovery/tcpip/uip_timer.o
+ .text.timer_restart
+                0x00000000        0x0 obj/recovery/tcpip/uip_timer.o
+ .text.timer_set
+                0x00000000        0x0 obj/recovery/tcpip/uip_timer.o
+ .text          0x00000000        0x0 obj/recovery/tcpip/uiplib.o
+ .data          0x00000000        0x0 obj/recovery/tcpip/uiplib.o
+ .bss           0x00000000        0x0 obj/recovery/tcpip/uiplib.o
+ .text.uiplib_ipaddrconv
+                0x00000000        0x0 obj/recovery/tcpip/uiplib.o
+ .text          0x00000000        0x0 obj/recovery/tcpip/webclient-strings.o
+ .data          0x00000000        0x0 obj/recovery/tcpip/webclient-strings.o
+ .bss           0x00000000        0x0 obj/recovery/tcpip/webclient-strings.o
+ .rodata.http_http
+                0x00000000        0x0 obj/recovery/tcpip/webclient-strings.o
+ .rodata.http_200
+                0x00000000        0x0 obj/recovery/tcpip/webclient-strings.o
+ .rodata.http_301
+                0x00000000        0x0 obj/recovery/tcpip/webclient-strings.o
+ .rodata.http_302
+                0x00000000        0x0 obj/recovery/tcpip/webclient-strings.o
+ .rodata.http_get
+                0x00000000        0x0 obj/recovery/tcpip/webclient-strings.o
+ .rodata.http_10
+                0x00000000        0x0 obj/recovery/tcpip/webclient-strings.o
+ .rodata.http_11
+                0x00000000        0x0 obj/recovery/tcpip/webclient-strings.o
+ .rodata.http_content_type
+                0x00000000        0x0 obj/recovery/tcpip/webclient-strings.o
+ .rodata.http_texthtml
+                0x00000000        0x0 obj/recovery/tcpip/webclient-strings.o
+ .rodata.http_location
+                0x00000000        0x0 obj/recovery/tcpip/webclient-strings.o
+ .rodata.http_host
+                0x00000000        0x0 obj/recovery/tcpip/webclient-strings.o
+ .rodata.http_crnl
+                0x00000000        0x0 obj/recovery/tcpip/webclient-strings.o
+ .rodata.http_index_html
+                0x00000000        0x0 obj/recovery/tcpip/webclient-strings.o
+ .rodata.http_404_html
+                0x00000000        0x0 obj/recovery/tcpip/webclient-strings.o
+ .rodata.http_content_type_html
+                0x00000000        0x0 obj/recovery/tcpip/webclient-strings.o
+ .rodata.http_content_type_css
+                0x00000000        0x0 obj/recovery/tcpip/webclient-strings.o
+ .rodata.http_content_type_text
+                0x00000000        0x0 obj/recovery/tcpip/webclient-strings.o
+ .rodata.http_content_type_png
+                0x00000000        0x0 obj/recovery/tcpip/webclient-strings.o
+ .rodata.http_content_type_gif
+                0x00000000        0x0 obj/recovery/tcpip/webclient-strings.o
+ .rodata.http_content_type_jpg
+                0x00000000        0x0 obj/recovery/tcpip/webclient-strings.o
+ .rodata.http_content_type_binary
+                0x00000000        0x0 obj/recovery/tcpip/webclient-strings.o
+ .rodata.http_html
+                0x00000000        0x0 obj/recovery/tcpip/webclient-strings.o
+ .rodata.http_shtml
+                0x00000000        0x0 obj/recovery/tcpip/webclient-strings.o
+ .rodata.http_htm
+                0x00000000        0x0 obj/recovery/tcpip/webclient-strings.o
+ .rodata.http_css
+                0x00000000        0x0 obj/recovery/tcpip/webclient-strings.o
+ .rodata.http_png
+                0x00000000        0x0 obj/recovery/tcpip/webclient-strings.o
+ .rodata.http_gif
+                0x00000000        0x0 obj/recovery/tcpip/webclient-strings.o
+ .rodata.http_jpg
+                0x00000000        0x0 obj/recovery/tcpip/webclient-strings.o
+ .rodata.http_text
+                0x00000000        0x0 obj/recovery/tcpip/webclient-strings.o
+ .rodata.http_txt
+                0x00000000        0x0 obj/recovery/tcpip/webclient-strings.o
+ .rodata.http_user_agent_fields
+                0x00000000        0x0 obj/recovery/tcpip/webclient-strings.o
+ .text          0x00000000        0x0 obj/recovery/tcpip/webclient.o
+ .data          0x00000000        0x0 obj/recovery/tcpip/webclient.o
+ .bss           0x00000000        0x0 obj/recovery/tcpip/webclient.o
+ .text.webclient_mimetype
+                0x00000000        0x0 obj/recovery/tcpip/webclient.o
+ .text.webclient_filename
+                0x00000000        0x0 obj/recovery/tcpip/webclient.o
+ .text.webclient_hostname
+                0x00000000        0x0 obj/recovery/tcpip/webclient.o
+ .text.webclient_port
+                0x00000000        0x0 obj/recovery/tcpip/webclient.o
+ .text.webclient_init
+                0x00000000        0x0 obj/recovery/tcpip/webclient.o
+ .text.webclient_close
+                0x00000000        0x0 obj/recovery/tcpip/webclient.o
+ .text.copy_string
+                0x00000000        0x0 obj/recovery/tcpip/webclient.o
+ .text.webclient_datahandler
+                0x00000000        0x0 obj/recovery/tcpip/webclient.o
+ .text.senddata
+                0x00000000        0x0 obj/recovery/tcpip/webclient.o
+ .rodata.str1.4
+                0x00000000        0x0 obj/recovery/tcpip/webclient.o
+ .text.webclient_get
+                0x00000000        0x0 obj/recovery/tcpip/webclient.o
+ .text.T.40     0x00000000        0x0 obj/recovery/tcpip/webclient.o
+ .text.newdata  0x00000000        0x0 obj/recovery/tcpip/webclient.o
+ .text.webclient_appcall
+                0x00000000        0x0 obj/recovery/tcpip/webclient.o
+ .bss.updateTotalSize
+                0x00000000        0x0 obj/recovery/tcpip/webclient.o
+ .bss.updateCount
+                0x00000000        0x0 obj/recovery/tcpip/webclient.o
+ .bss.updateType
+                0x00000000        0x0 obj/recovery/tcpip/webclient.o
+ .bss.flash_error_count
+                0x00000000        0x0 obj/recovery/tcpip/webclient.o
+ .bss.webData_number
+                0x00000000        0x0 obj/recovery/tcpip/webclient.o
+ .bss.i.3194    0x00000000        0x0 obj/recovery/tcpip/webclient.o
+ .bss.c.3174    0x00000000        0x0 obj/recovery/tcpip/webclient.o
+ .bss.addr.3051
+                0x00000000        0x0 obj/recovery/tcpip/webclient.o
+ .bss.s         0x00000000        0x0 obj/recovery/tcpip/webclient.o
+ .sbss_h        0x00000000        0x0 obj/recovery/tcpip/webclient.o
+ .text          0x00000000        0x0 obj/recovery/wifi_task_pub.o
+ .data          0x00000000        0x0 obj/recovery/wifi_task_pub.o
+ .bss           0x00000000        0x0 obj/recovery/wifi_task_pub.o
+ .text.ws_smt_conn
+                0x00000000        0x0 obj/recovery/wifi_task_pub.o
+ .text.ws_4way  0x00000000        0x0 obj/recovery/wifi_task_pub.o
+ .text.ws_connected
+                0x00000000        0x0 obj/recovery/wifi_task_pub.o
+ .text.store_sta_cfg
+                0x00000000        0x0 obj/recovery/wifi_task_pub.o
+ .text.load_sta_cfg
+                0x00000000        0x0 obj/recovery/wifi_task_pub.o
+ .text.ws_goto_smnt
+                0x00000000        0x0 obj/recovery/wifi_task_pub.o
+ .text.ws_init  0x00000000        0x0 obj/recovery/wifi_task_pub.o
+ .text.wifi_state_machine
+                0x00000000        0x0 obj/recovery/wifi_task_pub.o
+ .bss.gSmnted   0x00000000        0x0 obj/recovery/wifi_task_pub.o
+ .data.BCAST_ADDR
+                0x00000000        0x0 obj/recovery/wifi_task_pub.o
+ .bss.Vmac      0x00000000        0x0 obj/recovery/wifi_task_pub.o
+ .bss.Vcount    0x00000000        0x0 obj/recovery/wifi_task_pub.o
+ .text          0x00000000        0x0 cust/vectors.o
+ .data          0x00000000        0x0 cust/vectors.o
+ .bss           0x00000000        0x0 cust/vectors.o
+ .text          0x00000000        0x0 cust/startup.o
+ .data          0x00000000        0x0 cust/startup.o
+ .bss           0x00000000        0x0 cust/startup.o
+ .text          0x00000000        0x0 cust/ctxsw.o
+ .data          0x00000000        0x0 cust/ctxsw.o
+ .bss           0x00000000        0x0 cust/ctxsw.o
+ .excepsysc     0x00000000        0x0 cust/ctxsw.o
+ .text          0x00000000        0x0 .\libandesrecovery.a(xip_ovly.o)
+ .data          0x00000000        0x0 .\libandesrecovery.a(xip_ovly.o)
+ .bss           0x00000000        0x0 .\libandesrecovery.a(xip_ovly.o)
+ .text.overlaycopy
+                0x00000000        0x0 .\libandesrecovery.a(xip_ovly.o)
+ .text          0x00000000        0x0 .\libandesrecovery.a(cnm_timer.o)
+ .data          0x00000000        0x0 .\libandesrecovery.a(cnm_timer.o)
+ .bss           0x00000000        0x0 .\libandesrecovery.a(cnm_timer.o)
+ .text.cnmTimerDestroy
+                0x00000000        0x0 .\libandesrecovery.a(cnm_timer.o)
+ .text          0x00000000        0x0 .\libandesrecovery.a(iot_io_cmd.o)
+ .data          0x00000000        0x0 .\libandesrecovery.a(iot_io_cmd.o)
+ .bss           0x00000000        0x0 .\libandesrecovery.a(iot_io_cmd.o)
+ .text.iot_gpio_output
+                0x00000000        0x0 .\libandesrecovery.a(iot_io_cmd.o)
+ .text.iot_gpio_output_noswap
+                0x00000000        0x0 .\libandesrecovery.a(iot_io_cmd.o)
+ .text.iot_gpio_read
+                0x00000000        0x0 .\libandesrecovery.a(iot_io_cmd.o)
+ .text.iot_gpios_output
+                0x00000000        0x0 .\libandesrecovery.a(iot_io_cmd.o)
+ .text.iot_gpios_mode_chg
+                0x00000000        0x0 .\libandesrecovery.a(iot_io_cmd.o)
+ .text.iot_gpio_input
+                0x00000000        0x0 .\libandesrecovery.a(iot_io_cmd.o)
+ .text.iot_jtag_mode_switch
+                0x00000000        0x0 .\libandesrecovery.a(iot_io_cmd.o)
+ .text.iot_jtag_mode_get
+                0x00000000        0x0 .\libandesrecovery.a(iot_io_cmd.o)
+ .text.iot_cust_set_gpiint_mode
+                0x00000000        0x0 .\libandesrecovery.a(iot_io_cmd.o)
+ .text.iot_cust_get_gpiint_mode
+                0x00000000        0x0 .\libandesrecovery.a(iot_io_cmd.o)
+ .text.mt7681_int_state
+                0x00000000        0x0 .\libandesrecovery.a(iot_io_cmd.o)
+ .text.mt7681_int_set
+                0x00000000        0x0 .\libandesrecovery.a(iot_io_cmd.o)
+ .text          0x00000000        0x0 .\libandesrecovery.a(iot_mgmt_cmd.o)
+ .data          0x00000000        0x0 .\libandesrecovery.a(iot_mgmt_cmd.o)
+ .bss           0x00000000        0x0 .\libandesrecovery.a(iot_mgmt_cmd.o)
+ .text.IoT_Cmd_Set_DBG_LVL
+                0x00000000        0x0 .\libandesrecovery.a(iot_mgmt_cmd.o)
+ .text          0x00000000        0x0 .\libandesrecovery.a(iot_priv.o)
+ .data          0x00000000        0x0 .\libandesrecovery.a(iot_priv.o)
+ .bss           0x00000000        0x0 .\libandesrecovery.a(iot_priv.o)
+ .text          0x00000000        0x0 .\libandesrecovery.a(queue.o)
+ .data          0x00000000        0x0 .\libandesrecovery.a(queue.o)
+ .bss           0x00000000        0x0 .\libandesrecovery.a(queue.o)
+ .text.apiQU_Touch
+                0x00000000        0x0 .\libandesrecovery.a(queue.o)
+ .text          0x00000000        0x0 .\libandesrecovery.a(app_nos_main.o)
+ .data          0x00000000        0x0 .\libandesrecovery.a(app_nos_main.o)
+ .bss           0x00000000        0x0 .\libandesrecovery.a(app_nos_main.o)
+ .text          0x00000000        0x0 .\libandesrecovery.a(ate.o)
+ .data          0x00000000        0x0 .\libandesrecovery.a(ate.o)
+ .bss           0x00000000        0x0 .\libandesrecovery.a(ate.o)
+ .text.get_pkt_phymode_by_rxwi
+                0x00000000        0x0 .\libandesrecovery.a(ate.o)
+ .text.ConvertToSnr
+                0x00000000        0x0 .\libandesrecovery.a(ate.o)
+ .text.ATEConvertToRssi
+                0x00000000        0x0 .\libandesrecovery.a(ate.o)
+ .text.ATESampleRssi
+                0x00000000        0x0 .\libandesrecovery.a(ate.o)
+ .text          0x00000000        0x0 .\libandesrecovery.a(auth.o)
+ .data          0x00000000        0x0 .\libandesrecovery.a(auth.o)
+ .bss           0x00000000        0x0 .\libandesrecovery.a(auth.o)
+ .text.MlmeAuthReqSanity
+                0x00000000        0x0 .\libandesrecovery.a(auth.o)
+ .text.PeerDeauthAction
+                0x00000000        0x0 .\libandesrecovery.a(auth.o)
+ .text._MlmeAuthProcess
+                0x00000000        0x0 .\libandesrecovery.a(auth.o)
+ .text.MlmeAuthProcess
+                0x00000000        0x0 .\libandesrecovery.a(auth.o)
+ .text.PeerAuthSanity
+                0x00000000        0x0 .\libandesrecovery.a(auth.o)
+ .text.PeerAuthRspAtSeq2Action
+                0x00000000        0x0 .\libandesrecovery.a(auth.o)
+ .text._AUTH_ReqSend
+                0x00000000        0x0 .\libandesrecovery.a(auth.o)
+ .text.AUTH_ReqSend
+                0x00000000        0x0 .\libandesrecovery.a(auth.o)
+ .text.MlmeAuthReqAction
+                0x00000000        0x0 .\libandesrecovery.a(auth.o)
+ .text.Auth_Initialization
+                0x00000000        0x0 .\libandesrecovery.a(auth.o)
+ .text.AuthTimeoutAction
+                0x00000000        0x0 .\libandesrecovery.a(auth.o)
+ .text          0x00000000        0x0 .\libandesrecovery.a(chip_init.o)
+ .data          0x00000000        0x0 .\libandesrecovery.a(chip_init.o)
+ .bss           0x00000000        0x0 .\libandesrecovery.a(chip_init.o)
+ .text.iot_get_rxfilter
+                0x00000000        0x0 .\libandesrecovery.a(chip_init.o)
+ .text.iot_set_rxfilter
+                0x00000000        0x0 .\libandesrecovery.a(chip_init.o)
+ .text.dump_ram
+                0x00000000        0x0 .\libandesrecovery.a(chip_init.o)
+ .text.dump     0x00000000        0x0 .\libandesrecovery.a(chip_init.o)
+ .text.MT7681_eep_cfg
+                0x00000000        0x0 .\libandesrecovery.a(chip_init.o)
+ .bss.ram_id.4714
+                0x00000000        0x0 .\libandesrecovery.a(chip_init.o)
+ .text          0x00000000        0x0 .\libandesrecovery.a(crypt_aes.o)
+ .data          0x00000000        0x0 .\libandesrecovery.a(crypt_aes.o)
+ .bss           0x00000000        0x0 .\libandesrecovery.a(crypt_aes.o)
+ .rodata.cst4   0x00000000        0x0 .\libandesrecovery.a(crypt_aes.o)
+ .text.aes_key_unwrap
+                0x00000000        0x0 .\libandesrecovery.a(crypt_aes.o)
+ .text.RT_AES_Encrypt
+                0x00000000        0x0 .\libandesrecovery.a(crypt_aes.o)
+ .text.aes_key_wrap
+                0x00000000        0x0 .\libandesrecovery.a(crypt_aes.o)
+ .data.Default_IV
+                0x00000000        0x0 .\libandesrecovery.a(crypt_aes.o)
+ .rodata.aes_mul_2
+                0x00000000        0x0 .\libandesrecovery.a(crypt_aes.o)
+ .rodata.aes_mul_3
+                0x00000000        0x0 .\libandesrecovery.a(crypt_aes.o)
+ .text          0x00000000        0x0 .\libandesrecovery.a(rtmp_data.o)
+ .data          0x00000000        0x0 .\libandesrecovery.a(rtmp_data.o)
+ .bss           0x00000000        0x0 .\libandesrecovery.a(rtmp_data.o)
+ .text.inc_byte_array
+                0x00000000        0x0 .\libandesrecovery.a(rtmp_data.o)
+ .text.TxPktClassification
+                0x00000000        0x0 .\libandesrecovery.a(rtmp_data.o)
+ .text.EnqueuePsPoll
+                0x00000000        0x0 .\libandesrecovery.a(rtmp_data.o)
+ .text.send_test_data_frame
+                0x00000000        0x0 .\libandesrecovery.a(rtmp_data.o)
+ .text.sta_legacy_frame_tx2
+                0x00000000        0x0 .\libandesrecovery.a(rtmp_data.o)
+ .text.RTMPReportMicError
+                0x00000000        0x0 .\libandesrecovery.a(rtmp_data.o)
+ .text          0x00000000        0x0 .\libandesrecovery.a(rtmp_general.o)
+ .data          0x00000000        0x0 .\libandesrecovery.a(rtmp_general.o)
+ .bss           0x00000000        0x0 .\libandesrecovery.a(rtmp_general.o)
+ .text.RTMPZeroMemory
+                0x00000000        0x0 .\libandesrecovery.a(rtmp_general.o)
+ .text.RTMPCompareMemory
+                0x00000000        0x0 .\libandesrecovery.a(rtmp_general.o)
+ .text.GetTimBit
+                0x00000000        0x0 .\libandesrecovery.a(rtmp_general.o)
+ .text.PeerBeaconAdvPwrSavingSanity
+                0x00000000        0x0 .\libandesrecovery.a(rtmp_general.o)
+ .text.ActHeaderInit
+                0x00000000        0x0 .\libandesrecovery.a(rtmp_general.o)
+ .text.PeerAddBAReqAction
+                0x00000000        0x0 .\libandesrecovery.a(rtmp_general.o)
+ .text.OS_WAIT  0x00000000        0x0 .\libandesrecovery.a(rtmp_general.o)
+ .text          0x00000000        0x0 .\libandesrecovery.a(scan.o)
+ .data          0x00000000        0x0 .\libandesrecovery.a(scan.o)
+ .bss           0x00000000        0x0 .\libandesrecovery.a(scan.o)
+ .text.SetChannelList
+                0x00000000        0x0 .\libandesrecovery.a(scan.o)
+ .text.FirstChannel
+                0x00000000        0x0 .\libandesrecovery.a(scan.o)
+ .text.NextChannel
+                0x00000000        0x0 .\libandesrecovery.a(scan.o)
+ .text.WPA_ExtractSuiteFromRSNIE
+                0x00000000        0x0 .\libandesrecovery.a(scan.o)
+ .text.CfgSupportExtRate
+                0x00000000        0x0 .\libandesrecovery.a(scan.o)
+ .text.SetScanParam
+                0x00000000        0x0 .\libandesrecovery.a(scan.o)
+ .text.ListScan_Init
+                0x00000000        0x0 .\libandesrecovery.a(scan.o)
+ .text.RTMPCheckHt
+                0x00000000        0x0 .\libandesrecovery.a(scan.o)
+ .text.NLO_Initialization
+                0x00000000        0x0 .\libandesrecovery.a(scan.o)
+ .text.ContScanTimeoutAction
+                0x00000000        0x0 .\libandesrecovery.a(scan.o)
+ .text.PeerBeaconAndProbeRspSanity
+                0x00000000        0x0 .\libandesrecovery.a(scan.o)
+ .rodata.str1.4
+                0x00000000        0x0 .\libandesrecovery.a(scan.o)
+ .text._PeerBeaconAtScanAction
+                0x00000000        0x0 .\libandesrecovery.a(scan.o)
+ .text.PeerBeaconAtScanAction
+                0x00000000        0x0 .\libandesrecovery.a(scan.o)
+ .text.ParsingProbeRspBeacon
+                0x00000000        0x0 .\libandesrecovery.a(scan.o)
+ .text.ScanProcessMgmt
+                0x00000000        0x0 .\libandesrecovery.a(scan.o)
+ .text.ScanNextChannel
+                0x00000000        0x0 .\libandesrecovery.a(scan.o)
+ .text.ScanTimeoutAction
+                0x00000000        0x0 .\libandesrecovery.a(scan.o)
+ .text.StartScan
+                0x00000000        0x0 .\libandesrecovery.a(scan.o)
+ .text.ListScan
+                0x00000000        0x0 .\libandesrecovery.a(scan.o)
+ .text.DoScan   0x00000000        0x0 .\libandesrecovery.a(scan.o)
+ .data.Full_ChannelList_Size
+                0x00000000        0x0 .\libandesrecovery.a(scan.o)
+ .data.HtCapIe  0x00000000        0x0 .\libandesrecovery.a(scan.o)
+ .data.WPA_OUI  0x00000000        0x0 .\libandesrecovery.a(scan.o)
+ .data.RSN_OUI  0x00000000        0x0 .\libandesrecovery.a(scan.o)
+ .data.WPS_OUI  0x00000000        0x0 .\libandesrecovery.a(scan.o)
+ .text          0x00000000        0x0 .\libandesrecovery.a(smtcn.o)
+ .data          0x00000000        0x0 .\libandesrecovery.a(smtcn.o)
+ .bss           0x00000000        0x0 .\libandesrecovery.a(smtcn.o)
+ .text.SMTCNRX_done
+                0x00000000        0x0 .\libandesrecovery.a(smtcn.o)
+ .text.SMTCNSwitchfsm
+                0x00000000        0x0 .\libandesrecovery.a(smtcn.o)
+ .text.ParsingBCData
+                0x00000000        0x0 .\libandesrecovery.a(smtcn.o)
+ .text._SMTCNGetInfo
+                0x00000000        0x0 .\libandesrecovery.a(smtcn.o)
+ .text.SMTCNGetInfo
+                0x00000000        0x0 .\libandesrecovery.a(smtcn.o)
+ .text._SMTCNParsingMulticast
+                0x00000000        0x0 .\libandesrecovery.a(smtcn.o)
+ .text.SMTCNParsingMulticast
+                0x00000000        0x0 .\libandesrecovery.a(smtcn.o)
+ .text.SMTCNRXFrameHandle
+                0x00000000        0x0 .\libandesrecovery.a(smtcn.o)
+ .text.SMTCNParsingData
+                0x00000000        0x0 .\libandesrecovery.a(smtcn.o)
+ .text.SearchTimeoutAction
+                0x00000000        0x0 .\libandesrecovery.a(smtcn.o)
+ .text.SMTCN_init
+                0x00000000        0x0 .\libandesrecovery.a(smtcn.o)
+ .text          0x00000000        0x0 .\libandesrecovery.a(wow.o)
+ .data          0x00000000        0x0 .\libandesrecovery.a(wow.o)
+ .bss           0x00000000        0x0 .\libandesrecovery.a(wow.o)
+ .text.RTMPArpOffload
+                0x00000000        0x0 .\libandesrecovery.a(wow.o)
+ .text.T.3      0x00000000        0x0 .\libandesrecovery.a(wow.o)
+ .text.RTMP_DisableTxRx
+                0x00000000        0x0 .\libandesrecovery.a(wow.o)
+ .text          0x00000000        0x0 .\libandesrecovery.a(bsp.o)
+ .data          0x00000000        0x0 .\libandesrecovery.a(bsp.o)
+ .bss           0x00000000        0x0 .\libandesrecovery.a(bsp.o)
+ .data.gWifiVerTag_7681
+                0x00000000        0x0 .\libandesrecovery.a(bsp.o)
+ .data.gWifiVerTag_7610
+                0x00000000        0x0 .\libandesrecovery.a(bsp.o)
+ .text          0x00000000        0x0 .\libandesrecovery.a(ee_efuse.o)
+ .data          0x00000000        0x0 .\libandesrecovery.a(ee_efuse.o)
+ .bss           0x00000000        0x0 .\libandesrecovery.a(ee_efuse.o)
+ .text.eEpPhysicalReadRegisters
+                0x00000000        0x0 .\libandesrecovery.a(ee_efuse.o)
+ .text.eEpGetFreeBlockCount
+                0x00000000        0x0 .\libandesrecovery.a(ee_efuse.o)
+ .rodata.str1.4
+                0x00000000        0x0 .\libandesrecovery.a(ee_efuse.o)
+ .text.eEp_init
+                0x00000000        0x0 .\libandesrecovery.a(ee_efuse.o)
+ .text.set_eEpGetFreeBlockCount_Proc
+                0x00000000        0x0 .\libandesrecovery.a(ee_efuse.o)
+ .text.set_eEpdump_Proc
+                0x00000000        0x0 .\libandesrecovery.a(ee_efuse.o)
+ .text          0x00000000        0x0 .\libandesrecovery.a(fce.o)
+ .data          0x00000000        0x0 .\libandesrecovery.a(fce.o)
+ .bss           0x00000000        0x0 .\libandesrecovery.a(fce.o)
+ .text          0x00000000        0x0 .\libandesrecovery.a(pdma.o)
+ .data          0x00000000        0x0 .\libandesrecovery.a(pdma.o)
+ .bss           0x00000000        0x0 .\libandesrecovery.a(pdma.o)
+ .text.TxFsIntHdlr
+                0x00000000        0x0 .\libandesrecovery.a(pdma.o)
+ .text.RxTsIntHdlr
+                0x00000000        0x0 .\libandesrecovery.a(pdma.o)
+ .text.rlk_fce_rxts_hard_xmit
+                0x00000000        0x0 .\libandesrecovery.a(pdma.o)
+ .text          0x00000000        0x0 .\libandesrecovery.a(spi-flash.o)
+ .data          0x00000000        0x0 .\libandesrecovery.a(spi-flash.o)
+ .bss           0x00000000        0x0 .\libandesrecovery.a(spi-flash.o)
+ .text          0x00000000        0x0 .\libandesrecovery.a(timer.o)
+ .data          0x00000000        0x0 .\libandesrecovery.a(timer.o)
+ .bss           0x00000000        0x0 .\libandesrecovery.a(timer.o)
+ .text.kal_delay_time
+                0x00000000        0x0 .\libandesrecovery.a(timer.o)
+ .text.kal_free_timer
+                0x00000000        0x0 .\libandesrecovery.a(timer.o)
+ .text          0x00000000        0x0 .\libandesrecovery.a(uart.o)
+ .data          0x00000000        0x0 .\libandesrecovery.a(uart.o)
+ .bss           0x00000000        0x0 .\libandesrecovery.a(uart.o)
+ .text.UART_Close
+                0x00000000        0x0 .\libandesrecovery.a(uart.o)
+ .data.UART_CLOCK
+                0x00000000        0x0 .\libandesrecovery.a(uart.o)
+ .text          0x00000000        0x0 .\libandesrecovery.a(uartlite.o)
+ .data          0x00000000        0x0 .\libandesrecovery.a(uartlite.o)
+ .bss           0x00000000        0x0 .\libandesrecovery.a(uartlite.o)
+ .text.UART_KbdHit
+                0x00000000        0x0 .\libandesrecovery.a(uartlite.o)
+ .text.UART_LSROverErr
+                0x00000000        0x0 .\libandesrecovery.a(uartlite.o)
+ .text          0x00000000        0x0 .\libandesrecovery.a(main.o)
+ .data          0x00000000        0x0 .\libandesrecovery.a(main.o)
+ .bss           0x00000000        0x0 .\libandesrecovery.a(main.o)
+ .text          0x00000000        0x0 .\libandesrecovery.a(xcpt.o)
+ .data          0x00000000        0x0 .\libandesrecovery.a(xcpt.o)
+ .bss           0x00000000        0x0 .\libandesrecovery.a(xcpt.o)
+ .text.exception_dump
+                0x00000000        0x0 .\libandesrecovery.a(xcpt.o)
+ .text          0x00000000        0x0 .\libandesrecovery.a(initial.o)
+ .data          0x00000000        0x0 .\libandesrecovery.a(initial.o)
+ .bss           0x00000000        0x0 .\libandesrecovery.a(initial.o)
+ .text          0x00000000        0x0 .\libandesrecovery.a(mutex.o)
+ .data          0x00000000        0x0 .\libandesrecovery.a(mutex.o)
+ .bss           0x00000000        0x0 .\libandesrecovery.a(mutex.o)
+ .text.SYSirq_Enable_Interrupts_Save_Flags
+                0x00000000        0x0 .\libandesrecovery.a(mutex.o)
+ .text          0x00000000        0x0 .\libandesrecovery.a(stack.o)
+ .data          0x00000000        0x0 .\libandesrecovery.a(stack.o)
+ .bss           0x00000000        0x0 .\libandesrecovery.a(stack.o)
+ .text          0x00000000        0x0 .\libandesrecovery.a(task.o)
+ .data          0x00000000        0x0 .\libandesrecovery.a(task.o)
+ .bss           0x00000000        0x0 .\libandesrecovery.a(task.o)
+ .text.sysTASK_ChkSignal
+                0x00000000        0x0 .\libandesrecovery.a(task.o)
+ .text.sysTASK_WaitForSignal
+                0x00000000        0x0 .\libandesrecovery.a(task.o)
+ .text.sysTASK_Dispatch
+                0x00000000        0x0 .\libandesrecovery.a(task.o)
+ .text          0x00000000        0x0 .\libandesrecovery.a(list.o)
+ .data          0x00000000        0x0 .\libandesrecovery.a(list.o)
+ .bss           0x00000000        0x0 .\libandesrecovery.a(list.o)
+ .text.apiListIsEmpty
+                0x00000000        0x0 .\libandesrecovery.a(list.o)
+ .text.apiInsertHeadEntry
+                0x00000000        0x0 .\libandesrecovery.a(list.o)
+ .text.apiRemoveListEntry
+                0x00000000        0x0 .\libandesrecovery.a(list.o)
+ .text.apiRemoveTailEntry
+                0x00000000        0x0 .\libandesrecovery.a(list.o)
+ .text          0x00000000        0x0 .\libandesrecovery.a(do_printf.o)
+ .data          0x00000000        0x0 .\libandesrecovery.a(do_printf.o)
+ .bss           0x00000000        0x0 .\libandesrecovery.a(do_printf.o)
+ .text          0x00000000        0x0 .\libandesrecovery.a(fputs.o)
+ .data          0x00000000        0x0 .\libandesrecovery.a(fputs.o)
+ .bss           0x00000000        0x0 .\libandesrecovery.a(fputs.o)
+ .text          0x00000000        0x0 .\libandesrecovery.a(strcmp.o)
+ .data          0x00000000        0x0 .\libandesrecovery.a(strcmp.o)
+ .bss           0x00000000        0x0 .\libandesrecovery.a(strcmp.o)
+ .text.strncmp  0x00000000        0x0 .\libandesrecovery.a(strcmp.o)
+ .text          0x00000000        0x0 .\libandesrecovery.a(strcpy.o)
+ .data          0x00000000        0x0 .\libandesrecovery.a(strcpy.o)
+ .bss           0x00000000        0x0 .\libandesrecovery.a(strcpy.o)
+ .text.strcpy   0x00000000        0x0 .\libandesrecovery.a(strcpy.o)
+ .text.strncpy  0x00000000        0x0 .\libandesrecovery.a(strcpy.o)
+ .text          0x00000000        0x0 .\libandesrecovery.a(strlen.o)
+ .data          0x00000000        0x0 .\libandesrecovery.a(strlen.o)
+ .bss           0x00000000        0x0 .\libandesrecovery.a(strlen.o)
+ .text          0x00000000        0x0 .\libandesrecovery.a(vsprintf.o)
+ .data          0x00000000        0x0 .\libandesrecovery.a(vsprintf.o)
+ .bss           0x00000000        0x0 .\libandesrecovery.a(vsprintf.o)
+ .text          0x00000000        0x0 .\libandesrecovery.a(mcuctl.o)
+ .data          0x00000000        0x0 .\libandesrecovery.a(mcuctl.o)
+ .bss           0x00000000        0x0 .\libandesrecovery.a(mcuctl.o)
+ .text          0x00000000        0x0 .\libandesrecovery.a(mt7681_ChSw.o)
+ .data          0x00000000        0x0 .\libandesrecovery.a(mt7681_ChSw.o)
+ .bss           0x00000000        0x0 .\libandesrecovery.a(mt7681_ChSw.o)
+ .text.sysDelay1u
+                0x00000000        0x0 .\libandesrecovery.a(mt7681_ChSw.o)
+ .text.RF_READ8
+                0x00000000        0x0 .\libandesrecovery.a(mt7681_ChSw.o)
+ .text.do_sqrt_accumulation
+                0x00000000        0x0 .\libandesrecovery.a(mt7681_ChSw.o)
+ .text.DCOCCalibraton
+                0x00000000        0x0 .\libandesrecovery.a(mt7681_ChSw.o)
+ .text.Protection_DPD
+                0x00000000        0x0 .\libandesrecovery.a(mt7681_ChSw.o)
+ .text.DPDCalibration
+                0x00000000        0x0 .\libandesrecovery.a(mt7681_ChSw.o)
+ .text.LCCalibration
+                0x00000000        0x0 .\libandesrecovery.a(mt7681_ChSw.o)
+ .text.write_dc
+                0x00000000        0x0 .\libandesrecovery.a(mt7681_ChSw.o)
+ .text.do_fft_loft_accumulation
+                0x00000000        0x0 .\libandesrecovery.a(mt7681_ChSw.o)
+ .text.LOFTCalibration
+                0x00000000        0x0 .\libandesrecovery.a(mt7681_ChSw.o)
+ .text.do_fft_iq_accumulation
+                0x00000000        0x0 .\libandesrecovery.a(mt7681_ChSw.o)
+ .text.TXIQCalibration
+                0x00000000        0x0 .\libandesrecovery.a(mt7681_ChSw.o)
+ .rodata.cst4   0x00000000        0x0 .\libandesrecovery.a(mt7681_ChSw.o)
+ .text.RXIQCalibration
+                0x00000000        0x0 .\libandesrecovery.a(mt7681_ChSw.o)
+ .bss.SsidIe    0x00000000        0x0 .\libandesrecovery.a(mt7681_ChSw.o)
+ .data.SupRateIe
+                0x00000000        0x0 .\libandesrecovery.a(mt7681_ChSw.o)
+ .data.ExtRateIe
+                0x00000000        0x0 .\libandesrecovery.a(mt7681_ChSw.o)
+ .data.WME_PARM_ELEM
+                0x00000000        0x0 .\libandesrecovery.a(mt7681_ChSw.o)
+ .data.ExtCapIe
+                0x00000000        0x0 .\libandesrecovery.a(mt7681_ChSw.o)
+ .data.ErpIe    0x00000000        0x0 .\libandesrecovery.a(mt7681_ChSw.o)
+ .data.DsIe     0x00000000        0x0 .\libandesrecovery.a(mt7681_ChSw.o)
+ .data.TimIe    0x00000000        0x0 .\libandesrecovery.a(mt7681_ChSw.o)
+ .data.WpaIe    0x00000000        0x0 .\libandesrecovery.a(mt7681_ChSw.o)
+ .data.Wpa2Ie   0x00000000        0x0 .\libandesrecovery.a(mt7681_ChSw.o)
+ .data.IbssIe   0x00000000        0x0 .\libandesrecovery.a(mt7681_ChSw.o)
+ .data.WapiIe   0x00000000        0x0 .\libandesrecovery.a(mt7681_ChSw.o)
+ .rodata.C.179.5802
+                0x00000000        0x0 .\libandesrecovery.a(mt7681_ChSw.o)
+ .rodata.C.169.5720
+                0x00000000        0x0 .\libandesrecovery.a(mt7681_ChSw.o)
+ .bss.loft_iq_vga
+                0x00000000        0x0 .\libandesrecovery.a(mt7681_ChSw.o)
+ .rodata.rf_vga_table
+                0x00000000        0x0 .\libandesrecovery.a(mt7681_ChSw.o)
+ .rodata.C.93.5263
+                0x00000000        0x0 .\libandesrecovery.a(mt7681_ChSw.o)
+ .rodata.C.92.5262
+                0x00000000        0x0 .\libandesrecovery.a(mt7681_ChSw.o)
+ .rodata.C.9.4775
+                0x00000000        0x0 .\libandesrecovery.a(mt7681_ChSw.o)
+ .bss.G_imb     0x00000000        0x0 .\libandesrecovery.a(mt7681_ChSw.o)
+ .bss.Ph_rx     0x00000000        0x0 .\libandesrecovery.a(mt7681_ChSw.o)
+ .bss.gain_error
+                0x00000000        0x0 .\libandesrecovery.a(mt7681_ChSw.o)
+ .bss.phase_error
+                0x00000000        0x0 .\libandesrecovery.a(mt7681_ChSw.o)
+ .bss.dc_result
+                0x00000000        0x0 .\libandesrecovery.a(mt7681_ChSw.o)
+ .text          0x00000000        0x0 .\libandesrecovery.a(wifi_ps.o)
+ .data          0x00000000        0x0 .\libandesrecovery.a(wifi_ps.o)
+ .bss           0x00000000        0x0 .\libandesrecovery.a(wifi_ps.o)
+ .text.wifiPMU_Controller
+                0x00000000        0x0 .\libandesrecovery.a(wifi_ps.o)
+ .text.PMU_Ctrl_Hw
+                0x00000000        0x0 .\libandesrecovery.a(wifi_ps.o)
+ .text.PMU_Ctrl
+                0x00000000        0x0 .\libandesrecovery.a(wifi_ps.o)
+ .text.LowPower
+                0x00000000        0x0 .\libandesrecovery.a(wifi_ps.o)
+ .bss.AutoPSMode
+                0x00000000        0x0 .\libandesrecovery.a(wifi_ps.o)
+ COMMON         0x00000000        0x0 .\libandesrecovery.a(wifi_ps.o)
+ .text          0x00000000        0x0 .\libandesrecovery.a(wifi_task.o)
+ .data          0x00000000        0x0 .\libandesrecovery.a(wifi_task.o)
+ .bss           0x00000000        0x0 .\libandesrecovery.a(wifi_task.o)
+ .text.get_clear_frame_flag
+                0x00000000        0x0 .\libandesrecovery.a(wifi_task.o)
+ .text.ws_assoc
+                0x00000000        0x0 .\libandesrecovery.a(wifi_task.o)
+ .text.ws_auth  0x00000000        0x0 .\libandesrecovery.a(wifi_task.o)
+ .text.ws_scan  0x00000000        0x0 .\libandesrecovery.a(wifi_task.o)
+ .text.set_bbp_reset
+                0x00000000        0x0 .\libandesrecovery.a(wifi_task.o)
+ .text.handle_FCE_RxTS_interrupt
+                0x00000000        0x0 .\libandesrecovery.a(wifi_task.o)
+ .data.SSID_TMP
+                0x00000000        0x0 .\libandesrecovery.a(wifi_task.o)
+ .data.wep_pwd  0x00000000        0x0 .\libandesrecovery.a(wifi_task.o)
+ .data.RTDebugLevel
+                0x00000000        0x0 .\libandesrecovery.a(wifi_task.o)
+ .text          0x00000000        0x0 .\libandesrecovery.a(assoc.o)
+ .data          0x00000000        0x0 .\libandesrecovery.a(assoc.o)
+ .bss           0x00000000        0x0 .\libandesrecovery.a(assoc.o)
+ .text.dot11_max_sup_rate
+                0x00000000        0x0 .\libandesrecovery.a(assoc.o)
+ .text.MlmeAssocReqSanity
+                0x00000000        0x0 .\libandesrecovery.a(assoc.o)
+ .text.PeerDisassocSanity
+                0x00000000        0x0 .\libandesrecovery.a(assoc.o)
+ .text.PeerAssocRspSanity
+                0x00000000        0x0 .\libandesrecovery.a(assoc.o)
+ .text._PeerDisassocAction
+                0x00000000        0x0 .\libandesrecovery.a(assoc.o)
+ .text.FourWayHSTimeoutAction
+                0x00000000        0x0 .\libandesrecovery.a(assoc.o)
+ .text.PeerDisassocAction
+                0x00000000        0x0 .\libandesrecovery.a(assoc.o)
+ .text._PeerAssocRspAction
+                0x00000000        0x0 .\libandesrecovery.a(assoc.o)
+ .text.PeerAssocRspAction
+                0x00000000        0x0 .\libandesrecovery.a(assoc.o)
+ .text.MlmeAssocProcess
+                0x00000000        0x0 .\libandesrecovery.a(assoc.o)
+ .text._MlmeAssocReqAction
+                0x00000000        0x0 .\libandesrecovery.a(assoc.o)
+ .text.MlmeAssocReqAction
+                0x00000000        0x0 .\libandesrecovery.a(assoc.o)
+ .text.Assoc_Initialization
+                0x00000000        0x0 .\libandesrecovery.a(assoc.o)
+ .rodata.str1.4
+                0x00000000        0x0 .\libandesrecovery.a(assoc.o)
+ .text.SendNullFrame
+                0x00000000        0x0 .\libandesrecovery.a(assoc.o)
+ .text.NullFrameTimeoutAction
+                0x00000000        0x0 .\libandesrecovery.a(assoc.o)
+ .text.MlmeDisassocReqAction
+                0x00000000        0x0 .\libandesrecovery.a(assoc.o)
+ .text.AssocTimeoutAction
+                0x00000000        0x0 .\libandesrecovery.a(assoc.o)
+ .rodata.__FUNCTION__.4360
+                0x00000000        0x0 .\libandesrecovery.a(assoc.o)
+ .text          0x00000000        0x0 .\libandesrecovery.a(crypt_hmac.o)
+ .data          0x00000000        0x0 .\libandesrecovery.a(crypt_hmac.o)
+ .bss           0x00000000        0x0 .\libandesrecovery.a(crypt_hmac.o)
+ .text.RT_HMAC_MD5
+                0x00000000        0x0 .\libandesrecovery.a(crypt_hmac.o)
+ .text.RT_HMAC_SHA1
+                0x00000000        0x0 .\libandesrecovery.a(crypt_hmac.o)
+ .text          0x00000000        0x0 .\libandesrecovery.a(led.o)
+ .data          0x00000000        0x0 .\libandesrecovery.a(led.o)
+ .bss           0x00000000        0x0 .\libandesrecovery.a(led.o)
+ .text.led_fast_blinking
+                0x00000000        0x0 .\libandesrecovery.a(led.o)
+ .text.led_set_blinking
+                0x00000000        0x0 .\libandesrecovery.a(led.o)
+ .text.led_blink_2_blink_persec
+                0x00000000        0x0 .\libandesrecovery.a(led.o)
+ .text.led_blink_on500_off100
+                0x00000000        0x0 .\libandesrecovery.a(led.o)
+ .text.led_on5s_off3s_timeout
+                0x00000000        0x0 .\libandesrecovery.a(led.o)
+ .bss.LedTimer  0x00000000        0x0 .\libandesrecovery.a(led.o)
+ .text          0x00000000        0x0 .\libandesrecovery.a(syscall.o)
+ .data          0x00000000        0x0 .\libandesrecovery.a(syscall.o)
+ .bss           0x00000000        0x0 .\libandesrecovery.a(syscall.o)
+ .text.sysCALL  0x00000000        0x0 .\libandesrecovery.a(syscall.o)
+ .text.sysCALL_SysCall0
+                0x00000000        0x0 .\libandesrecovery.a(syscall.o)
+ .text.sysCALL_SysCall1
+                0x00000000        0x0 .\libandesrecovery.a(syscall.o)
+ .text.sysCALL_SysCall2
+                0x00000000        0x0 .\libandesrecovery.a(syscall.o)
+ .text.sysCALL_SysCall3
+                0x00000000        0x0 .\libandesrecovery.a(syscall.o)
+ .text.sysCALL_XcptHdlr
+                0x00000000        0x0 .\libandesrecovery.a(syscall.o)
+ .text.sysCALL_SysCall1Hdlr
+                0x00000000        0x0 .\libandesrecovery.a(syscall.o)
+ .text.sysCALL_SysCall0Hdlr
+                0x00000000        0x0 .\libandesrecovery.a(syscall.o)
+ .rodata.sysCallHdlr
+                0x00000000        0x0 .\libandesrecovery.a(syscall.o)
+ .rodata.sysCallVctr
+                0x00000000        0x0 .\libandesrecovery.a(syscall.o)
+ .text          0x00000000        0x0 .\libandesrecovery.a(ctype.o)
+ .data          0x00000000        0x0 .\libandesrecovery.a(ctype.o)
+ .bss           0x00000000        0x0 .\libandesrecovery.a(ctype.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+SRAM             0x00000000         0x00010000         axw
+ROM              0x00102000         0x00002000         axr
+FLASH            0x00500000         0x00100000         axr
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+                0x00102d48                ARC4_Compute = 0x102d48
+                0x00103e98                RT_MD5 = 0x103e98
+                0x00102de0                RT_SHA1_Hash = 0x102de0
+                0x0010252c                aes_mul_e = 0x10252c
+                0x001026a4                memmove = 0x1026a4
+                0x00103e54                RT_MD5_Init = 0x103e54
+                0x0010242c                aes_mul_d = 0x10242c
+                0x0010262c                SHA1_K = 0x10262c
+                0x001026f0                memcpy = 0x1026f0
+                0x00103d48                RT_MD5_End = 0x103d48
+                0x0010263c                SHA1_DefaultHashValue = 0x10263c
+                0x00103dc0                RT_MD5_Append = 0x103dc0
+                0x001031bc                RT_SHA1 = 0x1031bc
+                0x001027a0                RT_AES_KeyExpansion = 0x1027a0
+                0x00102000                ROMBA = 0x102000
+                0x00102cf0                ARC4_INIT = 0x102cf0
+                0x00102fd8                RT_SHA1_End = 0x102fd8
+                0x00102000                _SDA_BASE_ = 0x102000
+                0x001026d4                memcmp = 0x1026d4
+                0x0010271c                TKIP_GTK_KEY_WRAP = 0x10271c
+                0x00102708                memset = 0x102708
+                0x0010202c                aes_sbox_enc = 0x10202c
+                0x00102650                MD5_DefaultHashValue = 0x102650
+                0x0010222c                aes_mul_9 = 0x10222c
+                0x00103178                RT_SHA1_Init = 0x103178
+                0x00103ffe                ROMVersion = 0x103ffe
+                0x001028ac                RT_AES_Decrypt = 0x1028ac
+                0x00102000                aes_rcon = 0x102000
+                0x001030e4                RT_SHA1_Append = 0x1030e4
+                0x0010232c                aes_mul_b = 0x10232c
+                0x00102660                strspn = 0x102660
+                0x0010278c                TKIP_GTK_KEY_UNWRAP = 0x10278c
+                0x00102da8                ARC4_Discard_KeyLength = 0x102da8
+                0x001031fc                RT_MD5_Hash = 0x1031fc
+                0x0010212c                aes_sbox_dec = 0x10212c
+                0x00102684                strpbrk = 0x102684
+                0x00102000                ROM_BASEADDR = 0x102000
+                0x00002000                ROM_SIZE = 0x2000
+                0x00102000                PROVIDE (_ROM_BASEADDR, ROM_BASEADDR)
+                0x00002000                PROVIDE (_ROM_SIZE, ROM_SIZE)
+                0x00000000                RAM_BASEADDR = 0x0
+                0x00010000                RAM_SIZE = 0x10000
+                0x00000000                PROVIDE (_RAM_BASEADDR, RAM_BASEADDR)
+                0x00010000                PROVIDE (_RAM_SIZE, RAM_SIZE)
+                0x00008000                HALF_SRAM_SIZE = 0x8000
+                0x00000000                ILMBA = 0x0
+                0x00008000                DLMBA = (0x0 + HALF_SRAM_SIZE)
+                0x00102000                ROMBA = 0x102000
+                0x00500000                FLASHBA = 0x500000
+                0x00000000                PROVIDE (_ILMBA, ILMBA)
+                0x00008000                PROVIDE (_DLMBA, DLMBA)
+                0x0000ff00                STACK_ORIGIN = 0xff00
+                0x00000000                GLOBAL_ORIGIN = ILMBA
+                0x0000ff00                PROVIDE (_STACK_ORIGIN, STACK_ORIGIN)
+                0x00000000                PROVIDE (_GLOBAL_ORIGIN, GLOBAL_ORIGIN)
+                0x00000000                __ilm_start = .
+                0x00000000                VECT_SECT_VMA = RAM_BASEADDR
+
+.VECT           0x00000000       0x40
+ *(.vector)
+ .vector        0x00000000       0x40 cust/vectors.o
+                0x00000000                _xcpt_vctr
+                0x00000040                . = ALIGN (0x10)
+                0x00000040                TEXT_SECT_VMA = .
+
+.TEXT           0x00000040     0x93f8
+ *(.Xcpt)
+ .Xcpt          0x00000040        0x8 cust/ctxsw.o
+                0x00000040                sysXcpt
+ *(.ctxsw)
+ .ctxsw         0x00000048       0x5c cust/ctxsw.o
+                0x00000078                sysLoadCtx
+                0x00000048                sysCtxSw
+ *(.startup)
+ .startup       0x000000a4       0x68 cust/startup.o
+                0x000000a4                _startup
+ *(.text)
+ *(.text.*)
+ .text.crc_cal_by_bit
+                0x0000010c       0x4c obj/recovery/crypt_crc.o
+                0x0000010c                crc_cal_by_bit
+ .text.reflect  0x00000158       0x34 obj/recovery/crypt_crc.o
+                0x00000158                reflect
+ .text.crc32    0x0000018c       0x68 obj/recovery/crypt_crc.o
+                0x0000018c                crc32
+ .text.iot_atcmd_resp_header
+                0x000001f4       0x78 obj/recovery/iot_at_cmd.o
+                0x000001f4                iot_atcmd_resp_header
+ .text.iot_atcmd_exec_ver
+                0x0000026c       0xb0 obj/recovery/iot_at_cmd.o
+                0x0000026c                iot_atcmd_exec_ver
+ .text.iot_atcmd_exec_reboot
+                0x0000031c       0x18 obj/recovery/iot_at_cmd.o
+                0x0000031c                iot_atcmd_exec_reboot
+ .text.iot_exec_atcmd_ch_switch
+                0x00000334       0xf0 obj/recovery/iot_at_cmd.o
+                0x00000334                iot_exec_atcmd_ch_switch
+ .text.iot_exec_atcmd_efuse_set
+                0x00000424      0x10c obj/recovery/iot_at_cmd.o
+                0x00000424                iot_exec_atcmd_efuse_set
+ .text.iot_atcmd_exec_flash
+                0x00000530      0x1d4 obj/recovery/iot_at_cmd.o
+                0x00000530                iot_atcmd_exec_flash
+ .text.RTMPIoctlE2PROM
+                0x00000704      0x184 obj/recovery/iot_at_cmd.o
+                0x00000704                RTMPIoctlE2PROM
+ .text.ate_cmd_cali_hdlr
+                0x00000888      0x3c4 obj/recovery/iot_at_cmd.o
+                0x00000888                ate_cmd_cali_hdlr
+ .text.iot_exec_atcmd_ate_cal
+                0x00000c4c       0xd4 obj/recovery/iot_at_cmd.o
+                0x00000c4c                iot_exec_atcmd_ate_cal
+ .text.iot_iwcmd_parser
+                0x00000d20       0x2c obj/recovery/iot_at_cmd.o
+                0x00000d20                iot_iwcmd_parser
+ .text.iot_exec_atcmd_ate_cal2
+                0x00000d4c      0x23c obj/recovery/iot_at_cmd.o
+                0x00000d4c                iot_exec_atcmd_ate_cal2
+ .text.iot_exec_atcmd_uart
+                0x00000f88       0x1c obj/recovery/iot_at_cmd.o
+                0x00000f88                iot_exec_atcmd_uart
+ .text.iot_atcmd_parser
+                0x00000fa4      0x17c obj/recovery/iot_at_cmd.o
+                0x00000fa4                iot_atcmd_parser
+ .text.strchr   0x00001120       0x20 obj/recovery/iot_at_cmd_utility.o
+                0x00001120                strchr
+ .text.split_string_cmd
+                0x00001140       0x5c obj/recovery/iot_at_cmd_utility.o
+                0x00001140                split_string_cmd
+ .text.getopt   0x0000119c      0x168 obj/recovery/iot_at_cmd_utility.o
+                0x0000119c                getopt
+ .text.iot_cust_scan_done
+                0x00001304        0x4 obj/recovery/iot_custom.o
+                0x00001304                iot_cust_scan_done
+ .text.iot_cust_subtask1
+                0x00001308        0x4 obj/recovery/iot_custom.o
+                0x00001308                iot_cust_subtask1
+ .text.iot_cust_preinit
+                0x0000130c        0x4 obj/recovery/iot_custom.o
+                0x0000130c                iot_cust_preinit
+ .text.iot_cust_init
+                0x00001310        0x4 obj/recovery/iot_custom.o
+                0x00001310                iot_cust_init
+ .text.iot_cust_ops
+                0x00001314       0x4c obj/recovery/iot_custom.o
+                0x00001314                iot_cust_ops
+ .text.default_uart_cfg
+                0x00001360       0x28 obj/recovery/iot_custom.o
+                0x00001360                default_uart_cfg
+ .text.iot_cust_hwtimer1_hdlr
+                0x00001388        0x4 obj/recovery/iot_custom.o
+                0x00001388                iot_cust_hwtimer1_hdlr
+ .text.iot_cust_hwtimer1_tick
+                0x0000138c        0x4 obj/recovery/iot_custom.o
+                0x0000138c                iot_cust_hwtimer1_tick
+ .text.iot_cust_gpiint_hdlr
+                0x00001390       0x9c obj/recovery/iot_custom.o
+                0x00001390                iot_cust_gpiint_hdlr
+ .text.reset_sta_cfg
+                0x0000142c       0x20 obj/recovery/iot_custom.o
+                0x0000142c                reset_sta_cfg
+ .text.default_ip_cfg
+                0x0000144c       0xac obj/recovery/iot_custom.o
+                0x0000144c                default_ip_cfg
+ .text.reset_com_cfg
+                0x000014f8      0x148 obj/recovery/iot_custom.o
+                0x000014f8                reset_com_cfg
+ .text.reset_usr_cfg
+                0x00001640       0xb8 obj/recovery/iot_custom.o
+                0x00001640                reset_usr_cfg
+ .text.reset_cfg
+                0x000016f8       0x30 obj/recovery/iot_custom.o
+                0x000016f8                reset_cfg
+ .text.load_usr_cfg
+                0x00001728       0x80 obj/recovery/iot_custom.o
+                0x00001728                load_usr_cfg
+ .text.load_com_cfg
+                0x000017a8      0x1e4 obj/recovery/iot_custom.o
+                0x000017a8                load_com_cfg
+ .text.pre_init_cfg
+                0x0000198c       0x64 obj/recovery/iot_custom.o
+                0x0000198c                pre_init_cfg
+ .text.iot_cust_timer0_timeout_actioin
+                0x000019f0       0x24 obj/recovery/iot_custom.o
+                0x000019f0                iot_cust_timer0_timeout_actioin
+ .text.cust_app_init
+                0x00001a14       0x68 obj/recovery/iot_custom.o
+                0x00001a14                cust_app_init
+ .text.cust_subtask
+                0x00001a7c       0x24 obj/recovery/iot_custom.o
+                0x00001a7c                cust_subtask
+ .text.uart_rxbuf_init
+                0x00001aa0       0x24 obj/recovery/iot_uart_rb.o
+                0x00001aa0                uart_rxbuf_init
+ .text.uart_tx_cb
+                0x00001ac4        0x4 obj/recovery/iot_uart_rb.o
+                0x00001ac4                uart_tx_cb
+ .text.iot_uart_init
+                0x00001ac8       0x40 obj/recovery/iot_uart_rb.o
+                0x00001ac8                iot_uart_init
+ .text.iot_atcmd_uart_atcfg
+                0x00001b08      0x144 obj/recovery/iot_uart_rb.o
+                0x00001b08                iot_atcmd_uart_atcfg
+ .text.uart_cfg_fr_flash
+                0x00001c4c       0x3c obj/recovery/iot_uart_rb.o
+                0x00001c4c                uart_cfg_fr_flash
+ .text.uart_rx_dispatch
+                0x00001c88       0xd8 obj/recovery/iot_uart_rb.o
+                0x00001c88                uart_rx_dispatch
+ .text.uart_get_byte
+                0x00001d60       0x18 obj/recovery/iot_uart_rb.o
+                0x00001d60                uart_get_byte
+ .text.uart_rx_cb
+                0x00001d78      0x1cc obj/recovery/iot_uart_rb.o
+                0x00001d78                uart_rx_cb
+ .text.uart_put_bytes
+                0x00001f44      0x100 obj/recovery/iot_uart_rb.o
+                0x00001f44                uart_put_bytes
+ .text.iot_uart_output
+                0x00002044       0x48 obj/recovery/iot_uart_rb.o
+                0x00002044                iot_uart_output
+ .text.port_inbyte
+                0x0000208c       0x54 obj/recovery/iot_xmodem.o
+                0x0000208c                port_inbyte
+ .text.port_outbyte
+                0x000020e0       0x1c obj/recovery/iot_xmodem.o
+                0x000020e0                port_outbyte
+ .text.crc16_ccitt
+                0x000020fc       0x1c obj/recovery/iot_xmodem.o
+                0x000020fc                crc16_ccitt
+ .text.check    0x00002118       0x54 obj/recovery/iot_xmodem.o
+ .text.iot_xmodem_update_fw
+                0x0000216c      0x304 obj/recovery/iot_xmodem.o
+                0x0000216c                iot_xmodem_update_fw
+ .text.main     0x00002470       0x7c obj/recovery/main_pub.o
+                0x00002470                main
+ .text.DelayTick
+                0x000024ec        0xc obj/recovery/misc_pub.o
+                0x000024ec                DelayTick
+ .text.usecDelay
+                0x000024f8       0x4c obj/recovery/misc_pub.o
+                0x000024f8                usecDelay
+ .text.msecDelay
+                0x00002544       0x54 obj/recovery/misc_pub.o
+                0x00002544                msecDelay
+ .text.asic_set_channel
+                0x00002598       0x48 obj/recovery/mt7681_ChSw_pub.o
+                0x00002598                asic_set_channel
+ .text.iot_atcmd_set_channel
+                0x000025e0       0x28 obj/recovery/mt7681_ChSw_pub.o
+                0x000025e0                iot_atcmd_set_channel
+ .text.vprintf  0x00002608       0x24 obj/recovery/printf.o
+                0x00002608                vprintf
+ .text.printf_high
+                0x0000262c       0x34 obj/recovery/printf.o
+                0x0000262c                printf_high
+ .text.vprintf_help
+                0x00002660       0x1c obj/recovery/printf.o
+ .text.RTMPCheckRxError
+                0x0000267c       0x14 obj/recovery/rtmp_data_pub.o
+                0x0000267c                RTMPCheckRxError
+ .text.WifiRxFsIntFilterOut
+                0x00002690       0x7c obj/recovery/rtmp_data_pub.o
+                0x00002690                WifiRxFsIntFilterOut
+ .text.RTMPWriteTxWI_Mgmt
+                0x0000270c       0xb0 obj/recovery/rtmp_data_pub.o
+                0x0000270c                RTMPWriteTxWI_Mgmt
+ .text.RTMPWriteTxWI_Data
+                0x000027bc      0x184 obj/recovery/rtmp_data_pub.o
+                0x000027bc                RTMPWriteTxWI_Data
+ .text.STABuildCommon802_11Header
+                0x00002940      0x110 obj/recovery/rtmp_data_pub.o
+                0x00002940                STABuildCommon802_11Header
+ .text.MiniportMMRequest
+                0x00002a50       0xa8 obj/recovery/rtmp_data_pub.o
+                0x00002a50                MiniportMMRequest
+ .text.sta_legacy_frame_tx
+                0x00002af8       0xdc obj/recovery/rtmp_data_pub.o
+                0x00002af8                sta_legacy_frame_tx
+ .text.WifiRxDoneInterruptHandle
+                0x00002bd4      0x108 obj/recovery/rtmp_data_pub.o
+                0x00002bd4                WifiRxDoneInterruptHandle
+ .text.iot_bcn_timeout_action
+                0x00002cdc       0x1c obj/recovery/rtmp_data_pub.o
+                0x00002cdc                iot_bcn_timeout_action
+ .text.spi_flash_update_fw_done
+                0x00002cf8       0x24 obj/recovery/spi-flash_pub.o
+                0x00002cf8                spi_flash_update_fw_done
+ .text.spi_flash_page_write
+                0x00002d1c       0x88 obj/recovery/spi-flash_pub.o
+ .text.spi_flash_write_func
+                0x00002da4       0xf0 obj/recovery/spi-flash_pub.o
+                0x00002da4                spi_flash_write_func
+ .text.spi_flash_erase_sector
+                0x00002e94       0x78 obj/recovery/spi-flash_pub.o
+                0x00002e94                spi_flash_erase_sector
+ .text.spi_flash_write
+                0x00002f0c      0x194 obj/recovery/spi-flash_pub.o
+                0x00002f0c                spi_flash_write
+ .text.spi_flash_update_fw
+                0x000030a0      0x10c obj/recovery/spi-flash_pub.o
+                0x000030a0                spi_flash_update_fw
+ .text.check_data_valid
+                0x000031ac       0x44 obj/recovery/wifi_task_pub.o
+                0x000031ac                check_data_valid
+ .text.recovery_fota_update
+                0x000031f0      0x194 obj/recovery/wifi_task_pub.o
+                0x000031f0                recovery_fota_update
+ .text.wifi_rx_proc
+                0x00003384       0x5c obj/recovery/wifi_task_pub.o
+                0x00003384                wifi_rx_proc
+ .text.wifiTASK_LowPrioTask
+                0x000033e0      0x174 obj/recovery/wifi_task_pub.o
+                0x000033e0                wifiTASK_LowPrioTask
+ .text.overlayload
+                0x00003554        0x4 .\libandesrecovery.a(xip_ovly.o)
+                0x00003554                overlayload
+ .text.overlayunload
+                0x00003558        0x4 .\libandesrecovery.a(xip_ovly.o)
+                0x00003558                overlayunload
+ .text.cnmTimerInitTimer
+                0x0000355c       0x30 .\libandesrecovery.a(cnm_timer.o)
+                0x0000355c                cnmTimerInitTimer
+ .text.cnmTimerStopTimer
+                0x0000358c       0x48 .\libandesrecovery.a(cnm_timer.o)
+                0x0000358c                cnmTimerStopTimer
+ .text.cnmTimerSetTimer
+                0x000035d4       0x3c .\libandesrecovery.a(cnm_timer.o)
+ .text.cnmTimerDoTimeOutCheck
+                0x00003610       0xf0 .\libandesrecovery.a(cnm_timer.o)
+                0x00003610                cnmTimerDoTimeOutCheck
+ .text.cnmTimerStartTimer
+                0x00003700       0xb8 .\libandesrecovery.a(cnm_timer.o)
+                0x00003700                cnmTimerStartTimer
+ .text.cnmTimerInitialize
+                0x000037b8       0x38 .\libandesrecovery.a(cnm_timer.o)
+                0x000037b8                cnmTimerInitialize
+ .text.iot_sw_pwm_hdlr
+                0x000037f0        0x4 .\libandesrecovery.a(iot_io_cmd.o)
+                0x000037f0                iot_sw_pwm_hdlr
+ .text.iot_linkdown
+                0x000037f4       0x34 .\libandesrecovery.a(iot_mgmt_cmd.o)
+                0x000037f4                iot_linkdown
+ .text.iot_xmodem_update_fw_stop
+                0x00003828       0x4c .\libandesrecovery.a(iot_priv.o)
+                0x00003828                iot_xmodem_update_fw_stop
+ .text.iot_xmodem_update_fw_start
+                0x00003874       0x48 .\libandesrecovery.a(iot_priv.o)
+                0x00003874                iot_xmodem_update_fw_start
+ .text.apiQU_Dequeue
+                0x000038bc       0x44 .\libandesrecovery.a(queue.o)
+                0x000038bc                apiQU_Dequeue
+ .text.apiQU_Enqueue
+                0x00003900       0x40 .\libandesrecovery.a(queue.o)
+                0x00003900                apiQU_Enqueue
+ .text.apiQU_Initialize
+                0x00003940       0xa0 .\libandesrecovery.a(queue.o)
+                0x00003940                apiQU_Initialize
+ .text.aes_key_init
+                0x000039e0       0x68 .\libandesrecovery.a(app_nos_main.o)
+                0x000039e0                aes_key_init
+ .text.APP_Init
+                0x00003a48      0x134 .\libandesrecovery.a(app_nos_main.o)
+                0x00003a48                APP_Init
+ .text.ConvertToRssi
+                0x00003b7c      0x104 .\libandesrecovery.a(ate.o)
+                0x00003b7c                ConvertToRssi
+ .text.Set_ATE_TX_Cnt_Per_Speed
+                0x00003c80       0x1c .\libandesrecovery.a(ate.o)
+                0x00003c80                Set_ATE_TX_Cnt_Per_Speed
+ .text.NICUpdateRawCounters
+                0x00003c9c       0x88 .\libandesrecovery.a(ate.o)
+                0x00003c9c                NICUpdateRawCounters
+ .text.get_pkt_rssi_by_rxwi
+                0x00003d24       0x24 .\libandesrecovery.a(ate.o)
+                0x00003d24                get_pkt_rssi_by_rxwi
+ .text.get_pkt_snr_by_rxwi
+                0x00003d48       0x10 .\libandesrecovery.a(ate.o)
+                0x00003d48                get_pkt_snr_by_rxwi
+ .text.Update_Rssi_Sample
+                0x00003d58      0x270 .\libandesrecovery.a(ate.o)
+                0x00003d58                Update_Rssi_Sample
+ .text.ate_cmd_cali_stat
+                0x00003fc8      0x128 .\libandesrecovery.a(ate.o)
+                0x00003fc8                ate_cmd_cali_stat
+ .text.Set_ATE_RX_DURATION
+                0x000040f0       0x3c .\libandesrecovery.a(ate.o)
+                0x000040f0                Set_ATE_RX_DURATION
+ .text.Set_ATE_TX_PAYLOAD_LEN
+                0x0000412c       0x44 .\libandesrecovery.a(ate.o)
+                0x0000412c                Set_ATE_TX_PAYLOAD_LEN
+ .text.Set_ATE_TX_POWER
+                0x00004170       0x8c .\libandesrecovery.a(ate.o)
+                0x00004170                Set_ATE_TX_POWER
+ .text.Set_ATE_TX_Speed_Proc
+                0x000041fc       0x3c .\libandesrecovery.a(ate.o)
+                0x000041fc                Set_ATE_TX_Speed_Proc
+ .text.Set_ATE_TX_COUNT_Proc
+                0x00004238       0x3c .\libandesrecovery.a(ate.o)
+                0x00004238                Set_ATE_TX_COUNT_Proc
+ .text.Set_ATE_TX_GI_Proc
+                0x00004274       0x3c .\libandesrecovery.a(ate.o)
+                0x00004274                Set_ATE_TX_GI_Proc
+ .text.Set_ATE_TX_MCS_Proc
+                0x000042b0       0x9c .\libandesrecovery.a(ate.o)
+                0x000042b0                Set_ATE_TX_MCS_Proc
+ .text.RXFRAME  0x0000434c       0x80 .\libandesrecovery.a(ate.o)
+                0x0000434c                RXFRAME
+ .text.Set_ATE_BBP_TXPWR0
+                0x000043cc       0x4c .\libandesrecovery.a(ate.o)
+                0x000043cc                Set_ATE_BBP_TXPWR0
+ .text.Set_ATE_TX_MODE_Proc
+                0x00004418       0xc0 .\libandesrecovery.a(ate.o)
+                0x00004418                Set_ATE_TX_MODE_Proc
+ .text.Set_ResetStatCounter_Proc
+                0x000044d8       0x9c .\libandesrecovery.a(ate.o)
+                0x000044d8                Set_ResetStatCounter_Proc
+ .text.ATE_INIT
+                0x00004574       0xac .\libandesrecovery.a(ate.o)
+                0x00004574                ATE_INIT
+ .text.Set_ATE_TX_FREQ_OFFSET_Proc
+                0x00004620       0x60 .\libandesrecovery.a(ate.o)
+                0x00004620                Set_ATE_TX_FREQ_OFFSET_Proc
+ .text.MT7681_Set_ATE_TX_BW_Proc
+                0x00004680       0x98 .\libandesrecovery.a(ate.o)
+                0x00004680                MT7681_Set_ATE_TX_BW_Proc
+ .text.Set_ATE_Switch_CH
+                0x00004718       0x28 .\libandesrecovery.a(ate.o)
+                0x00004718                Set_ATE_Switch_CH
+ .text.ATE_RXFRAME
+                0x00004740       0x90 .\libandesrecovery.a(ate.o)
+                0x00004740                ATE_RXFRAME
+ .text.ATE_TXFRAME
+                0x000047d0       0x80 .\libandesrecovery.a(ate.o)
+                0x000047d0                ATE_TXFRAME
+ .text.ATESTART
+                0x00004850      0x1a0 .\libandesrecovery.a(ate.o)
+                0x00004850                ATESTART
+ .text.ATE_STOP
+                0x000049f0       0x50 .\libandesrecovery.a(ate.o)
+                0x000049f0                ATE_STOP
+ .text.SendATETxDataFrame
+                0x00004a40       0x9c .\libandesrecovery.a(ate.o)
+                0x00004a40                SendATETxDataFrame
+ .text.ate_period_exec
+                0x00004adc      0x190 .\libandesrecovery.a(ate.o)
+                0x00004adc                ate_period_exec
+ .text.set_ate_efuse_read
+                0x00004c6c       0x68 .\libandesrecovery.a(ate.o)
+                0x00004c6c                set_ate_efuse_read
+ .text.set_ate_efuse_write
+                0x00004cd4       0x9c .\libandesrecovery.a(ate.o)
+                0x00004cd4                set_ate_efuse_write
+ .text.MlmeDeauthReqAction
+                0x00004d70       0x80 .\libandesrecovery.a(auth.o)
+                0x00004d70                MlmeDeauthReqAction
+ .text.sysDelay1u
+                0x00004df0       0x10 .\libandesrecovery.a(chip_init.o)
+ .text.Reg_mac_add_init
+                0x00004e00       0x48 .\libandesrecovery.a(chip_init.o)
+                0x00004e00                Reg_mac_add_init
+ .text.Reg_bssid_init
+                0x00004e48       0x38 .\libandesrecovery.a(chip_init.o)
+                0x00004e48                Reg_bssid_init
+ .text.NICInitMT7681MacRegisters
+                0x00004e80       0x70 .\libandesrecovery.a(chip_init.o)
+                0x00004e80                NICInitMT7681MacRegisters
+ .text.clean_key_tb
+                0x00004ef0       0x50 .\libandesrecovery.a(chip_init.o)
+                0x00004ef0                clean_key_tb
+ .text.iot_sys_reboot
+                0x00004f40       0xb8 .\libandesrecovery.a(chip_init.o)
+                0x00004f40                iot_sys_reboot
+ .text.MT7681_AsicExtraPowerOverMAC
+                0x00004ff8       0x3c .\libandesrecovery.a(chip_init.o)
+                0x00004ff8                MT7681_AsicExtraPowerOverMAC
+ .text.MT7681_ReadEEPROM
+                0x00005034       0x4c .\libandesrecovery.a(chip_init.o)
+                0x00005034                MT7681_ReadEEPROM
+ .text.MT7681_ReadTxPwrPerRate
+                0x00005080      0x1ac .\libandesrecovery.a(chip_init.o)
+                0x00005080                MT7681_ReadTxPwrPerRate
+ .text.wait_bbp_rf_wakeup
+                0x0000522c       0x3c .\libandesrecovery.a(chip_init.o)
+                0x0000522c                wait_bbp_rf_wakeup
+ .text.MT7681_RXDC_CAL
+                0x00005268       0xe0 .\libandesrecovery.a(chip_init.o)
+                0x00005268                MT7681_RXDC_CAL
+ .text.MT7681_INIT_CAL
+                0x00005348       0x64 .\libandesrecovery.a(chip_init.o)
+                0x00005348                MT7681_INIT_CAL
+ .text.rtmp_bbp_is_ready
+                0x000053ac       0x58 .\libandesrecovery.a(chip_init.o)
+                0x000053ac                rtmp_bbp_is_ready
+ .text.NICInitMT7681BbpRegisters
+                0x00005404       0x64 .\libandesrecovery.a(chip_init.o)
+                0x00005404                NICInitMT7681BbpRegisters
+ .text.MT7681_eep_cfg2
+                0x00005468      0x16c .\libandesrecovery.a(chip_init.o)
+                0x00005468                MT7681_eep_cfg2
+ .text.NICInitMT7681RFRegisters
+                0x000055d4       0x8c .\libandesrecovery.a(chip_init.o)
+                0x000055d4                NICInitMT7681RFRegisters
+ .text.chip_reg_init
+                0x00005660      0x108 .\libandesrecovery.a(chip_init.o)
+                0x00005660                chip_reg_init
+ .text.WriteSingleTxResource
+                0x00005768       0x48 .\libandesrecovery.a(rtmp_data.o)
+                0x00005768                WriteSingleTxResource
+ .text.MgtMacHeaderInit
+                0x000057b0       0xb0 .\libandesrecovery.a(rtmp_general.o)
+                0x000057b0                MgtMacHeaderInit
+ .text.MakeOutgoingFrame
+                0x00005860       0x4c .\libandesrecovery.a(rtmp_general.o)
+                0x00005860                MakeOutgoingFrame
+ .text.rtmp_mac_set_ctrlch
+                0x000058ac       0x2c .\libandesrecovery.a(scan.o)
+                0x000058ac                rtmp_mac_set_ctrlch
+ .text.SCAN_Initialization
+                0x000058d8       0x30 .\libandesrecovery.a(scan.o)
+                0x000058d8                SCAN_Initialization
+ .text.rtmp_bbp_set_ctrlch
+                0x00005908       0x54 .\libandesrecovery.a(scan.o)
+                0x00005908                rtmp_bbp_set_ctrlch
+ .text.reset_smnt_set
+                0x0000595c       0x2c .\libandesrecovery.a(smtcn.o)
+                0x0000595c                reset_smnt_set
+ .text.reset_smnt_info
+                0x00005988       0x50 .\libandesrecovery.a(smtcn.o)
+                0x00005988                reset_smnt_info
+ .text.SMTCNfsm_rst
+                0x000059d8       0x4c .\libandesrecovery.a(smtcn.o)
+                0x000059d8                SMTCNfsm_rst
+ .text.SMTCNfsm_init
+                0x00005a24       0x30 .\libandesrecovery.a(smtcn.o)
+                0x00005a24                SMTCNfsm_init
+ .text.SMTCN_state_chg_init
+                0x00005a54       0x58 .\libandesrecovery.a(smtcn.o)
+                0x00005a54                SMTCN_state_chg_init
+ .text.SMTCN_process
+                0x00005aac       0x88 .\libandesrecovery.a(smtcn.o)
+                0x00005aac                SMTCN_process
+ .text.RTMP_EnableTxRx
+                0x00005b34       0x10 .\libandesrecovery.a(wow.o)
+                0x00005b34                RTMP_EnableTxRx
+ .text.bsp_init
+                0x00005b44       0xfc .\libandesrecovery.a(bsp.o)
+                0x00005b44                bsp_init
+ .text.eEpWritePhysical
+                0x00005c40      0x1a4 .\libandesrecovery.a(ee_efuse.o)
+ .text.eEpReadRegisters
+                0x00005de4       0xf4 .\libandesrecovery.a(ee_efuse.o)
+                0x00005de4                eEpReadRegisters
+ .text.rtmp_eep_read16
+                0x00005ed8       0x20 .\libandesrecovery.a(ee_efuse.o)
+                0x00005ed8                rtmp_eep_read16
+ .text.eEpReadPhysical
+                0x00005ef8       0x38 .\libandesrecovery.a(ee_efuse.o)
+ .text.eEpRead  0x00005f30       0x38 .\libandesrecovery.a(ee_efuse.o)
+                0x00005f30                eEpRead
+ .text.eEpWrite
+                0x00005f68      0x3ac .\libandesrecovery.a(ee_efuse.o)
+                0x00005f68                eEpWrite
+ .text.rtmp_eep_write16
+                0x00006314       0x2c .\libandesrecovery.a(ee_efuse.o)
+                0x00006314                rtmp_eep_write16
+ .text.drvFCE_RegisterIntHdlr
+                0x00006340       0x34 .\libandesrecovery.a(fce.o)
+                0x00006340                drvFCE_RegisterIntHdlr
+ .text.drvFCE_IntHdlr
+                0x00006374       0x8c .\libandesrecovery.a(fce.o)
+                0x00006374                drvFCE_IntHdlr
+ .text.drvFCE_Initialize
+                0x00006400       0xc0 .\libandesrecovery.a(fce.o)
+                0x00006400                drvFCE_Initialize
+ .text.PdmaVrPortIntHdlr
+                0x000064c0       0xf4 .\libandesrecovery.a(pdma.o)
+                0x000064c0                PdmaVrPortIntHdlr
+ .text.PdmaVtPortIntHdlr
+                0x000065b4      0x100 .\libandesrecovery.a(pdma.o)
+                0x000065b4                PdmaVtPortIntHdlr
+ .text.rlk_fce_txts_hard_xmit
+                0x000066b4      0x138 .\libandesrecovery.a(pdma.o)
+                0x000066b4                rlk_fce_txts_hard_xmit
+ .text.PdmaTxTsHdlr
+                0x000067ec       0x70 .\libandesrecovery.a(pdma.o)
+                0x000067ec                PdmaTxTsHdlr
+ .text.TxTsIntHdlr
+                0x0000685c       0x18 .\libandesrecovery.a(pdma.o)
+                0x0000685c                TxTsIntHdlr
+ .text.PdmaRxFsHdlr
+                0x00006874      0x108 .\libandesrecovery.a(pdma.o)
+                0x00006874                PdmaRxFsHdlr
+ .text.RxFsIntHdlr
+                0x0000697c       0x18 .\libandesrecovery.a(pdma.o)
+                0x0000697c                RxFsIntHdlr
+ .text.drvPDMA_TxInitialize
+                0x00006994       0x4c .\libandesrecovery.a(pdma.o)
+                0x00006994                drvPDMA_TxInitialize
+ .text.drvPDMA_RxInitialize
+                0x000069e0       0xa0 .\libandesrecovery.a(pdma.o)
+                0x000069e0                drvPDMA_RxInitialize
+ .text.SPI_REG8
+                0x00006a80       0x10 .\libandesrecovery.a(spi-flash.o)
+                0x00006a80                SPI_REG8
+ .text.SPI_READOUT
+                0x00006a90        0xc .\libandesrecovery.a(spi-flash.o)
+                0x00006a90                SPI_READOUT
+ .text.WAIT_OP_DONE_PUB
+                0x00006a9c       0x10 .\libandesrecovery.a(spi-flash.o)
+                0x00006a9c                WAIT_OP_DONE_PUB
+ .text.spi_flash_clk_set
+                0x00006aac       0x34 .\libandesrecovery.a(spi-flash.o)
+                0x00006aac                spi_flash_clk_set
+ .text.spi_flash_read
+                0x00006ae0       0x28 .\libandesrecovery.a(spi-flash.o)
+                0x00006ae0                spi_flash_read
+ .text.drvTMR_Init
+                0x00006b08       0x14 .\libandesrecovery.a(timer.o)
+                0x00006b08                drvTMR_Init
+ .text.kal_get_systime
+                0x00006b1c        0xc .\libandesrecovery.a(timer.o)
+                0x00006b1c                kal_get_systime
+ .text.sys_init_timer
+                0x00006b28       0x38 .\libandesrecovery.a(timer.o)
+                0x00006b28                sys_init_timer
+ .text.kal_stop_timer
+                0x00006b60       0x84 .\libandesrecovery.a(timer.o)
+                0x00006b60                kal_stop_timer
+ .text.kal_start_timer
+                0x00006be4      0x104 .\libandesrecovery.a(timer.o)
+                0x00006be4                kal_start_timer
+ .text.kal_create_timer
+                0x00006ce8       0x58 .\libandesrecovery.a(timer.o)
+                0x00006ce8                kal_create_timer
+ .text.SwTimerHandler
+                0x00006d40       0x30 .\libandesrecovery.a(timer.o)
+                0x00006d40                SwTimerHandler
+ .text.drvTMR_Tick_Init
+                0x00006d70       0x40 .\libandesrecovery.a(timer.o)
+                0x00006d70                drvTMR_Tick_Init
+ .text.hw_timer1_IntHdler
+                0x00006db0       0x3c .\libandesrecovery.a(timer.o)
+                0x00006db0                hw_timer1_IntHdler
+ .text.drvTMR_IntHdler
+                0x00006dec       0x4c .\libandesrecovery.a(timer.o)
+                0x00006dec                drvTMR_IntHdler
+ .text.UART_PutUARTByte
+                0x00006e38       0x20 .\libandesrecovery.a(uart.o)
+                0x00006e38                UART_PutUARTByte
+ .text.UART_SetBaudRate
+                0x00006e58       0x28 .\libandesrecovery.a(uart.o)
+                0x00006e58                UART_SetBaudRate
+ .text._UART_GetByte
+                0x00006e80       0x24 .\libandesrecovery.a(uart.o)
+                0x00006e80                _UART_GetByte
+ .text.UART_RecHandler
+                0x00006ea4       0x38 .\libandesrecovery.a(uart.o)
+                0x00006ea4                UART_RecHandler
+ .text.UART_Register_TX_cb
+                0x00006edc        0xc .\libandesrecovery.a(uart.o)
+                0x00006edc                UART_Register_TX_cb
+ .text.UART_Register_RX_cb
+                0x00006ee8        0xc .\libandesrecovery.a(uart.o)
+                0x00006ee8                UART_Register_RX_cb
+ .text.mt7681_uart_pin_set
+                0x00006ef4       0x1c .\libandesrecovery.a(uart.o)
+                0x00006ef4                mt7681_uart_pin_set
+ .text.UART_TrxHandler
+                0x00006f10       0xbc .\libandesrecovery.a(uart.o)
+                0x00006f10                UART_TrxHandler
+ .text.UART_LISR
+                0x00006fcc       0x48 .\libandesrecovery.a(uart.o)
+                0x00006fcc                UART_LISR
+ .text.UART_SetDCBConfig
+                0x00007014       0xe8 .\libandesrecovery.a(uart.o)
+                0x00007014                UART_SetDCBConfig
+ .text.UART_EnableTX
+                0x000070fc       0x38 .\libandesrecovery.a(uart.o)
+                0x000070fc                UART_EnableTX
+ .text.UART_DisableTX
+                0x00007134       0x3c .\libandesrecovery.a(uart.o)
+                0x00007134                UART_DisableTX
+ .text.UART_EnableRX
+                0x00007170       0x38 .\libandesrecovery.a(uart.o)
+                0x00007170                UART_EnableRX
+ .text.UART_DisableRX
+                0x000071a8       0x3c .\libandesrecovery.a(uart.o)
+                0x000071a8                UART_DisableRX
+ .text.UART_Open
+                0x000071e4       0x38 .\libandesrecovery.a(uart.o)
+                0x000071e4                UART_Open
+ .text.UART_HWInit
+                0x0000721c       0x5c .\libandesrecovery.a(uart.o)
+                0x0000721c                UART_HWInit
+ .text.UART_PutChar
+                0x00007278       0x18 .\libandesrecovery.a(uartlite.o)
+                0x00007278                UART_PutChar
+ .text.UART_GetChar
+                0x00007290       0x20 .\libandesrecovery.a(uartlite.o)
+                0x00007290                UART_GetChar
+ .text.UART_Init
+                0x000072b0       0x94 .\libandesrecovery.a(uartlite.o)
+                0x000072b0                UART_Init
+ .text.iot_sys_init
+                0x00007344       0xac .\libandesrecovery.a(main.o)
+                0x00007344                iot_sys_init
+ .text.sysTASK_RegTask
+                0x000073f0       0x50 .\libandesrecovery.a(main.o)
+                0x000073f0                sysTASK_RegTask
+ .text.sysXCPT_XcptHdlr
+                0x00007440       0x18 .\libandesrecovery.a(xcpt.o)
+                0x00007440                sysXCPT_XcptHdlr
+ .text.sysXCPT_RegisterHdlr
+                0x00007458       0x10 .\libandesrecovery.a(xcpt.o)
+                0x00007458                sysXCPT_RegisterHdlr
+ .text.sysXCPT_ResetXcptHdlr
+                0x00007468        0x4 .\libandesrecovery.a(xcpt.o)
+ .text.sysXCPT_TlbFillXcptHdlr
+                0x0000746c        0x4 .\libandesrecovery.a(xcpt.o)
+ .text.sysXCPT_PteNotPresentXcptHdlr
+                0x00007470        0x4 .\libandesrecovery.a(xcpt.o)
+ .text.sysXCPT_TlbMiscXcptHdlr
+                0x00007474        0x4 .\libandesrecovery.a(xcpt.o)
+ .text.sysXCPT_TlbVlptMissXcptHdlr
+                0x00007478        0x4 .\libandesrecovery.a(xcpt.o)
+ .text.sysXCPT_MachineErrXcptHdlr
+                0x0000747c        0x4 .\libandesrecovery.a(xcpt.o)
+ .text.sysXCPT_DebugRelatedXcptHdlr
+                0x00007480        0x4 .\libandesrecovery.a(xcpt.o)
+ .text.sysXCPT_GeneralXcptHdlr
+                0x00007484        0x4 .\libandesrecovery.a(xcpt.o)
+ .text.sysXCPT_SysCallXcptHdlr
+                0x00007488        0x4 .\libandesrecovery.a(xcpt.o)
+ .text.sysXCPT_Hw0IntrHdlr
+                0x0000748c        0x4 .\libandesrecovery.a(xcpt.o)
+ .text.sysXCPT_Hw1IntrHdlr
+                0x00007490        0x4 .\libandesrecovery.a(xcpt.o)
+ .text.sysXCPT_Hw2IntrHdlr
+                0x00007494        0x4 .\libandesrecovery.a(xcpt.o)
+ .text.sysXCPT_Hw3IntrHdlr
+                0x00007498        0x4 .\libandesrecovery.a(xcpt.o)
+ .text.sysXCPT_Hw4IntrHdlr
+                0x0000749c        0x4 .\libandesrecovery.a(xcpt.o)
+ .text.sysXCPT_Hw5IntrHdlr
+                0x000074a0        0x4 .\libandesrecovery.a(xcpt.o)
+ .text.sysXCPT_SwIntrHdlr
+                0x000074a4        0x4 .\libandesrecovery.a(xcpt.o)
+ .text.sysKernelStart
+                0x000074a8       0x18 .\libandesrecovery.a(initial.o)
+                0x000074a8                sysKernelStart
+ .text.SYSirq_Disable_Interrupts_Save_Flags
+                0x000074c0       0x14 .\libandesrecovery.a(mutex.o)
+                0x000074c0                SYSirq_Disable_Interrupts_Save_Flags
+ .text.SYSirq_Interrupts_Restore_Flags
+                0x000074d4       0x18 .\libandesrecovery.a(mutex.o)
+                0x000074d4                SYSirq_Interrupts_Restore_Flags
+ .text.sysTASK_LowPrioTask
+                0x000074ec       0x3c .\libandesrecovery.a(task.o)
+                0x000074ec                sysTASK_LowPrioTask
+ .text.sysTASK_DeassertSignal
+                0x00007528       0x44 .\libandesrecovery.a(task.o)
+                0x00007528                sysTASK_DeassertSignal
+ .text.sysTASK_AssertSignal
+                0x0000756c       0x40 .\libandesrecovery.a(task.o)
+                0x0000756c                sysTASK_AssertSignal
+ .text.sysTASK_RegisterLowPrioTask
+                0x000075ac       0x3c .\libandesrecovery.a(task.o)
+                0x000075ac                sysTASK_RegisterLowPrioTask
+ .text.sysTASK_CreateTask
+                0x000075e8       0x50 .\libandesrecovery.a(task.o)
+                0x000075e8                sysTASK_CreateTask
+ .text.apiInitListEntry
+                0x00007638        0x8 .\libandesrecovery.a(list.o)
+                0x00007638                apiInitListEntry
+ .text.apiInsertListEntry
+                0x00007640        0xc .\libandesrecovery.a(list.o)
+                0x00007640                apiInsertListEntry
+ .text.apiInsertTailEntry
+                0x0000764c       0x20 .\libandesrecovery.a(list.o)
+                0x0000764c                apiInsertTailEntry
+ .text.apiRemoveHeadEntry
+                0x0000766c       0x1c .\libandesrecovery.a(list.o)
+                0x0000766c                apiRemoveHeadEntry
+ .text.do_printf
+                0x00007688      0x2e8 .\libandesrecovery.a(do_printf.o)
+                0x00007688                do_printf
+ .text.fputc    0x00007970       0x2c .\libandesrecovery.a(fputs.o)
+                0x00007970                fputc
+ .text.putchar  0x0000799c       0x1c .\libandesrecovery.a(fputs.o)
+                0x0000799c                putchar
+ .text.strcmp   0x000079b8       0x20 .\libandesrecovery.a(strcmp.o)
+                0x000079b8                strcmp
+ .text.strlen   0x000079d8       0x10 .\libandesrecovery.a(strlen.o)
+                0x000079d8                strlen
+ .text.__toupper
+                0x000079e8       0x1c .\libandesrecovery.a(vsprintf.o)
+ .text.simple_strtoul
+                0x00007a04       0xe4 .\libandesrecovery.a(vsprintf.o)
+                0x00007a04                simple_strtoul
+ .text.simple_strtol
+                0x00007ae8       0x2c .\libandesrecovery.a(vsprintf.o)
+                0x00007ae8                simple_strtol
+ .text.drvMCUCTL_RegisterIntHdlr
+                0x00007b14       0x24 .\libandesrecovery.a(mcuctl.o)
+                0x00007b14                drvMCUCTL_RegisterIntHdlr
+ .text.drvMCUCTL_IntrHdlr
+                0x00007b38       0xc4 .\libandesrecovery.a(mcuctl.o)
+                0x00007b38                drvMCUCTL_IntrHdlr
+ .text.sysDelayxu
+                0x00007bfc       0x18 .\libandesrecovery.a(mt7681_ChSw.o)
+ .text.RF_READ  0x00007c14       0xb8 .\libandesrecovery.a(mt7681_ChSw.o)
+                0x00007c14                RF_READ
+ .text.RF_WRITE
+                0x00007ccc       0x84 .\libandesrecovery.a(mt7681_ChSw.o)
+                0x00007ccc                RF_WRITE
+ .text.RF_WRITE8
+                0x00007d50       0x20 .\libandesrecovery.a(mt7681_ChSw.o)
+                0x00007d50                RF_WRITE8
+ .text.BBP_READ
+                0x00007d70       0x78 .\libandesrecovery.a(mt7681_ChSw.o)
+                0x00007d70                BBP_READ
+ .text.BBP_WRITE
+                0x00007de8       0x54 .\libandesrecovery.a(mt7681_ChSw.o)
+                0x00007de8                BBP_WRITE
+ .text.TXDCOCCalibration
+                0x00007e3c       0x9c .\libandesrecovery.a(mt7681_ChSw.o)
+                0x00007e3c                TXDCOCCalibration
+ .text.Config_ChannelInfo
+                0x00007ed8       0x54 .\libandesrecovery.a(mt7681_ChSw.o)
+                0x00007ed8                Config_ChannelInfo
+ .text.VCO_Calibration
+                0x00007f2c       0x4c .\libandesrecovery.a(mt7681_ChSw.o)
+                0x00007f2c                VCO_Calibration
+ .text.cali_period_exec
+                0x00007f78       0x40 .\libandesrecovery.a(mt7681_ChSw.o)
+                0x00007f78                cali_period_exec
+ .text.T.216    0x00007fb8       0x58 .\libandesrecovery.a(mt7681_ChSw.o)
+ .text.rtmp_bbp_set_bw
+                0x00008010       0xc8 .\libandesrecovery.a(mt7681_ChSw.o)
+                0x00008010                rtmp_bbp_set_bw
+ .text.RCalibration
+                0x000080d8      0x260 .\libandesrecovery.a(mt7681_ChSw.o)
+                0x000080d8                RCalibration
+ .text.BWCalibration
+                0x00008338      0xab0 .\libandesrecovery.a(mt7681_ChSw.o)
+                0x00008338                BWCalibration
+ .text.AsicSwitchChannel
+                0x00008de8      0x37c .\libandesrecovery.a(mt7681_ChSw.o)
+                0x00008de8                AsicSwitchChannel
+ .text.drvPBF_IntHdler
+                0x00009164       0x18 .\libandesrecovery.a(wifi_ps.o)
+                0x00009164                drvPBF_IntHdler
+ .text.iot_set_rec2loader_flag
+                0x0000917c       0x20 .\libandesrecovery.a(wifi_task.o)
+                0x0000917c                iot_set_rec2loader_flag
+ .text.iot_get_queue_info
+                0x0000919c        0xc .\libandesrecovery.a(wifi_task.o)
+                0x0000919c                iot_get_queue_info
+ .text.iot_get_fceint_state
+                0x000091a8        0xc .\libandesrecovery.a(wifi_task.o)
+                0x000091a8                iot_get_fceint_state
+ .text.iot_get_ms_time
+                0x000091b4        0xc .\libandesrecovery.a(wifi_task.o)
+                0x000091b4                iot_get_ms_time
+ .text.store_phymode
+                0x000091c0        0xc .\libandesrecovery.a(wifi_task.o)
+                0x000091c0                store_phymode
+ .text.wifi_state_chg
+                0x000091cc      0x130 .\libandesrecovery.a(wifi_task.o)
+                0x000091cc                wifi_state_chg
+ .text.handle_fce_int
+                0x000092fc       0x64 .\libandesrecovery.a(wifi_task.o)
+                0x000092fc                handle_fce_int
+ .text.drvGPIO_IntHdler
+                0x00009360       0x5c .\libandesrecovery.a(led.o)
+                0x00009360                drvGPIO_IntHdler
+ .text.T.6      0x000093bc       0x48 .\libandesrecovery.a(led.o)
+ .text.iot_gpio_init
+                0x00009404       0x34 .\libandesrecovery.a(led.o)
+                0x00009404                iot_gpio_init
+
+.rela.dyn       0x00009438        0x0
+ .rela.text.aes_cbc_decrypt
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.aes_cbc_complete_decrypt
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.aes_ecb_decry_test
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.aes_cbc_encrypt
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.aes_ecb_encry_test
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.aes_sample
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.iot_atcmd_resp_header
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.iot_atcmd_exec_ver
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.iot_atcmd_exec_reboot
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.iot_exec_atcmd_ch_switch
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.iot_exec_atcmd_efuse_set
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.iot_atcmd_exec_flash
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.RTMPIoctlE2PROM
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.ate_cmd_cali_hdlr
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.iot_exec_atcmd_ate_cal
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.iot_iwcmd_parser
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.iot_exec_atcmd_ate_cal2
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.iot_exec_atcmd_uart
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.iot_atcmd_parser
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.getopt
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.iot_cust_ops
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.default_boot_cfg
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.default_uart_cfg
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.iot_cust_gpiint_hdlr
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.reset_ap_cfg
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.reset_sta_cfg
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.default_ip_cfg
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.reset_com_cfg
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.reset_usr_cfg
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.load_usr_cfg
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.load_com_cfg
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.pre_init_cfg
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.iot_cust_timer0_timeout_actioin
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.cust_app_init
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.cust_subtask
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.iot_app_proc_mgmt_pkt
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.iot_app_proc_func_pkt
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.iot_app_proc_pkt
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.uart_rxbuf_init
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.iot_uart_init
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.iot_atcmd_uart_atcfg
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.uart_cfg_fr_flash
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.uart_rx_dispatch
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.uart_get_byte
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.uart_rx_cb
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.uart_put_bytes
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.iot_uart_output
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.IoT_build_app_response_header
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.iot_udp_pkt_send_direct
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.iot_udp_pkt_send
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.port_inbyte
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.port_outbyte
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.iot_xmodem_update_fw
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.iot_xmodem_receive
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.iot_xmodem_transmit
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.main
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.asic_set_channel
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.iot_atcmd_set_channel
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.vprintf
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.vsprintf
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.vprintf_help
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.WifiRxFsIntFilterOut
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.RTMPWriteTxWI_Mgmt
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.RTMPWriteTxWI_Data
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.PeerBeaconCHInfoParse
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.STABuildCommon802_11Header
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.MiniportMMRequest
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.sta_legacy_frame_tx
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.RTMPRawDataSanity
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.WifiRxDoneInterruptHandle
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.iot_bcn_timeout_action
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.RestartBCNTimer
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.dump_spi_flash
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.dump_spi_flash_fw
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.spi_flash_page_write
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.spi_flash_write_func
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.spi_flash_read_m2
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.spi_flash_erase_block
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.spi_flash_erase_sector
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.spi_flash_write
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.spi_flash_update_fw
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.spi_flash_erase_CE
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.free
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.clock_time
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.dhcpc_request
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.ws_got_ip_fail
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.ws_got_ip
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.dhcpc_init
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.create_msg
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.parse_msg
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.T.27
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.send_request
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.send_discover
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text._handle_dhcp
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.handle_dhcp
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.handle_tcp_app
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.iot_tcp_appcall
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.iot_tcp_app_init
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.iot_udp_appcall
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.iot_udp_app_init
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.memb_init
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.mt76xx_dev_read
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.mt76xx_dev_send
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.resolv_conf
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.resolv_lookup
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.resolv_query
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.resolv_newdata
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.resolv_check_entries
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.handle_resolv
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.resolv_usage_init
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.resolv_found
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.udp_client_sample
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.udp_client_init
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.handle_udp_srv_app1
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.udp_srv_app1_init
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.dhcpc_configured
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.tcpip_periodic_timer
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.netif_rx
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text._tcpip_init
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.tcpip_init
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.uip_fw_output
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.uip_fw_forward
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.uip_neighbor_add
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.uip_split_output
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.uip_add32
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.uip_ipchksum
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.upper_layer_chksum
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.uip_connect
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.uip_unlisten
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.uip_listen
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.uip_add_rcv_nxt
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.uip_send
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.uip_init
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text._uip_process
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.uip_process
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.uip_udp_new
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.uip_arp_update
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.uip_arp_arpin
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.uip_arp_out
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.uip_arp_timer
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.uip_arp_init
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.copy_string
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.webclient_datahandler
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.senddata
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.webclient_get
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.newdata
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.ws_smt_conn
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.store_sta_cfg
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.load_sta_cfg
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.ws_goto_smnt
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.ws_init
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.wifi_state_machine
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.recovery_fota_update
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.wifi_rx_proc
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.wifiTASK_LowPrioTask
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.vector   0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.startup  0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.excepsysc
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.ctxsw    0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.overlaycopy
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.cnmTimerStopTimer
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.cnmTimerSetTimer
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.cnmTimerDoTimeOutCheck
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.cnmTimerStartTimer
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.cnmTimerDestroy
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.cnmTimerInitialize
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.IoT_Cmd_Set_DBG_LVL
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.iot_linkdown
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.iot_xmodem_update_fw_stop
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.iot_xmodem_update_fw_start
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.apiQU_Dequeue
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.apiQU_Enqueue
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.apiQU_Initialize
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.aes_key_init
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.APP_Init
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.ConvertToRssi
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.Set_ATE_TX_Cnt_Per_Speed
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.NICUpdateRawCounters
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.ATEConvertToRssi
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.ATESampleRssi
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.ate_cmd_cali_stat
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.Set_ATE_RX_DURATION
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.Set_ATE_TX_PAYLOAD_LEN
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.Set_ATE_TX_POWER
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.Set_ATE_TX_Speed_Proc
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.Set_ATE_TX_COUNT_Proc
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.Set_ATE_TX_GI_Proc
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.Set_ATE_TX_MCS_Proc
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.RXFRAME
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.Set_ATE_BBP_TXPWR0
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.Set_ATE_TX_MODE_Proc
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.Set_ResetStatCounter_Proc
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.ATE_INIT
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.Set_ATE_TX_FREQ_OFFSET_Proc
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.MT7681_Set_ATE_TX_BW_Proc
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.Set_ATE_Switch_CH
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.ATE_RXFRAME
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.ATE_TXFRAME
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.ATESTART
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.ATE_STOP
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.SendATETxDataFrame
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.ate_period_exec
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.set_ate_efuse_read
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.set_ate_efuse_write
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.PeerDeauthAction
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text._MlmeAuthProcess
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.PeerAuthSanity
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.PeerAuthRspAtSeq2Action
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.MlmeDeauthReqAction
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text._AUTH_ReqSend
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.MlmeAuthReqAction
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.Auth_Initialization
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.AuthTimeoutAction
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.MT7681_ReadEEPROM
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.MT7681_ReadTxPwrPerRate
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.MT7681_RXDC_CAL
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.MT7681_INIT_CAL
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.rtmp_bbp_is_ready
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.NICInitMT7681BbpRegisters
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.MT7681_eep_cfg2
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.MT7681_eep_cfg
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.NICInitMT7681RFRegisters
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.chip_reg_init
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.aes_key_unwrap
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.RT_AES_Encrypt
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.aes_key_wrap
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.EnqueuePsPoll
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.send_test_data_frame
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.WriteSingleTxResource
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.sta_legacy_frame_tx2
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.RTMPReportMicError
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.PeerBeaconAdvPwrSavingSanity
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.ActHeaderInit
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.PeerAddBAReqAction
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.MgtMacHeaderInit
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.MakeOutgoingFrame
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.OS_WAIT
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.NextChannel
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.SCAN_Initialization
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.CfgSupportExtRate
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.SetScanParam
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.ListScan_Init
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.RTMPCheckHt
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.NLO_Initialization
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.ContScanTimeoutAction
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.rtmp_bbp_set_ctrlch
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.PeerBeaconAndProbeRspSanity
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text._PeerBeaconAtScanAction
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.ScanProcessMgmt
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.ScanNextChannel
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.ScanTimeoutAction
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.StartScan
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.DoScan
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.reset_smnt_set
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.reset_smnt_info
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.SMTCNfsm_rst
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.SMTCNfsm_init
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.SMTCN_state_chg_init
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.SMTCNSwitchfsm
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.ParsingBCData
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text._SMTCNGetInfo
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text._SMTCNParsingMulticast
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.SMTCNRXFrameHandle
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.SMTCNParsingData
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.SearchTimeoutAction
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.SMTCN_process
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.SMTCN_init
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.bsp_init
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.eEpWritePhysical
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.eEpPhysicalReadRegisters
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.eEpReadRegisters
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.eEpGetFreeBlockCount
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.set_eEpGetFreeBlockCount_Proc
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.set_eEpdump_Proc
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.drvFCE_IntHdlr
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.drvFCE_Initialize
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.PdmaTxTsHdlr
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.PdmaRxFsHdlr
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.drvPDMA_TxInitialize
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.drvPDMA_RxInitialize
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.spi_flash_read
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.sys_init_timer
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.kal_free_timer
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.kal_stop_timer
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.kal_start_timer
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.kal_create_timer
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.SwTimerHandler
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.UART_RecHandler
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.UART_Register_TX_cb
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.UART_Register_RX_cb
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.UART_TrxHandler
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.UART_LISR
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.UART_SetDCBConfig
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.UART_EnableTX
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.UART_DisableTX
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.UART_EnableRX
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.UART_DisableRX
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.UART_Open
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.iot_sys_init
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.sysTASK_RegTask
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.sysKernelStart
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.sysTASK_ChkSignal
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.sysTASK_LowPrioTask
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.sysTASK_DeassertSignal
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.sysTASK_AssertSignal
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.sysTASK_RegisterLowPrioTask
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.sysTASK_WaitForSignal
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.sysTASK_Dispatch
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.sysTASK_CreateTask
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.do_printf
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.__toupper
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.simple_strtoul
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.drvMCUCTL_IntrHdlr
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.Config_ChannelInfo
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.cali_period_exec
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.rtmp_bbp_set_bw
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.BWCalibration
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.AsicSwitchChannel
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.LowPower
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.iot_get_queue_info
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.iot_get_fceint_state
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.store_phymode
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.get_clear_frame_flag
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.ws_assoc
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.wifi_state_chg
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.ws_auth
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.ws_scan
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.handle_FCE_RxTS_interrupt
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.handle_fce_int
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.PeerDisassocSanity
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.PeerAssocRspSanity
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text._PeerDisassocAction
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text._PeerAssocRspAction
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text._MlmeAssocReqAction
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.Assoc_Initialization
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.SendNullFrame
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.NullFrameTimeoutAction
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.MlmeDisassocReqAction
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.AssocTimeoutAction
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.RT_HMAC_MD5
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.RT_HMAC_SHA1
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.sysCALL_XcptHdlr
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .rela.text.sysCALL_SysCall0Hdlr
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+                0x00009440                . = ALIGN (0x10)
+                0x00009440                STACK_SECT_VMA = .
+
+.STACK          0x00009440      0xa00
+                0x00009440                PROVIDE (_STACK_START, .)
+ *(.stack)
+ .stack         0x00009440      0xa00 .\libandesrecovery.a(stack.o)
+                0x00009440                sysStack
+                0x00009e40                PROVIDE (_STACK_END, .)
+                0x00009e40                . = ALIGN (0x10)
+                0x00009e40                DATA_SECT_VMA = .
+
+.DATA           0x00009e40     0x14d4
+ *(.rodata)
+ *(.rodata.*)
+ .rodata.str1.4
+                0x00009e40      0x20d obj/recovery/iot_at_cmd.o
+                                0x218 (size before relaxing)
+ *fill*         0x0000a04d        0x3 00000000
+ .rodata.C.48.3499
+                0x0000a050        0x4 obj/recovery/iot_at_cmd.o
+ .rodata.str1.4
+                0x0000a054        0x7 obj/recovery/iot_at_cmd_utility.o
+                                  0x8 (size before relaxing)
+ *fill*         0x0000a05b        0x1 00000000
+ .rodata.str1.4
+                0x0000a05c       0x95 obj/recovery/iot_custom.o
+                                 0x98 (size before relaxing)
+ *fill*         0x0000a0f1        0x3 00000000
+ .rodata.str1.4
+                0x0000a0f4       0x23 obj/recovery/iot_uart_rb.o
+                                 0x24 (size before relaxing)
+ *fill*         0x0000a117        0x1 00000000
+ .rodata.cst4   0x0000a118        0x4 obj/recovery/iot_uart_rb.o
+ .rodata.C.24.3299
+                0x0000a11c       0x1c obj/recovery/iot_uart_rb.o
+ .rodata.__FUNCTION__.3029
+                0x0000a138       0x10 obj/recovery/iot_uart_rb.o
+ .rodata.str1.4
+                0x0000a148        0x9 obj/recovery/iot_xmodem.o
+                                  0xc (size before relaxing)
+ *fill*         0x0000a151        0x3 00000000
+ .rodata.C.24.3186
+                0x0000a154        0x8 obj/recovery/iot_xmodem.o
+ .rodata.str1.4
+                0x0000a15c       0x4d obj/recovery/spi-flash_pub.o
+                                 0x54 (size before relaxing)
+ *fill*         0x0000a1a9        0x3 00000000
+ .rodata.str1.4
+                0x0000a1ac      0x130 obj/recovery/wifi_task_pub.o
+ .rodata.__func__.3149
+                0x0000a2dc       0x18 obj/recovery/wifi_task_pub.o
+ .rodata.C.2.5727
+                0x0000a2f4       0x10 .\libandesrecovery.a(app_nos_main.o)
+ .rodata.str1.4
+                0x0000a304      0x46d .\libandesrecovery.a(ate.o)
+                                0x470 (size before relaxing)
+ *fill*         0x0000a771        0x3 00000000
+ .rodata.__FUNCTION__.4444
+                0x0000a774       0x14 .\libandesrecovery.a(ate.o)
+ .rodata.C.5.4334
+                0x0000a788        0x4 .\libandesrecovery.a(ate.o)
+ .rodata.C.4.4333
+                0x0000a78c        0x4 .\libandesrecovery.a(ate.o)
+ .rodata.C.3.4332
+                0x0000a790        0x4 .\libandesrecovery.a(ate.o)
+ .rodata.C.2.4331
+                0x0000a794        0x4 .\libandesrecovery.a(ate.o)
+ .rodata.str1.4
+                0x0000a798       0x4f .\libandesrecovery.a(chip_init.o)
+                                 0x5c (size before relaxing)
+ *fill*         0x0000a7e7        0x1 00000000
+ .rodata.str1.4
+                0x0000a7e8       0x13 .\libandesrecovery.a(bsp.o)
+                                 0x14 (size before relaxing)
+ *fill*         0x0000a7fb        0x1 00000000
+ .rodata.MT7681_Frequency_Plan
+                0x0000a7fc       0x48 .\libandesrecovery.a(mt7681_ChSw.o)
+ .rodata.str1.4
+                0x0000a844       0x48 .\libandesrecovery.a(wifi_task.o)
+                0x0000a890                . = ALIGN (0x10)
+ *fill*         0x0000a88c        0x4 00000000
+ *(.data)
+ *(.data.*)
+ .data.optind   0x0000a890        0x2 obj/recovery/iot_at_cmd_utility.o
+                0x0000a890                optind
+ .data.opterr   0x0000a892        0x1 obj/recovery/iot_at_cmd_utility.o
+                0x0000a892                opterr
+ .data.PRINT_FLAG
+                0x0000a893        0x1 obj/recovery/iot_custom.o
+                0x0000a893                PRINT_FLAG
+ .data.Com_Cfg  0x0000a894       0x2c obj/recovery/iot_custom.o
+                0x0000a894                Com_Cfg
+ .data.Usr_Cfg  0x0000a8c0       0x60 obj/recovery/iot_custom.o
+                0x0000a8c0                Usr_Cfg
+ .data.gRecoveryModeTime
+                0x0000a920        0x2 obj/recovery/iot_custom.o
+                0x0000a920                gRecoveryModeTime
+ *fill*         0x0000a922        0x2 00000000
+ .data.ATCmdPrefixAT
+                0x0000a924        0x4 obj/recovery/iot_uart_rb.o
+                0x0000a924                ATCmdPrefixAT
+ .data.ATCmdPrefixIW
+                0x0000a928        0xc obj/recovery/iot_uart_rb.o
+                0x0000a928                ATCmdPrefixIW
+ .data.SNAP_802_1H
+                0x0000a934        0x8 obj/recovery/iot_uplink.o
+                0x0000a934                SNAP_802_1H
+ .data.fota_update_ok
+                0x0000a93c        0x4 obj/recovery/wifi_task_pub.o
+                0x0000a93c                fota_update_ok
+ .data.gCurrentAddress
+                0x0000a940        0x8 obj/recovery/wifi_task_pub.o
+                0x0000a940                gCurrentAddress
+ .data.ATE_MAC_SA
+                0x0000a948        0x8 .\libandesrecovery.a(ate.o)
+                0x0000a948                ATE_MAC_SA
+ .data.ATE_MAC_BSSID
+                0x0000a950        0x8 .\libandesrecovery.a(ate.o)
+                0x0000a950                ATE_MAC_BSSID
+ .data.ATE_MAC_DA
+                0x0000a958        0x8 .\libandesrecovery.a(ate.o)
+                0x0000a958                ATE_MAC_DA
+ .data.CCKRateTable
+                0x0000a960        0xc .\libandesrecovery.a(ate.o)
+ .data.OFDMRateTable
+                0x0000a96c        0xc .\libandesrecovery.a(ate.o)
+ .data.HTMIXRateTable
+                0x0000a978       0x14 .\libandesrecovery.a(ate.o)
+ .data.MACRegTable
+                0x0000a98c      0x130 .\libandesrecovery.a(chip_init.o)
+                0x0000a98c                MACRegTable
+ .data.MT7681_MACRegTable
+                0x0000aabc       0x30 .\libandesrecovery.a(chip_init.o)
+                0x0000aabc                MT7681_MACRegTable
+ .data.BBPRegTable
+                0x0000aaec       0x20 .\libandesrecovery.a(chip_init.o)
+                0x0000aaec                BBPRegTable
+ .data.MT7681_BBP_InitRegTb
+                0x0000ab0c      0x4b0 .\libandesrecovery.a(chip_init.o)
+                0x0000ab0c                MT7681_BBP_InitRegTb
+ .data.MT7681_RF_Central_RegTb
+                0x0000afbc       0x84 .\libandesrecovery.a(chip_init.o)
+                0x0000afbc                MT7681_RF_Central_RegTb
+ .data.MT7681_RF_Channel_RegTb
+                0x0000b040       0xb4 .\libandesrecovery.a(chip_init.o)
+                0x0000b040                MT7681_RF_Channel_RegTb
+ .data.MT7681_RF_VGA_RegTb
+                0x0000b0f4       0xb4 .\libandesrecovery.a(chip_init.o)
+                0x0000b0f4                MT7681_RF_VGA_RegTb
+ .data.g_tx_pkt_id
+                0x0000b1a8        0x1 .\libandesrecovery.a(rtmp_data.o)
+                0x0000b1a8                g_tx_pkt_id
+ *fill*         0x0000b1a9        0x3 00000000
+ .data.Full_ChannelList
+                0x0000b1ac       0x28 .\libandesrecovery.a(scan.o)
+                0x0000b1ac                Full_ChannelList
+ .data.sysXcptVctr
+                0x0000b1d4       0x40 .\libandesrecovery.a(xcpt.o)
+ .data._ctype   0x0000b214      0x100 .\libandesrecovery.a(ctype.o)
+                0x0000b214                _ctype
+                0x0000b314                . = ALIGN (0x4)
+
+FW_VERSION_TAG  0x0000b314        0xc
+ *(FW_VERSION_TAG)
+ FW_VERSION_TAG
+                0x0000b314        0xc .\libandesrecovery.a(bsp.o)
+                0x0000b314                gVersionTag
+                0x0000b320                __tag_end = .
+                0x0000b320                . = ALIGN (0x10)
+                0x0000b320                BSS_SECT_VMA = .
+
+.BSS            0x0000b320     0x3284
+                0x0000b320                PROVIDE (_BSS_START, .)
+ *(.sbss)
+ *(.sbss.*)
+ *(.scommon)
+ *(.scommon.*)
+ *(.sbss_w)
+ .sbss_w        0x0000b320        0x4 obj/recovery/main_pub.o
+                0x0000b320                __OS_Heap_Start
+ .sbss_w        0x0000b324        0x8 obj/recovery/wifi_task_pub.o
+                0x0000b324                pIoTMlme
+                0x0000b328                pIoTStaCfg
+ *(.sbss_w.*)
+ *(.sbss_h)
+ *(.sbss_h.*)
+ *(.sbss_b)
+ .sbss_b        0x0000b32c        0x1 .\libandesrecovery.a(iot_priv.o)
+                0x0000b32c                bXmodelStart
+ *(.sbss_b.*)
+                0x0000b330                . = ALIGN (0x10)
+ *fill*         0x0000b32d        0x3 00000000
+ *(.bss)
+ *(.bss.*)
+ .bss.gCaliEnabled
+                0x0000b330        0x1 obj/recovery/iot_at_cmd.o
+                0x0000b330                gCaliEnabled
+ *fill*         0x0000b331        0x3 00000000
+ .bss.optarg    0x0000b334        0x4 obj/recovery/iot_at_cmd_utility.o
+                0x0000b334                optarg
+ .bss.pIndexPosition.1184
+                0x0000b338        0x4 obj/recovery/iot_at_cmd_utility.o
+ .bss.UART_TX_POLL_ENABLE
+                0x0000b33c        0x1 obj/recovery/iot_custom.o
+                0x0000b33c                UART_TX_POLL_ENABLE
+ .bss.gCaliFrEfuse
+                0x0000b33d        0x1 obj/recovery/iot_custom.o
+                0x0000b33d                gCaliFrEfuse
+ .bss.IWMatchNum.3127
+                0x0000b33e        0x1 obj/recovery/iot_uart_rb.o
+ .bss.ATMatchNum.3126
+                0x0000b33f        0x1 obj/recovery/iot_uart_rb.o
+ .bss.last_error
+                0x0000b340        0x4 obj/recovery/iot_xmodem.o
+ .bss.gCPULowClok
+                0x0000b344        0x4 obj/recovery/misc_pub.o
+                0x0000b344                gCPULowClok
+ .bss.bCaliInited.3191
+                0x0000b348        0x1 obj/recovery/wifi_task_pub.o
+ *fill*         0x0000b349        0x3 00000000
+ .bss.RecCnt.3190
+                0x0000b34c        0x4 obj/recovery/wifi_task_pub.o
+ .bss.PreTime.3189
+                0x0000b350        0x4 obj/recovery/wifi_task_pub.o
+ .bss.BufMem1   0x0000b354     0x18d8 .\libandesrecovery.a(queue.o)
+ .bss.BufMem2   0x0000cc2c      0x848 .\libandesrecovery.a(queue.o)
+ .bss.BufDesc1  0x0000d474       0x90 .\libandesrecovery.a(queue.o)
+ .bss.BufDesc2  0x0000d504       0x30 .\libandesrecovery.a(queue.o)
+ .bss.TxCnt.4780
+                0x0000d534        0x4 .\libandesrecovery.a(ate.o)
+ .bss.PreTime.4778
+                0x0000d538        0x4 .\libandesrecovery.a(ate.o)
+ .bss.gSequence
+                0x0000d53c        0x2 .\libandesrecovery.a(rtmp_data.o)
+                0x0000d53c                gSequence
+ .bss.MgtFrameSeq
+                0x0000d53e        0x1 .\libandesrecovery.a(rtmp_general.o)
+                0x0000d53e                MgtFrameSeq
+ *fill*         0x0000d53f        0x1 00000000
+ .bss.pfsm      0x0000d540      0x128 .\libandesrecovery.a(smtcn.o)
+ .bss.FceIntHdlr
+                0x0000d668       0x80 .\libandesrecovery.a(fce.o)
+ .bss.jiffies   0x0000d6e8        0x4 .\libandesrecovery.a(timer.o)
+                0x0000d6e8                jiffies
+ .bss.Timers_List
+                0x0000d6ec        0x4 .\libandesrecovery.a(timer.o)
+                0x0000d6ec                Timers_List
+ .bss.Timer_Start
+                0x0000d6f0        0x4 .\libandesrecovery.a(timer.o)
+                0x0000d6f0                Timer_Start
+ .bss.last_start_time
+                0x0000d6f4        0x4 .\libandesrecovery.a(timer.o)
+                0x0000d6f4                last_start_time
+ .bss.McuCtlIntHdlr
+                0x0000d6f8       0x80 .\libandesrecovery.a(mcuctl.o)
+ .bss.PreTime.6037
+                0x0000d778        0x4 .\libandesrecovery.a(mt7681_ChSw.o)
+ .bss.PreBW.5891
+                0x0000d77c        0x1 .\libandesrecovery.a(mt7681_ChSw.o)
+ .bss.RF_ABB_R6_R7_IN_BW20
+                0x0000d77d        0x1 .\libandesrecovery.a(mt7681_ChSw.o)
+ .bss.RF_ABB_R58_R59_IN_BW20
+                0x0000d77e        0x1 .\libandesrecovery.a(mt7681_ChSw.o)
+ .bss.RF_ABB_R6_R7_IN_BW40
+                0x0000d77f        0x1 .\libandesrecovery.a(mt7681_ChSw.o)
+ .bss.RF_ABB_R58_R59_IN_BW40
+                0x0000d780        0x1 .\libandesrecovery.a(mt7681_ChSw.o)
+ *fill*         0x0000d781        0x3 00000000
+ .bss.PARAM_Info
+                0x0000d784        0x4 .\libandesrecovery.a(mt7681_ChSw.o)
+ .bss.TxPWR     0x0000d788        0x4 .\libandesrecovery.a(mt7681_ChSw.o)
+ .bss.LNAGain   0x0000d78c        0x4 .\libandesrecovery.a(mt7681_ChSw.o)
+ .bss.wakeup_from_grant
+                0x0000d790        0x1 .\libandesrecovery.a(wifi_ps.o)
+                0x0000d790                wakeup_from_grant
+ .bss.gPmuINT   0x0000d791        0x1 .\libandesrecovery.a(wifi_ps.o)
+                0x0000d791                gPmuINT
+ .bss.gPmuAbort
+                0x0000d792        0x1 .\libandesrecovery.a(wifi_ps.o)
+                0x0000d792                gPmuAbort
+ *(COMMON)
+ *fill*         0x0000d793        0x1 00000000
+ COMMON         0x0000d794      0x1c8 obj/recovery/iot_custom.o
+                0x0000d794                IoTCustOp
+                0x0000d7b4                IoTCustTimer
+                0x0000d7d0                IoTpAd
+ COMMON         0x0000d95c      0x358 obj/recovery/iot_uart_rb.o
+                0x0000d95c                UARTPort
+                0x0000da74                UARTTxBuf
+                0x0000dab4                UARTRxBuf
+ COMMON         0x0000dcb4        0x6 obj/recovery/tcpip/uip_arp.o
+                0x0000dcb4                uip_sourceAddr
+ *fill*         0x0000dcba        0x2 00000000
+ COMMON         0x0000dcbc       0x14 .\libandesrecovery.a(cnm_timer.o)
+                0x0000dcbc                rRootTimer
+ COMMON         0x0000dcd0       0x20 .\libandesrecovery.a(queue.o)
+                0x0000dcd0                gFreeQueue1
+                0x0000dce0                gFreeQueue2
+ COMMON         0x0000dcf0      0x5c8 .\libandesrecovery.a(app_nos_main.o)
+                0x0000dcf0                pAd
+ COMMON         0x0000e2b8      0x24d .\libandesrecovery.a(ate.o)
+                0x0000e2b8                gATEInfo
+ *fill*         0x0000e505        0x3 00000000
+ COMMON         0x0000e508       0x41 .\libandesrecovery.a(chip_init.o)
+                0x0000e508                eepcfg
+ *fill*         0x0000e549        0x3 00000000
+ COMMON         0x0000e54c       0x24 .\libandesrecovery.a(timer.o)
+                0x0000e54c                System_Timer_Pool
+                0x0000e560                Free_Timer_List
+ COMMON         0x0000e570       0x34 .\libandesrecovery.a(task.o)
+                0x0000e570                sysTaskingCtl
+                0x0000e5a4                . = ALIGN (0x4)
+                0x0000e5a4                PROVIDE (_BSS_END, .)
+                0x0000e5a4                __ilm_end = .
+                0x0000e5c0                . = ALIGN (0x20)
+                0x0000e5c0                _end = .
+                0x0000e5c0                PROVIDE (_MEMORY_TOP, .)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x00000000      0x8ca
+ *(.comment)
+ .comment       0x00000000       0x19 obj/recovery/ap_pub.o
+ .comment       0x00000019       0x19 obj/recovery/crypt_crc.o
+ .comment       0x00000032       0x19 obj/recovery/iot_aes_pub.o
+ .comment       0x0000004b       0x19 obj/recovery/iot_at_cmd.o
+ .comment       0x00000064       0x19 obj/recovery/iot_at_cmd_tcpip.o
+ .comment       0x0000007d       0x19 obj/recovery/iot_at_cmd_utility.o
+ .comment       0x00000096       0x19 obj/recovery/iot_custom.o
+ .comment       0x000000af       0x19 obj/recovery/iot_custom_uart2wifi.o
+ .comment       0x000000c8       0x19 obj/recovery/iot_parse.o
+ .comment       0x000000e1       0x19 obj/recovery/iot_parse_conn_mgmt.o
+ .comment       0x000000fa       0x19 obj/recovery/iot_uart_rb.o
+ .comment       0x00000113       0x19 obj/recovery/iot_uplink.o
+ .comment       0x0000012c       0x19 obj/recovery/iot_xmodem.o
+ .comment       0x00000145       0x19 obj/recovery/main_pub.o
+ .comment       0x0000015e       0x19 obj/recovery/misc_pub.o
+ .comment       0x00000177       0x19 obj/recovery/mt7681_ChSw_pub.o
+ .comment       0x00000190       0x19 obj/recovery/printf.o
+ .comment       0x000001a9       0x19 obj/recovery/rtmp_data_pub.o
+ .comment       0x000001c2       0x19 obj/recovery/spi-flash_pub.o
+ .comment       0x000001db       0x19 obj/recovery/stdlib.o
+ .comment       0x000001f4       0x19 obj/recovery/tcpip/clock-arch.o
+ .comment       0x0000020d       0x19 obj/recovery/tcpip/cloudclient.o
+ .comment       0x00000226       0x19 obj/recovery/tcpip/dhcpc.o
+ .comment       0x0000023f       0x19 obj/recovery/tcpip/dhcpd.o
+ .comment       0x00000258       0x19 obj/recovery/tcpip/iot_tcp_app.o
+ .comment       0x00000271       0x19 obj/recovery/tcpip/iot_tcpip_interface.o
+ .comment       0x0000028a       0x19 obj/recovery/tcpip/iot_udp_app.o
+ .comment       0x000002a3       0x19 obj/recovery/tcpip/memb.o
+ .comment       0x000002bc       0x19 obj/recovery/tcpip/mt76xx_dev.o
+ .comment       0x000002d5       0x19 obj/recovery/tcpip/resolv.o
+ .comment       0x000002ee       0x19 obj/recovery/tcpip/sample_resolv_usage.o
+ .comment       0x00000307       0x19 obj/recovery/tcpip/sample_udp_client.o
+ .comment       0x00000320       0x19 obj/recovery/tcpip/sample_udp_server.o
+ .comment       0x00000339       0x19 obj/recovery/tcpip/tcpip_main.o
+ .comment       0x00000352       0x19 obj/recovery/tcpip/uip-fw.o
+ .comment       0x0000036b       0x19 obj/recovery/tcpip/uip-neighbor.o
+ .comment       0x00000384       0x19 obj/recovery/tcpip/uip-split.o
+ .comment       0x0000039d       0x19 obj/recovery/tcpip/uip.o
+ .comment       0x000003b6       0x19 obj/recovery/tcpip/uip_arp.o
+ .comment       0x000003cf       0x19 obj/recovery/tcpip/uip_timer.o
+ .comment       0x000003e8       0x19 obj/recovery/tcpip/uiplib.o
+ .comment       0x00000401       0x19 obj/recovery/tcpip/webclient-strings.o
+ .comment       0x0000041a       0x19 obj/recovery/tcpip/webclient.o
+ .comment       0x00000433       0x19 obj/recovery/wifi_task_pub.o
+ .comment       0x0000044c       0x19 .\libandesrecovery.a(xip_ovly.o)
+ .comment       0x00000465       0x19 .\libandesrecovery.a(cnm_timer.o)
+ .comment       0x0000047e       0x19 .\libandesrecovery.a(iot_io_cmd.o)
+ .comment       0x00000497       0x19 .\libandesrecovery.a(iot_mgmt_cmd.o)
+ .comment       0x000004b0       0x19 .\libandesrecovery.a(iot_priv.o)
+ .comment       0x000004c9       0x19 .\libandesrecovery.a(queue.o)
+ .comment       0x000004e2       0x19 .\libandesrecovery.a(app_nos_main.o)
+ .comment       0x000004fb       0x19 .\libandesrecovery.a(ate.o)
+ .comment       0x00000514       0x19 .\libandesrecovery.a(auth.o)
+ .comment       0x0000052d       0x19 .\libandesrecovery.a(chip_init.o)
+ .comment       0x00000546       0x19 .\libandesrecovery.a(crypt_aes.o)
+ .comment       0x0000055f       0x19 .\libandesrecovery.a(rtmp_data.o)
+ .comment       0x00000578       0x19 .\libandesrecovery.a(rtmp_general.o)
+ .comment       0x00000591       0x19 .\libandesrecovery.a(scan.o)
+ .comment       0x000005aa       0x19 .\libandesrecovery.a(smtcn.o)
+ .comment       0x000005c3       0x19 .\libandesrecovery.a(wow.o)
+ .comment       0x000005dc       0x19 .\libandesrecovery.a(bsp.o)
+ .comment       0x000005f5       0x19 .\libandesrecovery.a(ee_efuse.o)
+ .comment       0x0000060e       0x19 .\libandesrecovery.a(fce.o)
+ .comment       0x00000627       0x19 .\libandesrecovery.a(pdma.o)
+ .comment       0x00000640       0x19 .\libandesrecovery.a(spi-flash.o)
+ .comment       0x00000659       0x19 .\libandesrecovery.a(timer.o)
+ .comment       0x00000672       0x19 .\libandesrecovery.a(uart.o)
+ .comment       0x0000068b       0x19 .\libandesrecovery.a(uartlite.o)
+ .comment       0x000006a4       0x19 .\libandesrecovery.a(main.o)
+ .comment       0x000006bd       0x19 .\libandesrecovery.a(xcpt.o)
+ .comment       0x000006d6       0x19 .\libandesrecovery.a(initial.o)
+ .comment       0x000006ef       0x19 .\libandesrecovery.a(mutex.o)
+ .comment       0x00000708       0x19 .\libandesrecovery.a(stack.o)
+ .comment       0x00000721       0x19 .\libandesrecovery.a(task.o)
+ .comment       0x0000073a       0x19 .\libandesrecovery.a(list.o)
+ .comment       0x00000753       0x19 .\libandesrecovery.a(do_printf.o)
+ .comment       0x0000076c       0x19 .\libandesrecovery.a(fputs.o)
+ .comment       0x00000785       0x19 .\libandesrecovery.a(strcmp.o)
+ .comment       0x0000079e       0x19 .\libandesrecovery.a(strcpy.o)
+ .comment       0x000007b7       0x19 .\libandesrecovery.a(strlen.o)
+ .comment       0x000007d0       0x19 .\libandesrecovery.a(vsprintf.o)
+ .comment       0x000007e9       0x19 .\libandesrecovery.a(mcuctl.o)
+ .comment       0x00000802       0x19 .\libandesrecovery.a(mt7681_ChSw.o)
+ .comment       0x0000081b       0x19 .\libandesrecovery.a(wifi_ps.o)
+ .comment       0x00000834       0x19 .\libandesrecovery.a(wifi_task.o)
+ .comment       0x0000084d       0x19 .\libandesrecovery.a(assoc.o)
+ .comment       0x00000866       0x19 .\libandesrecovery.a(crypt_hmac.o)
+ .comment       0x0000087f       0x19 .\libandesrecovery.a(led.o)
+ .comment       0x00000898       0x19 .\libandesrecovery.a(syscall.o)
+ .comment       0x000008b1       0x19 .\libandesrecovery.a(ctype.o)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges
+ *(.debug_aranges)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info
+ *(.debug_info .gnu.linkonce.wi.*)
+
+.debug_abbrev
+ *(.debug_abbrev)
+
+.debug_line
+ *(.debug_line)
+
+.debug_frame
+ *(.debug_frame)
+
+.debug_str
+ *(.debug_str)
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.preboot)
+ *(.boot)
+START GROUP
+LOAD obj/recovery/ap_pub.o
+LOAD obj/recovery/crypt_crc.o
+LOAD obj/recovery/iot_aes_pub.o
+LOAD obj/recovery/iot_at_cmd.o
+LOAD obj/recovery/iot_at_cmd_tcpip.o
+LOAD obj/recovery/iot_at_cmd_utility.o
+LOAD obj/recovery/iot_custom.o
+LOAD obj/recovery/iot_custom_uart2wifi.o
+LOAD obj/recovery/iot_parse.o
+LOAD obj/recovery/iot_parse_conn_mgmt.o
+LOAD obj/recovery/iot_uart_rb.o
+LOAD obj/recovery/iot_uplink.o
+LOAD obj/recovery/iot_xmodem.o
+LOAD obj/recovery/main_pub.o
+LOAD obj/recovery/misc_pub.o
+LOAD obj/recovery/mt7681_ChSw_pub.o
+LOAD obj/recovery/printf.o
+LOAD obj/recovery/rtmp_data_pub.o
+LOAD obj/recovery/spi-flash_pub.o
+LOAD obj/recovery/stdlib.o
+LOAD obj/recovery/tcpip/clock-arch.o
+LOAD obj/recovery/tcpip/cloudclient.o
+LOAD obj/recovery/tcpip/dhcpc.o
+LOAD obj/recovery/tcpip/dhcpd.o
+LOAD obj/recovery/tcpip/iot_tcp_app.o
+LOAD obj/recovery/tcpip/iot_tcpip_interface.o
+LOAD obj/recovery/tcpip/iot_udp_app.o
+LOAD obj/recovery/tcpip/memb.o
+LOAD obj/recovery/tcpip/mt76xx_dev.o
+LOAD obj/recovery/tcpip/resolv.o
+LOAD obj/recovery/tcpip/sample_resolv_usage.o
+LOAD obj/recovery/tcpip/sample_udp_client.o
+LOAD obj/recovery/tcpip/sample_udp_server.o
+LOAD obj/recovery/tcpip/tcpip_main.o
+LOAD obj/recovery/tcpip/uip-fw.o
+LOAD obj/recovery/tcpip/uip-neighbor.o
+LOAD obj/recovery/tcpip/uip-split.o
+LOAD obj/recovery/tcpip/uip.o
+LOAD obj/recovery/tcpip/uip_arp.o
+LOAD obj/recovery/tcpip/uip_timer.o
+LOAD obj/recovery/tcpip/uiplib.o
+LOAD obj/recovery/tcpip/webclient-strings.o
+LOAD obj/recovery/tcpip/webclient.o
+LOAD obj/recovery/wifi_task_pub.o
+LOAD cust/vectors.o
+LOAD cust/startup.o
+LOAD cust/ctxsw.o
+LOAD .\libandesrecovery.a
+END GROUP
+OUTPUT(out/recovery/MT7681_recovery.elf elf32-nds32)
+
+.mdebug.abi_nds32
+                0x00000000        0x0
+ .mdebug.abi_nds32
+                0x00000000        0x0 obj/recovery/ap_pub.o
+ .mdebug.abi_nds32
+                0x00000000        0x0 obj/recovery/crypt_crc.o
+ .mdebug.abi_nds32
+                0x00000000        0x0 obj/recovery/iot_aes_pub.o
+ .mdebug.abi_nds32
+                0x00000000        0x0 obj/recovery/iot_at_cmd.o
+ .mdebug.abi_nds32
+                0x00000000        0x0 obj/recovery/iot_at_cmd_tcpip.o
+ .mdebug.abi_nds32
+                0x00000000        0x0 obj/recovery/iot_at_cmd_utility.o
+ .mdebug.abi_nds32
+                0x00000000        0x0 obj/recovery/iot_custom.o
+ .mdebug.abi_nds32
+                0x00000000        0x0 obj/recovery/iot_custom_uart2wifi.o
+ .mdebug.abi_nds32
+                0x00000000        0x0 obj/recovery/iot_parse.o
+ .mdebug.abi_nds32
+                0x00000000        0x0 obj/recovery/iot_parse_conn_mgmt.o
+ .mdebug.abi_nds32
+                0x00000000        0x0 obj/recovery/iot_uart_rb.o
+ .mdebug.abi_nds32
+                0x00000000        0x0 obj/recovery/iot_uplink.o
+ .mdebug.abi_nds32
+                0x00000000        0x0 obj/recovery/iot_xmodem.o
+ .mdebug.abi_nds32
+                0x00000000        0x0 obj/recovery/main_pub.o
+ .mdebug.abi_nds32
+                0x00000000        0x0 obj/recovery/misc_pub.o
+ .mdebug.abi_nds32
+                0x00000000        0x0 obj/recovery/mt7681_ChSw_pub.o
+ .mdebug.abi_nds32
+                0x00000000        0x0 obj/recovery/printf.o
+ .mdebug.abi_nds32
+                0x00000000        0x0 obj/recovery/rtmp_data_pub.o
+ .mdebug.abi_nds32
+                0x00000000        0x0 obj/recovery/spi-flash_pub.o
+ .mdebug.abi_nds32
+                0x00000000        0x0 obj/recovery/stdlib.o
+ .mdebug.abi_nds32
+                0x00000000        0x0 obj/recovery/tcpip/clock-arch.o
+ .mdebug.abi_nds32
+                0x00000000        0x0 obj/recovery/tcpip/cloudclient.o
+ .mdebug.abi_nds32
+                0x00000000        0x0 obj/recovery/tcpip/dhcpc.o
+ .mdebug.abi_nds32
+                0x00000000        0x0 obj/recovery/tcpip/dhcpd.o
+ .mdebug.abi_nds32
+                0x00000000        0x0 obj/recovery/tcpip/iot_tcp_app.o
+ .mdebug.abi_nds32
+                0x00000000        0x0 obj/recovery/tcpip/iot_tcpip_interface.o
+ .mdebug.abi_nds32
+                0x00000000        0x0 obj/recovery/tcpip/iot_udp_app.o
+ .mdebug.abi_nds32
+                0x00000000        0x0 obj/recovery/tcpip/memb.o
+ .mdebug.abi_nds32
+                0x00000000        0x0 obj/recovery/tcpip/mt76xx_dev.o
+ .mdebug.abi_nds32
+                0x00000000        0x0 obj/recovery/tcpip/resolv.o
+ .mdebug.abi_nds32
+                0x00000000        0x0 obj/recovery/tcpip/sample_resolv_usage.o
+ .mdebug.abi_nds32
+                0x00000000        0x0 obj/recovery/tcpip/sample_udp_client.o
+ .mdebug.abi_nds32
+                0x00000000        0x0 obj/recovery/tcpip/sample_udp_server.o
+ .mdebug.abi_nds32
+                0x00000000        0x0 obj/recovery/tcpip/tcpip_main.o
+ .mdebug.abi_nds32
+                0x00000000        0x0 obj/recovery/tcpip/uip-fw.o
+ .mdebug.abi_nds32
+                0x00000000        0x0 obj/recovery/tcpip/uip-neighbor.o
+ .mdebug.abi_nds32
+                0x00000000        0x0 obj/recovery/tcpip/uip-split.o
+ .mdebug.abi_nds32
+                0x00000000        0x0 obj/recovery/tcpip/uip.o
+ .mdebug.abi_nds32
+                0x00000000        0x0 obj/recovery/tcpip/uip_arp.o
+ .mdebug.abi_nds32
+                0x00000000        0x0 obj/recovery/tcpip/uip_timer.o
+ .mdebug.abi_nds32
+                0x00000000        0x0 obj/recovery/tcpip/uiplib.o
+ .mdebug.abi_nds32
+                0x00000000        0x0 obj/recovery/tcpip/webclient-strings.o
+ .mdebug.abi_nds32
+                0x00000000        0x0 obj/recovery/tcpip/webclient.o
+ .mdebug.abi_nds32
+                0x00000000        0x0 obj/recovery/wifi_task_pub.o
+ .mdebug.abi_nds32
+                0x00000000        0x0 .\libandesrecovery.a(xip_ovly.o)
+ .mdebug.abi_nds32
+                0x00000000        0x0 .\libandesrecovery.a(cnm_timer.o)
+ .mdebug.abi_nds32
+                0x00000000        0x0 .\libandesrecovery.a(iot_io_cmd.o)
+ .mdebug.abi_nds32
+                0x00000000        0x0 .\libandesrecovery.a(iot_mgmt_cmd.o)
+ .mdebug.abi_nds32
+                0x00000000        0x0 .\libandesrecovery.a(iot_priv.o)
+ .mdebug.abi_nds32
+                0x00000000        0x0 .\libandesrecovery.a(queue.o)
+ .mdebug.abi_nds32
+                0x00000000        0x0 .\libandesrecovery.a(app_nos_main.o)
+ .mdebug.abi_nds32
+                0x00000000        0x0 .\libandesrecovery.a(ate.o)
+ .mdebug.abi_nds32
+                0x00000000        0x0 .\libandesrecovery.a(auth.o)
+ .mdebug.abi_nds32
+                0x00000000        0x0 .\libandesrecovery.a(chip_init.o)
+ .mdebug.abi_nds32
+                0x00000000        0x0 .\libandesrecovery.a(crypt_aes.o)
+ .mdebug.abi_nds32
+                0x00000000        0x0 .\libandesrecovery.a(rtmp_data.o)
+ .mdebug.abi_nds32
+                0x00000000        0x0 .\libandesrecovery.a(rtmp_general.o)
+ .mdebug.abi_nds32
+                0x00000000        0x0 .\libandesrecovery.a(scan.o)
+ .mdebug.abi_nds32
+                0x00000000        0x0 .\libandesrecovery.a(smtcn.o)
+ .mdebug.abi_nds32
+                0x00000000        0x0 .\libandesrecovery.a(wow.o)
+ .mdebug.abi_nds32
+                0x00000000        0x0 .\libandesrecovery.a(bsp.o)
+ .mdebug.abi_nds32
+                0x00000000        0x0 .\libandesrecovery.a(ee_efuse.o)
+ .mdebug.abi_nds32
+                0x00000000        0x0 .\libandesrecovery.a(fce.o)
+ .mdebug.abi_nds32
+                0x00000000        0x0 .\libandesrecovery.a(pdma.o)
+ .mdebug.abi_nds32
+                0x00000000        0x0 .\libandesrecovery.a(spi-flash.o)
+ .mdebug.abi_nds32
+                0x00000000        0x0 .\libandesrecovery.a(timer.o)
+ .mdebug.abi_nds32
+                0x00000000        0x0 .\libandesrecovery.a(uart.o)
+ .mdebug.abi_nds32
+                0x00000000        0x0 .\libandesrecovery.a(uartlite.o)
+ .mdebug.abi_nds32
+                0x00000000        0x0 .\libandesrecovery.a(main.o)
+ .mdebug.abi_nds32
+                0x00000000        0x0 .\libandesrecovery.a(xcpt.o)
+ .mdebug.abi_nds32
+                0x00000000        0x0 .\libandesrecovery.a(initial.o)
+ .mdebug.abi_nds32
+                0x00000000        0x0 .\libandesrecovery.a(mutex.o)
+ .mdebug.abi_nds32
+                0x00000000        0x0 .\libandesrecovery.a(stack.o)
+ .mdebug.abi_nds32
+                0x00000000        0x0 .\libandesrecovery.a(task.o)
+ .mdebug.abi_nds32
+                0x00000000        0x0 .\libandesrecovery.a(list.o)
+ .mdebug.abi_nds32
+                0x00000000        0x0 .\libandesrecovery.a(do_printf.o)
+ .mdebug.abi_nds32
+                0x00000000        0x0 .\libandesrecovery.a(fputs.o)
+ .mdebug.abi_nds32
+                0x00000000        0x0 .\libandesrecovery.a(strcmp.o)
+ .mdebug.abi_nds32
+                0x00000000        0x0 .\libandesrecovery.a(strcpy.o)
+ .mdebug.abi_nds32
+                0x00000000        0x0 .\libandesrecovery.a(strlen.o)
+ .mdebug.abi_nds32
+                0x00000000        0x0 .\libandesrecovery.a(vsprintf.o)
+ .mdebug.abi_nds32
+                0x00000000        0x0 .\libandesrecovery.a(mcuctl.o)
+ .mdebug.abi_nds32
+                0x00000000        0x0 .\libandesrecovery.a(mt7681_ChSw.o)
+ .mdebug.abi_nds32
+                0x00000000        0x0 .\libandesrecovery.a(wifi_ps.o)
+ .mdebug.abi_nds32
+                0x00000000        0x0 .\libandesrecovery.a(wifi_task.o)
+ .mdebug.abi_nds32
+                0x00000000        0x0 .\libandesrecovery.a(assoc.o)
+ .mdebug.abi_nds32
+                0x00000000        0x0 .\libandesrecovery.a(crypt_hmac.o)
+ .mdebug.abi_nds32
+                0x00000000        0x0 .\libandesrecovery.a(led.o)
+ .mdebug.abi_nds32
+                0x00000000        0x0 .\libandesrecovery.a(syscall.o)
+ .mdebug.abi_nds32
+                0x00000000        0x0 .\libandesrecovery.a(ctype.o)
