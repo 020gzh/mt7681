@@ -182,6 +182,12 @@ void iot_cust_preinit(void)
 void iot_cust_init(void)
 {
     /* run customer initial function */
+    printf_high("Hello zhi.. \n");
+    iot_gpio_output(0, 0);
+    iot_gpio_output(1, 0);
+    iot_gpio_output(2, 0);
+    iot_gpio_output(3, 0);
+    iot_gpio_output(4, 0);
 }
 
 

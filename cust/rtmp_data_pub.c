@@ -238,6 +238,13 @@ void APHandleRxMgmtFrame(
         case SUBTYPE_DEAUTH:
             APPeerDeauthReqAction(pRxBlk);
             printf_high("%s,%d, SUBTYPE_DEAUTH: \n",__FUNCTION__,__LINE__);
+
+            iot_gpio_output(0, 0);
+            iot_gpio_output(1, 0);
+            iot_gpio_output(2, 0);
+            iot_gpio_output(3, 0);
+            iot_gpio_output(4, 0);
+
             break;
         case SUBTYPE_ASSOC_REQ:
             APAssocReqActionAndSend(pRxBlk, 0);

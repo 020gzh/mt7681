@@ -418,6 +418,12 @@ static int request()
                     uip_dhpcd_conns[j].chaddr[3], uip_dhpcd_conns[j].chaddr[4], uip_dhpcd_conns[j].chaddr[5]);
     }
 
+    iot_gpio_output(0, 1);
+    iot_gpio_output(1, 1);
+    iot_gpio_output(2, 1);
+    iot_gpio_output(3, 1);
+    iot_gpio_output(4, 1);
+
 #if 0  /*debug*/
     dumpMacTable();
 #endif

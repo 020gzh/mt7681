@@ -1,33 +1,120 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <?fileVersion 4.0.0?><cproject storage_type_id="org.eclipse.cdt.core.XmlProjectDescriptionStorage">
 	<storageModule moduleId="org.eclipse.cdt.core.settings">
-		<cconfiguration id="0.1929318237">
-			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="0.1929318237" moduleId="org.eclipse.cdt.core.settings" name="Default">
+		<cconfiguration id="cdt.managedbuild.toolchain.gnu.cygwin.base.1244443005">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="cdt.managedbuild.toolchain.gnu.cygwin.base.1244443005" moduleId="org.eclipse.cdt.core.settings" name="AP_Mode">
 				<externalSettings/>
 				<extensions>
+					<extension id="org.eclipse.cdt.core.Cygwin_PE" point="org.eclipse.cdt.core.BinaryParser"/>
 					<extension id="org.eclipse.cdt.core.GASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
 					<extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
 					<extension id="org.eclipse.cdt.core.GLDErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
-					<extension id="org.eclipse.cdt.core.VCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
 					<extension id="org.eclipse.cdt.core.CWDLocator" point="org.eclipse.cdt.core.ErrorParser"/>
 					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
 				</extensions>
 			</storageModule>
 			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
-				<configuration buildProperties="" description="" id="0.1929318237" name="Default" parent="org.eclipse.cdt.build.core.prefbase.cfg">
-					<folderInfo id="0.1929318237." name="/" resourcePath="">
-						<toolChain id="org.eclipse.cdt.build.core.prefbase.toolchain.349252832" name="No ToolChain" resourceTypeBasedDiscovery="false" superClass="org.eclipse.cdt.build.core.prefbase.toolchain">
-							<targetPlatform id="org.eclipse.cdt.build.core.prefbase.toolchain.349252832.1359715855" name=""/>
-							<builder id="org.eclipse.cdt.build.core.settings.default.builder.1117658582" keepEnvironmentInBuildfile="false" managedBuildOn="false" name="Gnu Make Builder" superClass="org.eclipse.cdt.build.core.settings.default.builder"/>
-							<tool id="org.eclipse.cdt.build.core.settings.holder.libs.600015356" name="holder for library settings" superClass="org.eclipse.cdt.build.core.settings.holder.libs"/>
-							<tool id="org.eclipse.cdt.build.core.settings.holder.1533947354" name="Assembly" superClass="org.eclipse.cdt.build.core.settings.holder">
-								<inputType id="org.eclipse.cdt.build.core.settings.holder.inType.398106828" languageId="org.eclipse.cdt.core.assembly" languageName="Assembly" sourceContentType="org.eclipse.cdt.core.asmSource" superClass="org.eclipse.cdt.build.core.settings.holder.inType"/>
+				<configuration artifactName="${ProjName}" buildProperties="" description="" id="cdt.managedbuild.toolchain.gnu.cygwin.base.1244443005" name="AP_Mode" parent="org.eclipse.cdt.build.core.emptycfg">
+					<folderInfo id="cdt.managedbuild.toolchain.gnu.cygwin.base.1244443005.1592167260" name="/" resourcePath="">
+						<toolChain id="cdt.managedbuild.toolchain.gnu.cygwin.base.508124811" name="Cygwin GCC" superClass="cdt.managedbuild.toolchain.gnu.cygwin.base">
+							<targetPlatform archList="all" binaryParser="org.eclipse.cdt.core.Cygwin_PE" id="cdt.managedbuild.target.gnu.platform.cygwin.base.757169923" name="Debug Platform" osList="win32" superClass="cdt.managedbuild.target.gnu.platform.cygwin.base"/>
+							<builder command="make" id="cdt.managedbuild.builder.gnu.cross.956440751" keepEnvironmentInBuildfile="false" managedBuildOn="false" name="Gnu Make Builder" superClass="cdt.managedbuild.builder.gnu.cross"/>
+							<tool id="cdt.managedbuild.tool.gnu.assembler.cygwin.base.231614618" name="GCC Assembler" superClass="cdt.managedbuild.tool.gnu.assembler.cygwin.base">
+								<inputType id="cdt.managedbuild.tool.gnu.assembler.input.453874754" superClass="cdt.managedbuild.tool.gnu.assembler.input"/>
 							</tool>
-							<tool id="org.eclipse.cdt.build.core.settings.holder.466307024" name="GNU C++" superClass="org.eclipse.cdt.build.core.settings.holder">
-								<inputType id="org.eclipse.cdt.build.core.settings.holder.inType.1413741047" languageId="org.eclipse.cdt.core.g++" languageName="GNU C++" sourceContentType="org.eclipse.cdt.core.cxxSource,org.eclipse.cdt.core.cxxHeader" superClass="org.eclipse.cdt.build.core.settings.holder.inType"/>
+							<tool id="cdt.managedbuild.tool.gnu.archiver.cygwin.base.872751294" name="GCC Archiver" superClass="cdt.managedbuild.tool.gnu.archiver.cygwin.base"/>
+							<tool id="cdt.managedbuild.tool.gnu.cpp.compiler.cygwin.base.1237692527" name="Cygwin C++ Compiler" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.cygwin.base">
+								<option id="gnu.cpp.compiler.option.preprocessor.def.1873883354" name="Defined symbols (-D)" superClass="gnu.cpp.compiler.option.preprocessor.def" useByScannerDiscovery="false" valueType="definedSymbols">
+									<listOptionValue builtIn="false" value="__MT7681=1"/>
+									<listOptionValue builtIn="false" value="UART_SUPPORT=1"/>
+									<listOptionValue builtIn="false" value="UART_INTERRUPT=1"/>
+									<listOptionValue builtIn="false" value="MT7681_POWER_SAVING=0"/>
+									<listOptionValue builtIn="false" value="WIFI_SUPPORT=1"/>
+									<listOptionValue builtIn="false" value="DBG_MSG=0"/>
+									<listOptionValue builtIn="false" value="DBG_MSG_HIGH=1"/>
+									<listOptionValue builtIn="false" value="NO_USED_CODE_REMOVE=1"/>
+									<listOptionValue builtIn="false" value="CFG_RANDOM_MAC=0"/>
+									<listOptionValue builtIn="false" value="ATCMD_SUPPORT=1"/>
+									<listOptionValue builtIn="false" value="ATCMD_TCPIP_SUPPORT=0"/>
+									<listOptionValue builtIn="false" value="ATCMD_UART_SUPPORT=0"/>
+									<listOptionValue builtIn="false" value="ATCMD_UART_FW_SUPPORT=0"/>
+									<listOptionValue builtIn="false" value="ATCMD_CH_SWITCH_SUPPORT=0"/>
+									<listOptionValue builtIn="false" value="ATCMD_NET_MODE_SUPPORT=0"/>
+									<listOptionValue builtIn="false" value="ATCMD_REBOOT_SUPPORT=1"/>
+									<listOptionValue builtIn="false" value="ATCMD_SOFTAP_SUPPORT=1"/>
+									<listOptionValue builtIn="false" value="ATCMD_GET_VER_SUPPORT=1"/>
+									<listOptionValue builtIn="false" value="ATCMD_SET_SMNT_SUPPORT=0"/>
+									<listOptionValue builtIn="false" value="ATCMD_RECOVERY_SUPPORT=0"/>
+									<listOptionValue builtIn="false" value="ATCMD_ATE_SUPPORT=0"/>
+									<listOptionValue builtIn="false" value="ATCMD_EFUSE_SUPPORT=0"/>
+									<listOptionValue builtIn="false" value="ATCMD_FLASH_SUPPORT=1"/>
+									<listOptionValue builtIn="false" value="IOT_PWM_SUPPORT=1"/>
+									<listOptionValue builtIn="false" value="AES_DATAPARSING_SUPPORT=0"/>
+									<listOptionValue builtIn="false" value="ENABLE_DATAPARSING_SEQUENCE_MGMT=0"/>
+									<listOptionValue builtIn="false" value="UARTRX_TO_AIR_LEVEL=1"/>
+									<listOptionValue builtIn="false" value="XIP_ENABLE=1"/>
+									<listOptionValue builtIn="false" value="OVERLAY_ENABLE=1"/>
+									<listOptionValue builtIn="false" value="EP_CFM=1"/>
+									<listOptionValue builtIn="false" value="EP_LOAD_SUPPORT=1"/>
+									<listOptionValue builtIn="false" value="RX_CLASS123=0"/>
+									<listOptionValue builtIn="false" value="CRYPTWEP_SUPPORT=0"/>
+									<listOptionValue builtIn="false" value="CFG_SUPPORT_4WAY_HS=1"/>
+									<listOptionValue builtIn="false" value="CFG_SUPPORT_TCPIP=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_SOFTAP=1"/>
+									<listOptionValue builtIn="false" value="CFG_SUPPORT_MTK_SMNT=0"/>
+									<listOptionValue builtIn="false" value="HW_TIMER1_SUPPORT=1"/>
+								</option>
+								<inputType id="cdt.managedbuild.tool.gnu.cpp.compiler.input.cygwin.147838581" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.input.cygwin"/>
 							</tool>
-							<tool id="org.eclipse.cdt.build.core.settings.holder.125014958" name="GNU C" superClass="org.eclipse.cdt.build.core.settings.holder">
-								<inputType id="org.eclipse.cdt.build.core.settings.holder.inType.1593092365" languageId="org.eclipse.cdt.core.gcc" languageName="GNU C" sourceContentType="org.eclipse.cdt.core.cSource,org.eclipse.cdt.core.cHeader" superClass="org.eclipse.cdt.build.core.settings.holder.inType"/>
+							<tool id="cdt.managedbuild.tool.gnu.c.compiler.cygwin.base.69795371" name="Cygwin C Compiler" superClass="cdt.managedbuild.tool.gnu.c.compiler.cygwin.base">
+								<option id="gnu.c.compiler.option.preprocessor.def.symbols.2046581702" name="Defined symbols (-D)" superClass="gnu.c.compiler.option.preprocessor.def.symbols" useByScannerDiscovery="false" valueType="definedSymbols">
+									<listOptionValue builtIn="false" value="__MT7681=1"/>
+									<listOptionValue builtIn="false" value="UART_SUPPORT=1"/>
+									<listOptionValue builtIn="false" value="UART_INTERRUPT=1"/>
+									<listOptionValue builtIn="false" value="MT7681_POWER_SAVING=0"/>
+									<listOptionValue builtIn="false" value="WIFI_SUPPORT=1"/>
+									<listOptionValue builtIn="false" value="DBG_MSG=0"/>
+									<listOptionValue builtIn="false" value="DBG_MSG_HIGH=1"/>
+									<listOptionValue builtIn="false" value="NO_USED_CODE_REMOVE=1"/>
+									<listOptionValue builtIn="false" value="CFG_RANDOM_MAC=0"/>
+									<listOptionValue builtIn="false" value="ATCMD_SUPPORT=1"/>
+									<listOptionValue builtIn="false" value="ATCMD_TCPIP_SUPPORT=0"/>
+									<listOptionValue builtIn="false" value="ATCMD_UART_SUPPORT=0"/>
+									<listOptionValue builtIn="false" value="ATCMD_UART_FW_SUPPORT=0"/>
+									<listOptionValue builtIn="false" value="ATCMD_CH_SWITCH_SUPPORT=0"/>
+									<listOptionValue builtIn="false" value="ATCMD_NET_MODE_SUPPORT=0"/>
+									<listOptionValue builtIn="false" value="ATCMD_REBOOT_SUPPORT=1"/>
+									<listOptionValue builtIn="false" value="ATCMD_SOFTAP_SUPPORT=1"/>
+									<listOptionValue builtIn="false" value="ATCMD_GET_VER_SUPPORT=1"/>
+									<listOptionValue builtIn="false" value="ATCMD_SET_SMNT_SUPPORT=0"/>
+									<listOptionValue builtIn="false" value="ATCMD_RECOVERY_SUPPORT=0"/>
+									<listOptionValue builtIn="false" value="ATCMD_ATE_SUPPORT=0"/>
+									<listOptionValue builtIn="false" value="ATCMD_EFUSE_SUPPORT=0"/>
+									<listOptionValue builtIn="false" value="ATCMD_FLASH_SUPPORT=1"/>
+									<listOptionValue builtIn="false" value="IOT_PWM_SUPPORT=1"/>
+									<listOptionValue builtIn="false" value="AES_DATAPARSING_SUPPORT=0"/>
+									<listOptionValue builtIn="false" value="ENABLE_DATAPARSING_SEQUENCE_MGMT=0"/>
+									<listOptionValue builtIn="false" value="UARTRX_TO_AIR_LEVEL=1"/>
+									<listOptionValue builtIn="false" value="XIP_ENABLE=1"/>
+									<listOptionValue builtIn="false" value="OVERLAY_ENABLE=1"/>
+									<listOptionValue builtIn="false" value="EP_CFM=1"/>
+									<listOptionValue builtIn="false" value="EP_LOAD_SUPPORT=1"/>
+									<listOptionValue builtIn="false" value="RX_CLASS123=0"/>
+									<listOptionValue builtIn="false" value="CRYPTWEP_SUPPORT=0"/>
+									<listOptionValue builtIn="false" value="CFG_SUPPORT_4WAY_HS=1"/>
+									<listOptionValue builtIn="false" value="CFG_SUPPORT_TCPIP=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_SOFTAP=1"/>
+									<listOptionValue builtIn="false" value="CFG_SUPPORT_MTK_SMNT=0"/>
+									<listOptionValue builtIn="false" value="HW_TIMER1_SUPPORT=1"/>
+								</option>
+								<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.cygwin.708412470" superClass="cdt.managedbuild.tool.gnu.c.compiler.input.cygwin"/>
+							</tool>
+							<tool id="cdt.managedbuild.tool.gnu.c.linker.cygwin.base.591955333" name="Cygwin C Linker" superClass="cdt.managedbuild.tool.gnu.c.linker.cygwin.base"/>
+							<tool id="cdt.managedbuild.tool.gnu.cpp.linker.cygwin.base.1433704092" name="Cygwin C++ Linker" superClass="cdt.managedbuild.tool.gnu.cpp.linker.cygwin.base">
+								<inputType id="cdt.managedbuild.tool.gnu.cpp.linker.input.1258850032" superClass="cdt.managedbuild.tool.gnu.cpp.linker.input">
+									<additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
+									<additionalInput kind="additionalinput" paths="$(LIBS)"/>
+								</inputType>
 							</tool>
 						</toolChain>
 					</folderInfo>
@@ -37,13 +124,25 @@
 		</cconfiguration>
 	</storageModule>
 	<storageModule moduleId="cdtBuildSystem" version="4.0.0">
-		<project id="mt7681.null.1047867273" name="mt7681"/>
+		<project id="mt7681.null.55727154" name="mt7681"/>
 	</storageModule>
+	<storageModule moduleId="org.eclipse.cdt.core.LanguageSettingsProviders"/>
 	<storageModule moduleId="scannerConfiguration">
 		<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		<scannerConfigBuildInfo instanceId="cdt.managedbuild.toolchain.gnu.cygwin.base.1244443005;cdt.managedbuild.toolchain.gnu.cygwin.base.1244443005.1592167260;cdt.managedbuild.tool.gnu.c.compiler.cygwin.base.69795371;cdt.managedbuild.tool.gnu.c.compiler.input.cygwin.708412470">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
 		<scannerConfigBuildInfo instanceId="0.1929318237">
 			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
 		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="cdt.managedbuild.toolchain.gnu.cygwin.base.1244443005;cdt.managedbuild.toolchain.gnu.cygwin.base.1244443005.1592167260;cdt.managedbuild.tool.gnu.cpp.compiler.cygwin.base.1237692527;cdt.managedbuild.tool.gnu.cpp.compiler.input.cygwin.147838581">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
 	</storageModule>
-	<storageModule moduleId="org.eclipse.cdt.core.LanguageSettingsProviders"/>
+	<storageModule moduleId="org.eclipse.cdt.internal.ui.text.commentOwnerProjectMappings"/>
+	<storageModule moduleId="refreshScope" versionNumber="2">
+		<configuration configurationName="Default">
+			<resource resourceType="PROJECT" workspacePath="/mt7681"/>
+		</configuration>
+	</storageModule>
 </cproject>

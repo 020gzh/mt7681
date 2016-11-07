@@ -1,7 +1,7 @@
 @echo off
 setlocal
 
-set CYGWIN_PATH=C:\Users\zhgu\Desktop\zhihua.gu\program_files\cygwin64
+set CYGWIN_PATH=C:\Users\zhgu\Desktop\zhihua.gu\program_files\cygwin32
 
 set TOP=%CYGWIN_PATH:\=/%
 set TMP=%CYGWIN_PATH%\cygwin_tmp
